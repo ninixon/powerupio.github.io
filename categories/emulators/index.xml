@@ -1,0 +1,2016 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emulators on PowerUp ☆ Video Game &amp; Technology Resource</title>
+    <link>http://www.powerup.io/categories/emulators/index.xml</link>
+    <description>Recent content in Emulators on PowerUp ☆ Video Game &amp; Technology Resource</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://www.powerup.io/categories/emulators/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Game Boy</title>
+      <link>http://www.powerup.io/gaming/emulators/gameboy/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/gameboy/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;p&gt;This guide covers various different PC and Mobile emulators for Game Boy, Game Boy Color, &amp;amp; Game Boy Advance.&lt;/p&gt;
+&lt;h2&gt;Game Boy&lt;/h2&gt;
+&lt;h3&gt;Gambatte&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/gambatte/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://sourceforge.net/projects/gambatte/&#34;&gt;https://sourceforge.net/projects/gambatte/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Can also be used in &lt;a href=&#34;gaming/emulators/retroarch&#34; target=&#34;_blank&#34;&gt;RetroArch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Color Palettes and Saves are stored in &lt;span class=&#34;system&#34;&gt;C:\Users\User\AppData\Roaming\gambatte&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt; format.&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/gambatte/Gambatte-Menu.png&#34;&gt;&lt;img alt=&#34;Gambatte Menu&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/gambatte/Gambatte-Menu.png&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Gamebatte Menu
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/gambatte/Gambatte-Palettes.PNG&#34;&gt;&lt;img alt=&#34;Gambatte Palettes&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/gambatte/Gambatte-Palettes.PNG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Palettes
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3&gt;BGB (Super Game Boy)&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Super_Game_Boy&#34; target=&#34;_blank&#34;&gt;Super Game Boy&lt;/a&gt; displays more colors than the traditional Game Boy Color. The screen border graphics can be disabled.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34;&gt;http://bgb.bircd.org/#downloads&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Palettes are configured in &lt;span class=&#34;system&#34;&gt;bgb.ini&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Saves are made to the same folder as the rom in &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt; format.&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/bgb/BGB-Menu.png&#34;&gt;&lt;img alt=&#34;BGB Menu&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/bgb/BGB-Menu.png&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            BGB Menu
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/bgb/BGB-System.PNG&#34;&gt;&lt;img alt=&#34;BGB System&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/bgb/BGB-System.PNG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            System
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/bgb/BGB-Graphcis.PNG&#34;&gt;&lt;img alt=&#34;BGB Graphcis&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/bgb/BGB-Graphcis.PNG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Graphics
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/bgb/BGB-Colors.PNG&#34;&gt;&lt;img alt=&#34;BGB Colors&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/bgb/BGB-Colors.PNG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Colors
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h4&gt;Color Schemes&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.emutalk.net/threads/55441-Game-Boy-Mono-quot-True-quot-colors&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.emutalk.net/threads/55441-Game-Boy-Mono-quot-True-quot-colors&#34;&gt;http://www.emutalk.net/threads/55441-Game-Boy-Mono-quot-True-quot-colors&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Palette Comparisons&lt;/h4&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/Game-Boy-Colorized-Comparison.png&#34;&gt;&lt;img alt=&#34;Color Comparison 1&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/Game-Boy-Colorized-Comparison.png&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Color Comparison 1
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/Game-Boy-Colorized-Comparison-2.png&#34;&gt;&lt;img alt=&#34;Color Comparison 2&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/Game-Boy-Colorized-Comparison-2.png&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Color Comparison 2
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/Game-Boy-Colorized-Comparison-3.png&#34;&gt;&lt;img alt=&#34;Color Comparison 3&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/Game-Boy-Colorized-Comparison-3.png&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Color Comparison 3
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3&gt;RetroArch&lt;/h3&gt;
+&lt;p&gt;Super Game Boy can be launched through command-line using &lt;strong&gt;bsnes&lt;/strong&gt; and the correct SGB rom.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;system&#34;&gt;retroarch -L &amp;ldquo;C:\Path\To\cores\bsnes_mercury_balanced_libretro.dll&amp;rdquo; -c &amp;ldquo;C:\Path\To\config\bsnes-mercury.cfg&amp;rdquo; &lt;strong&gt;&amp;ldquo;C:\Path\To\Super Game Boy.sfc&amp;rdquo; &amp;ndash;subsystem sgb&lt;/strong&gt; &amp;ldquo;C:\Path\To\Game.gb&amp;rdquo;&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Game Boy Color&lt;/h2&gt;
+&lt;h3&gt;BGB&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34;&gt;http://bgb.bircd.org/#downloads&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;TGB Dual&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://gamehacking.org/vb/attachment.php?s=5f31209b91ede892133244c1b8933d9d&amp;amp;attachmentid=2028&amp;amp;d=1352823397&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://gamehacking.org/vb/attachment.php?s=5f31209b91ede892133244c1b8933d9d&amp;amp;attachmentid=2028&amp;amp;d=1352823397&#34;&gt;http://gamehacking.org/vb/attachment.php?s=5f31209b91ede892133244c1b8933d9d&amp;amp;attachmentid=2028&amp;amp;d=1352823397&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Can also be used in &lt;a href=&#34;gaming/emulators/retroarch&#34; target=&#34;_blank&#34;&gt;RetroArch&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;br&gt;
+Game Boy Advance&lt;/h2&gt;
+&lt;h3&gt;mGBA&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://mgba.io/downloads.html&#34;&gt;https://mgba.io/downloads.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Can also be used in &lt;a href=&#34;gaming/emulators/retroarch&#34; target=&#34;_blank&#34;&gt;RetroArch&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Android&lt;/h2&gt;
+&lt;h3&gt;RetroArch&lt;/h3&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/RetroArch-Android.png&#34;&gt;&lt;img alt=&#34;RetroArch Android&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/RetroArch-Android.png&#34; width=&#34;300&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        RetroArch Android
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.retroarch&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.retroarch&amp;amp;hl=en&#34;&gt;https://play.google.com/store/apps/details?id=com.retroarch&amp;amp;hl=en&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&#34;gaming/emulators/retroarch&#34; target=&#34;_blank&#34;&gt;RetroArch Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Cores:&lt;/h4&gt;
+&lt;p&gt;Game Boy - Gambatte&lt;br&gt;
+Game Boy Color - TGB Dual&lt;br&gt;
+Game Boy Advance - mGBA&lt;/p&gt;
+&lt;p&gt;Saves are stored in the roms folder in &lt;span class=&#34;system&#34;&gt;.srm&lt;/span&gt; format.&lt;/p&gt;
+&lt;h3&gt;My OldBoy! - Game Boy Color&lt;/h3&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/gameboy/My-OldBoy-Pokemon.png&#34;&gt;&lt;img alt=&#34;My OldBoy! running Pokemon&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/gameboy/My-OldBoy-Pokemon.png&#34; width=&#34;300&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        My OldBoy! running Pokemon
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.fastemulator.gbcfree&#34; target=&#34;_blank&#34;&gt;Free&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.fastemulator.gbc&#34; target=&#34;_blank&#34;&gt;Paid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Features Flash 128k save type to work with Pokemon and Super Game Boy for colorized original Game Boy games.&lt;/p&gt;
+&lt;p&gt;Saves are stored in &lt;span class=&#34;system&#34;&gt;/sdcard/MyOldBoy/save/&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt; format.&lt;/p&gt;
+&lt;h3&gt;My Boy! - Game Boy Advance&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.fastemulator.gbafree&#34; target=&#34;_blank&#34;&gt;Free&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.fastemulator.gba&#34; target=&#34;_blank&#34;&gt;Paid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Saves are stored in &lt;span class=&#34;system&#34;&gt;/sdcard/MyBoy/save/&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt; format.&lt;/p&gt;
+&lt;h2&gt;Convert Saves&lt;/h2&gt;
+&lt;p&gt;Simply rename the save file extention to &lt;span class=&#34;system&#34;&gt;.srm&lt;/span&gt; for RetroArch and &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt; for other emulators that use it.&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;system&#34;&gt;.srm&lt;/span&gt; is not working try using this &lt;a href=&#34;http://www.mediafire.com/download/iz71k0iush8g1fm/Save+Converter.exe&#34; target=&#34;_blank&#34;&gt;save converter&lt;/a&gt;. Drag and drop the file onto the .exe, then rename it to &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GameCube &amp; Wii</title>
+      <link>http://www.powerup.io/gaming/emulators/gamecube/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/gamecube/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Dolphin&#34;&gt;Dolphin&lt;/span&gt;&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/wii/dolphin-emulator.JPG&#34;&gt;&lt;img alt=&#34;Dolphin Emulator&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/wii/dolphin-emulator.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Dolphin Emulator
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Dolphin is an emulator for Nintendo GameCube and the Wii. It has compatibility with all PC controllers, turbo speed, networked multiplayer, and more.&lt;/p&gt;
+&lt;p&gt;You can play games from disc or iso and gcm files.&lt;/p&gt;
+&lt;h4&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Download&#34;&gt;Download&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;a class=&#34;external&#34; href=&#34;https://dolphin-emu.org/download/?ref=btn&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Dolphin Stable &amp;amp; Dev Builds&lt;/a&gt;&lt;br&gt;
+&lt;a class=&#34;external&#34; href=&#34;https://dolphin-emu.org/docs/faq/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;System Requirements&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Configuration&#34;&gt;Setup&lt;/span&gt;&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/wii/Dolphin-Zelda-Twilight-Princess.jpg&#34;&gt;&lt;img alt=&#34;Zelda: Twilight Princess running in Dolphin&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/wii/Dolphin-Zelda-Twilight-Princess.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Zelda: Twilight Princess running in Dolphin
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/wii/Dolphin-Monster-Hunter-Tri.jpg&#34;&gt;&lt;img alt=&#34;Zelda: Twilight Princess running in Dolphin&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/wii/Dolphin-Monster-Hunter-Tri.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Monster Hunter Tri 1080p in Dolphin
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The following setups use &lt;b&gt;Dolphin 4.0+&lt;/b&gt;. See &lt;a class=&#34;external&#34; href=&#34;https://wiki.dolphin-emu.org/index.php?title=How_to_update_Dolphin&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;How to update Dolphin&lt;/a&gt; if you are coming from an older version and want to transfer your User settings.&lt;/p&gt;
+&lt;p&gt;The official &lt;a class=&#34;external&#34; href=&#34;https://wiki.dolphin-emu.org&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Dolphin Wiki&lt;/a&gt; has optimal settings for every game. Leave your GUI configuration at default and change settings per game using ini files.&lt;/p&gt;
+&lt;p&gt;Make sure your computer&#39;s &lt;a href=&#34;http://127.0.0.1:8888/wiki/index.php/Recommended_Windows_Software#Runtimes&#34; target=&#34;_blank&#34; title=&#34;Recommended Windows Software&#34;&gt;runtimes are up to date&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;General&#34;&gt;General&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;There are 3 CPU Engines:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Interpreter&lt;/b&gt; - Very slow, some games may require it.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;JIT&lt;/b&gt; - Compiles the games PPC code into x86 code, copies it into a cache, then executes it. The default and recommended engine.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;JITIL&lt;/b&gt; - Compiles the games PPC code into an intermediate language (IL), compiles that into x86 code, copies it into a cache, then executes it. Runs best on a 64-bit operating system, especially with AMD CPUs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Graphics&#34;&gt;Graphics&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;There are 3 rendering modes:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Direct3D (D3D)&lt;/b&gt; - Microsoft&#39;s graphics rendering scheme&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;OpenGL (OGL)&lt;/b&gt; - Silicon Graphics rendering scheme&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Software Renderer&lt;/b&gt; - Used for debugging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Audio&#34;&gt;Audio&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;There are 2 DSP Engines:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;HLE&lt;/b&gt; - (High Level Emulation) Very fast with almost no overhead and does not require any additional files.&lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;LLE&lt;/b&gt; - (Low Level Emulation) Uses DSP ROM files to emulate the DSP&#39;s hardware behavior. Requires a lot more processing power, but provides perfect sound.
+        &lt;ul style=&#34;margin-left: 40px;&#34;&gt;
+            &lt;li&gt;Dolphin includes a developer-created DSP ROM, but the real ones can be found &lt;a class=&#34;external text&#34; href=&#34;http://emulation.gametechwiki.com/index.php/Emulator_Files#GameCube.2FWii&#34; rel=&#34;nofollow&#34;&gt;here&lt;/a&gt;.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And 2 Audio Backends:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;XAudio2&lt;/b&gt; - Low-level audio API that provides signal processing.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;OpenAL&lt;/b&gt; - Works across a wider range of hardware. May reduce audio skipping with increased latency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Input&#34;&gt;Input&lt;/span&gt;&lt;/h3&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/wii/Dolphin-DS4-Touchpad.jpg&#34;&gt;&lt;img alt=&#34;Zelda: Twilight Princess running in Dolphin&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/wii/Dolphin-DS4-Touchpad.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        DualShock 4 Touchpad as IR
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;There are 2 controller schemes:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;GCPad&lt;/b&gt; - For use with games require a GameCube controller. It can be mapped to keyboard and mouse or any controller.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Wiimote&lt;/b&gt; - For use with games that require a Wiimote. It can be mapped to keyboard and mouse or any controller.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Map your inputs using Dolphin&#39;s GUI, or download pre-configured profiles you find on the internet.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Configuration_Per_Game&#34;&gt;Configuration Per Game&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;
+    &lt;li&gt;In Dolphin, click View ? Select Columns ? Game ID&lt;/li&gt;
+    &lt;li&gt;In your Dolphin installation folder, navigate to the &lt;span class=&#34;system&#34;&gt;\Sys\GameSettings&lt;/span&gt; folder.&lt;/li&gt;
+    &lt;li&gt;Find your game&#39;s .ini configuration file by it&#39;s Game ID.&lt;/li&gt;
+    &lt;li&gt;Make changes to the file using a text editor, such as &lt;a class=&#34;external&#34; href=&#34;http://notepad-plus-plus.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Notepad++&lt;/a&gt;.
+    &lt;/li&gt;
+    &lt;li&gt;Use this list of commands (&lt;a class=&#34;external&#34; href=&#34;https://forums.dolphin-emu.org/Thread-unofficial-howto-using-gameini-settings-per-game&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Using gameini settings per game&lt;/a&gt;)
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Paths&#34;&gt;Paths&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;User Files&lt;/b&gt; can be found separate from the install folder, in &lt;span class=&#34;system&#34;&gt;\My Documents\Dolphin Emulator&lt;/span&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Wii Saves&lt;/b&gt; - &lt;span class=&#34;system&#34;&gt;\My Documents\Dolphin Emulator\Wii\title&lt;/span&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;GameCube Saves&lt;/b&gt; - &lt;span class=&#34;system&#34;&gt;\My Documents\Dolphin Emulator\GC&lt;/span&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Emulator SaveStates&lt;/b&gt; - &lt;span class=&#34;system&#34;&gt;\My Documents\Dolphin Emulator\StateSaves&lt;/span&gt;.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Wiimote Profiles&lt;/b&gt; - &lt;span class=&#34;system&#34;&gt;\My Documents\Dolphin Emulator\Config\Profiles\Wiimote&lt;/span&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Wii_MotionPlus&#34;&gt;Wii MotionPlus&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Some games, such as &lt;a class=&#34;external&#34; href=&#34;https://wiki.dolphin-emu.org/index.php?title=The_Legend_of_Zelda:_Skyward_Sword&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Zelda: Skyward Sword&lt;/a&gt;, require &lt;a class=&#34;external&#34; href=&#34;https://en.wikipedia.org/wiki/Wii_MotionPlus&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;MotionPlus&lt;/a&gt; controls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For real Wii Remote&lt;/strong&gt;&lt;br&gt;
+See &lt;a class=&#34;external&#34; href=&#34;https://dolphin-emu.org/docs/guides/wii-remote-plus-rvl-cnt-01-tr-connection-guide/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;this guide&lt;/a&gt; on how to configure it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For Emulated MotionPlus&lt;/strong&gt;&lt;br&gt;
+You will need to download a specially compiled emulator, &lt;a class=&#34;external&#34; href=&#34;http://www.emucr.com/2012/02/dolphin-motionplus-git-30-410.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Dolphin MotionPlus 3.0-410&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;MotionPlus_with_DualShock_4&#34;&gt;MotionPlus with DualShock 4&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;If using &lt;a class=&#34;external&#34; href=&#34;https://wizard.orain.org/wiki/DualShock_4_to_PC&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;DS4Windows&lt;/a&gt;, &lt;a class=&#34;external&#34; href=&#34;https://mega.co.nz/#%21oFAx1bDY%2159Hewqypo-YnZcCBZVqdaRAyj5JENnjh0caCzGEBq90&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download&lt;/a&gt; and use this custom Xbox controller profile.&lt;br&gt;
+Place in &lt;span class=&#34;system&#34;&gt;EmuCR-Dolphin-MotionPlus-3.0-410-x64\User\Config\Profiles\Wiimote&lt;/span&gt; directory and select it from Dolphin&#39;s controller configuration window.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Tools&#34;&gt;Tools&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;external&#34; href=&#34;http://www.wiibackupmanager.co.uk/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Wii Backup Manager&lt;/a&gt; - Work with DVD backups, convert between DVD, ISO, CISO and WBFS and extract Wii games to the format.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;external&#34; href=&#34;http://filetrip.net/wii-downloads/other-files/download-rawdump-2-1-f1609.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Rawdump&lt;/a&gt; - Allows you to dump your Wii/Gamecube discs with one of the supported DVD drives.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Shortcuts&#34;&gt;Shortcuts&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;To launch a game from a Windows shortcut icon, add the following (using your own paths) in the Target line:&lt;br&gt;
+&lt;span class=&#34;system&#34;&gt;C:\{Path to Emulator}\Dolphin.exe -e &#34;C:\{Path to ROM}\YourGame.iso&#34;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nintendo</title>
+      <link>http://www.powerup.io/gaming/emulators/nes/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/nes/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/nes/puNES-Super-Mario-Bros-3.jpg&#34;&gt;&lt;img alt=&#34;puNES Emulator&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/nes/puNES-Super-Mario-Bros-3.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        puNES Emulator
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 class=&#34;wiki&#34;&gt;puNES&lt;/h2&gt;
+&lt;p&gt;puNES is considered the most accurate NES emulator for Windows and Linux.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;download&#34;&gt;&lt;a href=&#34;http://forums.nesdev.com/viewtopic.php?t=6928&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download&lt;/a&gt; (D3D9 for Windows)&lt;/span&gt;&lt;/p&gt;
+&lt;h2 class=&#34;wiki&#34;&gt;Setup&lt;/h2&gt;
+&lt;p&gt;Extract it to a folder of your choice, such as &lt;span class=&#34;system&#34;&gt;C:\Program Files\puNES&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;After running puNES for the first time, it will automatically create a folder named &#34;puNES&#34; in &lt;span class=&#34;system&#34;&gt;My Documents&lt;/span&gt;. Saves, BIOS, and configuration files will be used there.&lt;/p&gt;
+&lt;h2 class=&#34;wiki&#34;&gt;Settings&lt;/h2&gt;
+&lt;p&gt;Under Settings you can choose different display modes, video filters and color palettes.&lt;/p&gt;
+&lt;p&gt;Click Save Settings after making changes.&lt;/p&gt;
+&lt;h4&gt;Quality setting:&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Filter: RGB&lt;/li&gt;
+    &lt;li&gt;Palette: Sony CSX2025AS US&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;A more retro looking setting:&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Filter: Composite&lt;/li&gt;
+    &lt;li&gt;Palette: NTSC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nintendo 64</title>
+      <link>http://www.powerup.io/gaming/emulators/n64/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/n64/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;This guide covers two emulators, &lt;strong&gt;Mupen64Plus&lt;/strong&gt; (with 2 different frontends) and &lt;strong&gt;Project64&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Each game may require it&#39;s own specific emulator and settings in order to run correctly. Different computer hardware, such as graphics cards, may also play a factor. See the Project64 Game Settings page for basic, working configurations for each game.&lt;/p&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;ul class=&#34;highlight&#34;&gt;
+    &lt;li&gt;
+        &lt;strong&gt;Mupen64Plus&lt;/strong&gt;&lt;br&gt;
+        A very accurate N64 emulator that uses it&#39;s own set of specialized plugins. Does not have an official GUI.
+        &lt;ul style=&#34;margin-left: 40px;&#34;&gt;
+            &lt;li&gt;&lt;strong&gt;M64Py&lt;/strong&gt;&lt;br&gt;
+            A Qt4 GUI for Mupen64Plus. Easy to use.&lt;/li&gt;
+            &lt;li&gt;&lt;strong&gt;RetroArch&lt;/strong&gt;&lt;br&gt;
+            A GUI for the libretro API that can be used with the Mupen64Plus Core. Advanced setup, custom shaders.&lt;br&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Prject64 2.1&lt;/strong&gt;&lt;br&gt;
+    An open source, plugin-based N64 emulator. Can be used with certain plugins that Mupen64Plus can&#39;t.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Mupen64Plus&lt;/h2&gt;
+&lt;p&gt;Mupen64Plus is a cross-platform plugin-based N64 emulator.&lt;br&gt;
+The program itself does not come with a GUI, so there were two frontends developed for easy use, M64Py and RetroArch.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;M64Py&lt;/h3&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/M64Py.JPG&#34;&gt;&lt;img alt=&#34;M64Py Frontend&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/M64Py.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        M64Py Frontend
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;http://sourceforge.net/projects/m64py/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download Here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For help, check the &lt;a href=&#34;https://code.google.com/p/mupen64plus/w/list&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Official Wiki&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Settings:&lt;/h4&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/M64Py_Settings_Emulator.JPG&#34;&gt;&lt;img alt=&#34;Emulator&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/M64Py_Settings_Emulator.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Emulator
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/M64Py_Settings_Graphics.JPG&#34;&gt;&lt;img alt=&#34;Graphic&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/M64Py_Settings_Graphics.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Graphic
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/M64Py_Settings_Plugins.JPG&#34;&gt;&lt;img alt=&#34;Plugins&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/M64Py_Settings_Plugins.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Plugins
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h4&gt;Use the Glide64 or Rice graphics plugin.&lt;/h4&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/M64Py_Glide64-01.JPG&#34;&gt;&lt;img alt=&#34;Glide64 Plugin&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/M64Py_Glide64-01.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Glide64 Plugin
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/M64Py_Rice-01.JPG&#34;&gt;&lt;img alt=&#34;Glide64 Plugin&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/M64Py_Rice-01.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Rice Plugin
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h4&gt;File Locations&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&#34;system&#34;&gt;mupen64plus.cfg&lt;/span&gt; and saves are located in &lt;span class=&#34;system&#34;&gt;C:\Users\{USER}\AppData\Roaming\Mupen64Plus&lt;/span&gt;&lt;br&gt;
+Other configuration files are located in the M64Py install folder.&lt;/p&gt;
+&lt;h4&gt;Controller Config:&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Go to Settings → Plugins → Configure Input&lt;/li&gt;
+    &lt;li&gt;Choose Device, Keyboard or Joystick&lt;/li&gt;
+    &lt;li&gt;Set mode to Fully Automatic&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;For DualShock 4 &amp;amp; Other Unsupported Controllers&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;First, see How to Setup DualShock 4 to PC&lt;/li&gt;
+    &lt;li&gt;The Plugin controller interface sometimes doesn&#39;t save your input settings. You will need to make changes manually.&lt;/li&gt;
+    &lt;li&gt;Using a text editor, such as &lt;a href=&#34;http://notepad-plus-plus.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Notepad++&lt;/a&gt;, open &lt;span class=&#34;system&#34;&gt;InputAutoCfg.ini&lt;/span&gt; located in the M64Py install folder.
+    &lt;/li&gt;
+    &lt;li&gt;Copy and paste this config into the file and save:&lt;br&gt;
+    (For other unsupported controllers, change the bracket [ ] name and button layout to match yours.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;RetroArch&lt;/h3&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/RetroArch.png&#34;&gt;&lt;img alt=&#34;RetroArch&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/RetroArch.png&#34; width=&#34;200&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/RetroArch-XMB.jpg&#34;&gt;&lt;img alt=&#34;RetroArch XMB&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/RetroArch-XMB.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        RetroArch Mupen64Plus Core
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+    &lt;li&gt;See &lt;a href=&#34;gaming/emulators/retroarch&#34;&gt;How to Setup RetroArch&lt;/a&gt;.
+    &lt;/li&gt;
+    &lt;li&gt;See &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Mupen64Plus#Options&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Mupen64Plus Options&lt;/a&gt; on the Libretro wiki.
+        &lt;ul style=&#34;margin-left: 40px;&#34;&gt;
+            &lt;li&gt;In Core Options set:&lt;br&gt;
+            CPU Core = &#34;cached_interpreter&#34;&lt;br&gt;
+            mupen64-gfxplugin = &#34;glide64&#34;&lt;br&gt;
+            mupen64-filtering = &#34;N64 3-point&#34;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Controllers&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Navigate to Settings → Input Options&lt;/li&gt;
+    &lt;li&gt;Change User 1 Device Index to your controller&lt;/li&gt;
+    &lt;li&gt;Map your inputs with User 1 Bind All&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Performance Settings&lt;/h4&gt;
+&lt;p&gt;For slower computers or integrated graphics:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Set &lt;span class=&#34;system&#34;&gt;CPU Core&lt;/span&gt; to &lt;span class=&#34;system&#34;&gt;Dynamic Compiler&lt;/span&gt;.&lt;/li&gt;
+    &lt;li&gt;Lower the resolution.&lt;/li&gt;
+    &lt;li&gt;Remove any Texture Enhancements, Lodmode, and Motionblur.&lt;/li&gt;
+    &lt;li&gt;Set Texture Filter to Bilinear or lower.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Project64&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Project64.jpg&#34;&gt;&lt;img alt=&#34;Project64 Emulator&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Project64.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Project64 Emulator
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The emulator uses a wide range of plugins that can be downloaded separately and placed in the plugins folder.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.pj64-emu.com/downloads/project64/binaries/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download Project64 2.1&lt;/a&gt; (Official)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mega.co.nz/#!JJoDyJDR!hu9nPCY6HMTQOYFSYvpI3NPv0_iD_iIedA6Y4AJaBEA&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download Project64 2.1&lt;/a&gt; (with all plugins)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.pj64-emu.com/error-messages/requirements/minimum-basic-system-requirements/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;System Requirements&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Configuration Per Game&lt;/h3&gt;
+&lt;p&gt;List of Settings for each game: &lt;a href=&#34;http://pastebin.com/s4sypfe0&#34; target=&#34;_blank&#34;&gt;http://pastebin.com/s4sypfe0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can set each game to have its own specialized configuration, useful for fixing game-breaking bugs.&lt;br&gt;
+While a game is running, go to Options → Settings&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Project64_Config-Per-Game.JPG&#34;&gt;&lt;img alt=&#34;Config&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Project64_Config-Per-Game.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Config
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Project64_Config-Per-Game_Recompiler.JPG&#34;&gt;&lt;img alt=&#34;Config Recompiler&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Project64_Config-Per-Game_Recompiler.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Config Recompiler
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Project64_Config-Per-Game_Plugins.JPG&#34;&gt;&lt;img alt=&#34;Config Plugins&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Project64_Config-Per-Game_Plugins.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Config Plugins
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Zelda-Majoras-Mask-Project64-1080p-Jabos-Direct3D8-1.6.jpg&#34;&gt;&lt;img alt=&#34;Jabos Direct3D8 1.6 Majora&#39;s Mask at 1080p&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Zelda-Majoras-Mask-Project64-1080p-Jabos-Direct3D8-1.6.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Jabos Direct3D8 1.6 Majora&#39;s Mask at 1080p
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;HD&lt;/h3&gt;
+&lt;p&gt;This will require the use of Project64 that can use Jabo&#39;s D3D8 1.6.1 plugin for 16:9 widescreen without stretching.&lt;/p&gt;
+&lt;p&gt;Not all games will be able to play with this setting, as they will glitch or not work.&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Project64-Plugins-Settings.jpg&#34;&gt;&lt;img alt=&#34;Plugins Settings&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Project64-Plugins-Settings.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Plugins Settings
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Project64-Graphics-Config.jpg&#34;&gt;&lt;img alt=&#34;Jabo&#39;s Direct3D8 1.6 Graphics&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Project64-Graphics-Config.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Jabo&#39;s Direct3D8 1.6 Graphics
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Super-Mario-64-Glide64-Plugin.jpg&#34;&gt;&lt;img alt=&#34;Super Mario 64 with Glide64 Plugin&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Super-Mario-64-Glide64-Plugin.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Super Mario 64 with Glide64 Plugin
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;Accuracy&lt;/h3&gt;
+&lt;h4&gt;Glide64 Plugin&lt;/h4&gt;
+&lt;p&gt;Glide64 is extremely compatible, emulating many game&#39;s graphics flawlessly and faithfully.&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Glide64_Basic_Settings.JPG&#34;&gt;&lt;img alt=&#34;Basic Settings&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Glide64_Basic_Settings.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Basic Settings
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Glide64_Emulation_Settings.JPG&#34;&gt;&lt;img alt=&#34;Emulation Settings&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Glide64_Emulation_Settings.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Emulation Settings
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Glide64_Texture_Enhancement.JPG&#34;&gt;&lt;img alt=&#34;Texture Settings&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Glide64_Texture_Enhancement.JPG&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Texture Settings
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h4&gt;HatCat/Angrylion&#39;s Pixel-Accurate Plugin&lt;/h4&gt;
+&lt;p&gt;For use with &lt;strong&gt;Project64&lt;/strong&gt;. It is the most accurate N64 renderer. It Requires a very powerful computer to use without being slow.&lt;br&gt;
+It should be used with HatCat&#39;s RSP. This will display how the N64 graphics really looked if played on a CRT monitor (standard definition at 4:3 aspect ratio).&lt;/p&gt;
+&lt;h4&gt;Configuration&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Uncheck &#34;Use High Level GFX&#34;&lt;/li&gt;
+    &lt;li&gt;Change Memory Size to 8MB for games that use the 4MB expansion pak&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;File Placement&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;br&gt;
+    &lt;span class=&#34;system&#34;&gt;rdp_conf.bin&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;Project64 2.1 root folder&lt;/span&gt;.&lt;br&gt;
+    &lt;span class=&#34;system&#34;&gt;mylittle-nocomment.dll&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;Project64 2.1\Plugin\GFX\&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;RSP&lt;/strong&gt;&lt;br&gt;
+    &lt;span class=&#34;system&#34;&gt;rsp_sse2.dll&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;rsp.dll&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;Project64 2.1\Plugin\RSP\&lt;/span&gt;&lt;br&gt;
+    &lt;span class=&#34;system&#34;&gt;sp_cfgui.exe&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;rsp_conf.cfg&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;Project64 2.1 root folder.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/Project64-Banjo-Tooie-1964-DX9-Plugin.jpg&#34;&gt;&lt;img alt=&#34;Banjo-Tooie using 1964 DX9 Plugin&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/Project64-Banjo-Tooie-1964-DX9-Plugin.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Banjo-Tooie using 1964 DX9 Plugin
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3&gt;Performance&lt;/h3&gt;
+&lt;p&gt;If you are getting choppy framerate and audio, or trying to play with integrated graphics, try using this plugin configuration:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;1964 Video DX9 Plugin&lt;/li&gt;
+    &lt;li&gt;Azimer&#39;s HLE Audio v0.60 WIP 2&lt;/li&gt;
+    &lt;li&gt;Default RSP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/1964-DX9-Plugin-General-Options.jpg&#34;&gt;&lt;img alt=&#34;Basic Settings&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/1964-DX9-Plugin-General-Options.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            1964 DX9 General Options
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/n64/1964-DX9-Plugin-Texture-Enhancement.jpg&#34;&gt;&lt;img alt=&#34;Emulation Settings&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/n64/1964-DX9-Plugin-Texture-Enhancement.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            1964 DX9 Texture Enhancements
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;Issues&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Game not working correctly&lt;br&gt;
+    Check the Project64 Game Settings page.&lt;/li&gt;
+    &lt;li&gt;Can&#39;t get widescreen without stretching&lt;br&gt;
+    Only Jabo&#39;s D3D8 1.6+ can do this, all others use 4:3 or 16:9 with stretching.&lt;/li&gt;
+    &lt;li&gt;No Anti-Aliasing&lt;br&gt;
+    Use your graphics card&#39;s control panel to force AA and Vsync on Project64.exe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Scanlines&lt;/h2&gt;
+&lt;p&gt;See &lt;a href=&#34;gaming/emulators/retroarch&#34;&gt;How to Setup RetroArch&lt;/a&gt; and the Scanline Shaders section.&lt;/p&gt;
+&lt;h2&gt;Downloads &amp;amp; Plugins&lt;/h2&gt;
+&lt;h4&gt;Emulators&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.mediafire.com/download/57bgvkraykpylsw/N64+Emulator+Pack.rar&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Pack of 4 N64 Emulators and All Plugins&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Video&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://full%20list%20can%20be%20found%20at%20http//emulation.gametechwiki.com/index.php/Recommended_N64_Plugins&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;HatCat/Angrylion&#39;s Pixel-Accurate (5)&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://filetrip.net/oldies-downloads/n64/download-glide64-napalm-public-release-1-22-f31160.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Glide64 Napalm 1.22&lt;/a&gt; (Manual Download)
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Audio&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.emutalk.net/threads/27610-Audio-v0-56-WIP2-Download-Feedback&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Azimer&#39;s HLE Audio&lt;/a&gt; (Use for High Level Audio)
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.emulation64.com/files/info/1180/shunyuans-hle-audio-plugin.html/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Shunyuan&#39;s HLE Audio&lt;/a&gt; (Under constant development, use for High Level Audio)
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;RSP&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://forum.pj64-emu.com/showthread.php?t=3618&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;HatCat&#39;s RSP&lt;/a&gt; (6)
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Input&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://sourceforge.net/projects/nragev20/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;N-Rage&lt;/a&gt; - Keyboard and Controllers
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Controllers&lt;/h2&gt;
+&lt;h4&gt;DualShock 4&lt;/h4&gt;
+&lt;p&gt;Should be plug and play and won&#39;t require DS4Tool. Recommend using the N-Rage plugin.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PSP</title>
+      <link>http://www.powerup.io/gaming/emulators/psp/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/psp/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;h2&gt;PPSSPP&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Downloads&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a class=&#34;external&#34; href=&#34;http://www.ppsspp.org/downloads.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Stable Builds (Windows, OS X, Linux, iOS, Android, Blackberry)&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&#34;external&#34; href=&#34;http://ppsspp.angelxwind.net/?page/downloads#linux&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Dev Builds (Linux)&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&#34;external&#34; href=&#34;http://ppsspp.angelxwind.net/?page/downloads#osx&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Dev Builds for (OS X)&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&#34;external&#34; href=&#34;http://buildbot.orphis.net/ppsspp/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Dev Builds (Windows and Android)&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a class=&#34;external&#34; href=&#34;http://qtness.com/ppsspp.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Dev Builds (BlackBerry, Symbian, and MeeGo)&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Setup&#34;&gt;Setup&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Setup is pretty straight forward. Everything can easily be done through the main settings menu. There is not much to configure but Rendering Resolution, Upscale Level/Type and enabling various Speed Hacks.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Troubleshooting&#34;&gt;Troubleshooting&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;b&gt;Weird text?&lt;/b&gt;
+        &lt;dl&gt;
+            &lt;dd&gt;
+                Download &lt;a class=&#34;external text&#34; href=&#34;http://www.mediafire.com/download/r3ep60r5550pu8q/PSP_pgfs.rar&#34; rel=&#34;nofollow&#34;&gt;the original fonts&lt;/a&gt; and place them into the &lt;code&gt;/flash0/&lt;/code&gt; folder. Disabling buffered rendering fixed the no text issue with FF4 for some. The forums say this will only fix it on Nvidia cards.
+            &lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;DLC&lt;/b&gt;
+        &lt;dl&gt;
+            &lt;dd&gt;Seems to work without any plugins, just place them in &lt;code&gt;/memstick/PSP/GAME&lt;/code&gt;.&lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;X doesn&#39;t work?&lt;/b&gt;
+        &lt;dl&gt;
+            &lt;dd&gt;Turn on/off Buffered Rendering or MipMapping and try again.&lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Too slow?&lt;/b&gt;
+        &lt;dl&gt;
+            &lt;dd&gt;Turn on/off Hardware Transform and try again.&lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Dangan Ronpa&lt;/b&gt;
+        &lt;dl&gt;
+            &lt;dd&gt;Make sure you&#39;re using the latest dev build of PPSSPP and that Buffered Rendering, Read Framebuffers to Memory and FramebufferCPUConvert are enabled (FramebufferCPUConvert is only necessary on AMD I think, I don&#39;t need it on Intel/Nvidia and other Intel/Nvidia users seem to be the same).&lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;b&gt;Dissidia 012.&lt;/b&gt;
+        &lt;dl&gt;
+            &lt;dd&gt;
+                Recent revisions to PPSSPP have changes (supposedly for better &#34;PSP Mini&#34; game support), which cause issues with Dissidia 012, such as red tinted cutscenes. v0.9.6-483-gf80adef is the latest build before they added Bigpet&#39;s commit that broke Dissidia 012. So use that one. OR use &lt;a class=&#34;external text&#34; href=&#34;https://www.mediafire.com/?wdzg6cj174m93b6&#34; rel=&#34;nofollow&#34;&gt;this custom build&lt;/a&gt;, it&#39;s the most up to date build (as of this writing) currently v0.9.7.2-41 with only the Bigpet&#39;s commit that broke Dissidia removed, so no red tint. Go get your Dissidia on.
+            &lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PlayStation 1</title>
+      <link>http://www.powerup.io/gaming/emulators/ps1/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/ps1/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PCSX-R-Emulator.jpg&#34;&gt;&lt;img alt=&#34;PCSX-R Emulator&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PCSX-R-Emulator.jpg&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        PCSX-R Emulator
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;PCSX-Reloaded is a PlayStation Emulator with support for Windows, GNU/Linux and Mac OS X. For detailed information, visit &lt;a href=&#34;http://emulation.gametechwiki.com/index.php/PlayStation_emulators&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Emulation General Wiki&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The most notable feature in PCSX-R is its GTE Accuracy hack, which helps reduce polygon shaking in most games.&lt;/p&gt;
+&lt;p&gt;It will require a PlayStation BIOS file.&lt;/p&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;A widescreen hack in the CPU options (3D games only)&lt;/li&gt;
+    &lt;li&gt;Compatibility with anti-jitter options, such as GTE accuracy, or Improved coordinate accuracy in Edgbla gpuBladeSoft.&lt;/li&gt;
+    &lt;li&gt;Support for Pete&#39;s OpenGL2 Tweak&lt;/li&gt;
+    &lt;li&gt;Native multitrack Cue sheet support&lt;/li&gt;
+    &lt;li&gt;Disk tray opening and closing for games that require it&lt;/li&gt;
+    &lt;li&gt;Controller support&lt;/li&gt;
+    &lt;li&gt;OS X support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.emucr.com/search/label/PCSX-Reloaded&#34; target=&#34;_blank&#34;&gt;Download PCSX-R&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Configuration&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PSX-Mega-Man-Legends-Default.jpg&#34;&gt;&lt;img alt=&#34;PSX Mega Man Legends Screenshot&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PSX-Mega-Man-Legends-Default.jpg&#34; width=&#34;300&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        PSX Mega Man Legends Screenshot
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PCSXR-OpenGL-1.78-Mega-Man-Legends.jpg&#34;&gt;&lt;img alt=&#34;OpenGL 1.78 Mega Man Legends 1080p Screenshot&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PCSXR-OpenGL-1.78-Mega-Man-Legends.jpg&#34; width=&#34;300&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        OpenGL 1.78 Mega Man Legends 1080p Screenshot
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This guide shows how to set up and run games with improved graphics in widescreen high-definition.&lt;/p&gt;
+&lt;p&gt;The emulator uses a wide range of plugins that can be downloaded separately and placed in the plugins folder.&lt;/p&gt;
+&lt;p&gt;The default plugins included with PCSX-R are P.E.Op.S. OpenGL 1.78 and P.E.Op.S. Sound Audio Driver, you will need to download additional ones.&lt;/p&gt;
+&lt;p&gt;Some games may show glitched graphics and will require a different configuration, such as using a different sound plugin or graphics texture method.&lt;/p&gt;
+&lt;p&gt;You will need to lower the settings for slower computers and laptops.&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PCSX-R-CPU-Config.jpg&#34;&gt;&lt;img alt=&#34;CPU&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PCSX-R-CPU-Config.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            CPU
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PCSX-R-Plugin-Configuration.jpg&#34;&gt;&lt;img alt=&#34;Plugins &#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PCSX-R-Plugin-Configuration.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Plugins
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PEOpS-PSX-OpenGL-Driver-1.78.jpg&#34;&gt;&lt;img alt=&#34;P.E.Op.S. OpenGL 1.78 Graphics&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PEOpS-PSX-OpenGL-Driver-1.78.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            P.E.Op.S. OpenGL 1.78 Graphics
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PCSX-R-Petes-OpenGL2-Tweaks-Config.jpg&#34;&gt;&lt;img alt=&#34;Pete&#39;s OpenGL2 Tweaks&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PCSX-R-Petes-OpenGL2-Tweaks-Config.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Pete&#39;s OpenGL2 Tweaks
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PCSX-R-SPU-Config.jpg&#34;&gt;&lt;img alt=&#34;Eternal SPU Sound&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PCSX-R-SPU-Config.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Eternal SPU Sound
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps1/PCSX-R-Harakiri-Controller-config.jpg&#34;&gt;&lt;img alt=&#34;Harakiri DualShock config&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps1/PCSX-R-Harakiri-Controller-config.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Harakiri DualShock config
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2&gt;Accuracy&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://mednafen.sourceforge.net/releases/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Mednafen&lt;/a&gt; is a High accuracy, multi-system emulator. The graphics should look true to the original.&lt;/p&gt;
+&lt;p&gt;Your games will need to be in .bin format and include their .cue or .ccd files in order to run.&lt;/p&gt;
+&lt;h2&gt;Scanlines&lt;/h2&gt;
+&lt;p&gt;See How to &lt;a href=&#34;gaming/emulators/retroarch&#34;&gt;Setup RetroArch&lt;/a&gt; and the Scanline Shaders section.&lt;/p&gt;
+&lt;h2&gt;Plugins&lt;/h2&gt;
+&lt;h4&gt;Video&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://ngemu.com/threads/peteopengl2tweak-tweaker-for-peteopengl2-plugin-w-gte-accuracy-hack.160319/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Pete&#39;s OpenGL2 2.9&lt;/a&gt; (Can use custom shaders)
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;https://github.com/Nucleoprotein/PeteOpenGL2Tweak/releases&#34; target=&#34;_blank&#34;&gt;PeteOpenGl2Tweak 2.3&lt;/a&gt; (Can use custom shaders) - Set &lt;span class=&#34;system&#34;&gt;xBRZScale = 0&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;\inis\gpuPeteOpenGL2Tweak.ini&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.t2e.pl/pl/390/134/390/EmulatoryPluginy/680?file=19700-d1bed7c6df3cd79983de3e719adc9cec540adead&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;P.E.Op.S. Soft GPU (Zenju&#39;s xBRZ filter)&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Pixel Shaders&lt;/h4&gt;
+&lt;p&gt;For use with Pete&#39;s OpenGL2 2.9 &amp;amp; Tweak 2.3.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.pbernert.com/html/gpu.htm#SHADER&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;http://www.pbernert.com/html/gpu.htm#SHADER&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.razyboard.com/system/forum-pete_bernert-ogl2-shaders-266904.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;http://www.razyboard.com/system/forum-pete_bernert-ogl2-shaders-266904.html&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For an anti-aliasing effect try Pete&#39;s Scale2x, Luigi&#39;s Blur AA, ShadX&#39;s Natural shader or just using the Default OpenGL 1.78 plugin.&lt;/p&gt;
+&lt;p&gt;If the game does not work, try switching between ARB Program and GLSang files in &#34;shader effects&#34;.&lt;/p&gt;
+&lt;h4&gt;Sound&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.mediafire.com/download/2pj51p250zmp2pr/spuEternal.dll&#34; target=&#34;_blank&#34;&gt;Eternal SPU&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Input&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;https://pcsxr.codeplex.com/downloads/get/129507/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Lilypad&lt;/a&gt; (works with controllers)
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.motioninjoy.com/wiki/en/game/guide/pcsx2&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;LilyPad-MotioninJoy&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.zophar.net/utilities/pspadplugins/harakiri-pad.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Harakiri&lt;/a&gt; (works with DualShock 3 &amp;amp; 4)
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Keybinds&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;F1: Save state&lt;/li&gt;
+    &lt;li&gt;F2: Switch to next save slot&lt;/li&gt;
+    &lt;li&gt;F3: Load state&lt;/li&gt;
+    &lt;li&gt;F4: Display state screenshot&lt;/li&gt;
+    &lt;li&gt;F5: Toggle SIO IRQ&lt;/li&gt;
+    &lt;li&gt;F6: Toggle Black &amp;amp; White decoders&lt;/li&gt;
+    &lt;li&gt;F7: Toggle XA&lt;/li&gt;
+    &lt;li&gt;F8: Take a game screenshot&lt;/li&gt;
+    &lt;li&gt;F9: Open the Disc tray&lt;/li&gt;
+    &lt;li&gt;F10: Close the Disc tray&lt;/li&gt;
+    &lt;li&gt;ESC: Return to the main window&lt;/li&gt;
+    &lt;li&gt;Ctrl 1 to 5: Save state 1 to 5&lt;/li&gt;
+    &lt;li&gt;Alt 1 to 5: Load state 1 to 5&lt;/li&gt;
+    &lt;li&gt;Alt 0: Load state from last ESC quit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Issues&lt;/h2&gt;
+&lt;h4&gt;Keybinds in Lilypad&lt;/h4&gt;
+&lt;p&gt;To get hotkeys to work, like using the Esc key: in the keyboard Input API (radio buttons in the top left of the LilyPad options), choose raw input.&lt;/p&gt;
+&lt;h4&gt;Changing discs&lt;/h4&gt;
+&lt;p&gt;Some games (like Final Fantasy) allow you to save in the &#34;Disc Change screen&#34;. For games that don&#39;t allow that (like Metal Gear Solid), disc switching can be a bit tricky:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Press F9 to open Disc tray&lt;/li&gt;
+    &lt;li&gt;Press Esc to go to PCSX-R menu&lt;/li&gt;
+    &lt;li&gt;Emulator → Switch ISO...&lt;/li&gt;
+    &lt;li&gt;Emulator → Run&lt;/li&gt;
+    &lt;li&gt;Press F10 to close Disc tray&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;OS X disc switching&lt;/strong&gt;&lt;br&gt;
+The process for switching discs on OS X is slightly different:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Go to File → Eject…&lt;/li&gt;
+    &lt;li&gt;For physical CDs:
+        &lt;ul style=&#34;margin-left: 40px;&#34;&gt;
+            &lt;li&gt;The physical CD will eject.&lt;/li&gt;
+            &lt;li&gt;Replace the CD that was ejected.&lt;/li&gt;
+            &lt;li&gt;Close the drive: PCSX-R will wait for a new CD to be inserted and resume when a new one is available.&lt;br&gt;
+            &lt;strong&gt;NOTE:&lt;/strong&gt; The current release version does not wait for a new CD. An svn build will work better.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;​For ISOs:
+        &lt;ul style=&#34;margin-left: 40px;&#34;&gt;
+            &lt;li&gt;A file selection window will come up.&lt;/li&gt;
+            &lt;li&gt;Select your new ISO.&lt;/li&gt;
+            &lt;li&gt;Click the &#34;Open&#34; button.&lt;span id=&#34;cke_bm_112E&#34; style=&#34;display: none;&#34;&gt;&lt;/span&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Controllers&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;DualShock 4&lt;/strong&gt;&lt;br&gt;
+Should be plug and play and won&#39;t require DS4Tool. Recommend using the &lt;a href=&#34;http://sourceforge.net/projects/nragev20/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;N-Rage&lt;/a&gt; plugin.&lt;/p&gt;
+&lt;h2&gt;Shortcuts&lt;/h2&gt;
+&lt;p&gt;To launch a game from a Windows shortcut icon, add the following (using your own paths) in the Target line:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;system&#34;&gt;C:\{Path to Emulator}\pcsxr.exe -cdfile &#34;C:\{Path to ROM}\YourGame.bin&#34;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This method is not suitable for games using more than one disc.&lt;/p&gt;
+&lt;p&gt;Analog sticks might only work with games that officially supported them, unless you custom map it.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PlayStation 2</title>
+      <link>http://www.powerup.io/gaming/emulators/ps2/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/ps2/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps2/PCSX2-Logo.png&#34;&gt;&lt;img class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps2/PCSX2-Logo.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;h2&gt;PCSX2&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps2/PCSX2_Emulator.JPG&#34;&gt;&lt;img alt=&#34;PSCX2 Emuator&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps2/PCSX2_Emulator.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        PSCX2 Emuator
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4&gt;System Requirements&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Windows Vista / Windows 7 32-bit/64-bit&lt;/li&gt;
+    &lt;li&gt;CPU: Intel Core 2 Duo @ 3.2 GHz or better&lt;/li&gt;
+    &lt;li&gt;GPU: 8600 GT or better&lt;/li&gt;
+    &lt;li&gt;1GB RAM (2GB if on Vista / Windows 7)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Downloads&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://buildbot.orphis.net/pcsx2/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;PCSX2 Dev Builds&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://pcsx2mac.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Mac version&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Setup&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps2/PCSX2-Plugins.jpg&#34;&gt;&lt;img alt=&#34;Plugins&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps2/PCSX2-Plugins.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Plugins
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4&gt;Guide&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://pcsx2.net/config-guide/official-english-pcsx2-configuration-guide.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Official Guide&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Widescreen Game Patches&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://forums.pcsx2.net/attachment.php?aid=50934&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download&lt;/a&gt; and unzip to the &lt;span class=&#34;system&#34;&gt;cheats&lt;/span&gt; directory. In PCSX2, go to System → Enable Widescreen Patches.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://forums.pcsx2.net/Thread-PCSX2-Widescreen-Game-Patches&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Official Widescreen Thread&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://forums.pcsx2.net/Thread-PCSX2-Widescreen-Game-Patches?pid=271674#pid271674&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Widescreen Archive&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Configurations Per Game&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/ps2/PCSX2_Shortcut_Config.JPG&#34;&gt;&lt;img alt=&#34;Game Shortcuts&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/ps2/PCSX2_Shortcut_Config.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Game Shortcuts
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Consult the &lt;a href=&#34;http://wiki.pcsx2.net/index.php/Main_Page&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Official PCSX2 Wiki&lt;/a&gt; for the best game settings.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Create individual folders for game ISO&#39;s.&lt;/li&gt;
+    &lt;li&gt;Copy the &lt;span class=&#34;system&#34;&gt;inis&lt;/span&gt; folder, located in the PCSX2 &lt;span class=&#34;system&#34;&gt;root directory&lt;/span&gt;, and paste it in the game&#39;s folder you want to configure.&lt;/li&gt;
+    &lt;li&gt;Create a New Windows Shortcut, give it the name of your game.&lt;/li&gt;
+    &lt;li&gt;Right click it → go to Properties → paste the following in the Target line (using your own paths and file names):&lt;br&gt;
+    &lt;span class=&#34;system&#34;&gt;&#34;C:\{Path to PCSX2 folder}\pcsx2.exe&#34; &#34;C:\{Path to your game&#39;s folder}\Your Game.ISO&#34; --cfgpath=&#34;C:\{Path to your game&#39;s folder}\inis&#34;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;Open the Shortcut you just created and it will launch your game.&lt;/li&gt;
+    &lt;li&gt;To make configuration changes for that game, go to Config on the Toolbar&lt;/li&gt;
+    &lt;li&gt;All changes you make will be saved to that game&#39;s inis folder and will be used every time you launch from that Shortcut.&lt;/li&gt;
+    &lt;li&gt;Do this for every game.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Controller&lt;/h2&gt;
+&lt;p&gt;Use the LilyPad plugin.&lt;/p&gt;
+&lt;p&gt;Native DualShock 3 &amp;amp; 4 support.&lt;/p&gt;
+&lt;p&gt;Enable XInput if you are using something like DS4Tool or an Xbox controller.&lt;/p&gt;
+&lt;h2&gt;Troubleshooting&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;MSVCr100.dll is missing&lt;br&gt;
+    Make sure to have Microsoft Visual C++ 2005, 2008, 2010, 2012, 2013 in both x64 and x86 installed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RetroArch</title>
+      <link>http://www.powerup.io/gaming/emulators/retroarch/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/retroarch/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;figure class=&#34;tleft&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/RetroArch-XMB.jpg&#34;&gt;&lt;img alt=&#34;Main Menu&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/RetroArch-XMB.jpg&#34; width=&#34;200&#34;&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;p&gt;An All-in-One, Multi-platform Emulator frontend for the &lt;a href=&#34;http://www.libretro.com/index.php/api/&#34; target=&#34;_blank&#34;&gt;libretro API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://buildbot.libretro.com/stable&#34; target=&#34;_blank&#34;&gt;http://www.libretro.com/index.php/retroarch-2/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unlike standalone emulators, RetroArch uses a library file called a ‘libretro core’ for each console. This allows all emulators to use one menu screen, as well as load custom shaders, filters, playlists, and many more advanced features.&lt;/p&gt;
+&lt;h2&gt;Downloads&lt;/h2&gt;
+&lt;h3&gt;RetroArch&lt;/h3&gt;
+&lt;h4&gt;Windows&lt;/h4&gt;
+&lt;p&gt;&lt;a&gt;http://buildbot.libretro.com/stable&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Compilation guide:&lt;br&gt;
+&lt;a href=&#34;http://wiki.libretro.com/index.php?title=Building_Retroarch_on_Windows&#34; target=&#34;_blank&#34;&gt;http://wiki.libretro.com/index.php?title=Building_Retroarch_on_Windows&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Linux&lt;/h4&gt;
+&lt;p&gt;sudo add-apt-repository ppa:libretro/testing&lt;br&gt;
+sudo apt-get update&lt;br&gt;
+sudo apt-get install retroarch&lt;/p&gt;
+&lt;p&gt;Compilation Guide:&lt;br&gt;
+&lt;a href=&#34;https://github.com/libretro/RetroArch/wiki/Compilation-guide-(Linux)&#34; target=&#34;_blank&#34;&gt;https://github.com/libretro/RetroArch/wiki/Compilation-guide-(Linux)&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Lakka&lt;/h4&gt;
+&lt;p&gt;The official Linux distribution of RetroArch and the libretro ecosystem.&lt;br&gt;
+Transforms a small computer into a full blown game console.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.lakka.tv/&#34; target=&#34;_blank&#34;&gt;http://www.lakka.tv&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Android&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.retroarch&#34; target=&#34;_blank&#34;&gt;https://play.google.com/store/apps/details?id=com.retroarch&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Cores&lt;/h3&gt;
+&lt;p&gt;You can download a zip file of all cores or individually through the RetroArch Online Updater Menu.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/libretro/common-shaders&#34; target=&#34;_blank&#34;&gt;https://github.com/libretro/common-shaders&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Click the blue checkmark on the &#34;latest&#34; folder and click the download icon&lt;/li&gt;
+    &lt;li&gt;Create &lt;span class=&#34;system&#34;&gt;cores&lt;/span&gt; folder in the main directory&lt;/li&gt;
+    &lt;li&gt;Unzip cores to folder&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Command-line&lt;/h2&gt;
+&lt;p&gt;You can launch games from GUI binary/shortcut or Terminal using the command-line.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/libretro/RetroArch/wiki/Using-the-command-line&#34; target=&#34;_blank&#34;&gt;https://github.com/libretro/RetroArch/wiki/Using-the-command-line&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Linux&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&#34;system&#34;&gt;retroarch -L &#34;/Path/To/libretro/core.so&#34; -c &#34;/Path/To/Config.cfg&#34; &#34;/Path/To/Game.rom&#34;&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Windows&lt;/h4&gt;
+&lt;p&gt;Enable RetroArch In Command Prompt&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Control Panel → System and Security → System → Advanced system settings&lt;/li&gt;
+    &lt;li&gt;Advanced Tab → Environment Variables → System variables → Path&lt;/li&gt;
+    &lt;li&gt;Add C:\Path\To\RetroArch (Separate multiple paths with semicolon ;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&#34;system&#34;&gt;retroarch -L &#34;C:\Path\To\RetroArch\cores\core.dll&#34; -c &#34;C:\Path\To\Config.cfg&#34; &#34;C:\Path\To\Game.rom&#34;&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;BIOS&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/libretro/Lakka/wiki/ROMs-and-BIOSes#user-content-rom-and-bios-requirements-table&#34; target=&#34;_blank&#34;&gt;Requirements table&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Place in &lt;span class=&#34;system&#34;&gt;\RetroArch\system\&lt;/span&gt; directory.&lt;/p&gt;
+&lt;p&gt;Note: No roms, bios or copyrighted game files are hosted or linked on this site.&lt;/p&gt;
+&lt;h2&gt;Recommended Cores&lt;/h2&gt;
+&lt;p&gt;Core Compatibility List&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://wiki.libretro.com/index.php?title=Main_Page#Core_Content_Compatibility_Lists&#34; target=&#34;_blank&#34;&gt;http://wiki.libretro.com/index.php?title=Main_Page#Core_Content_Compatibility_Lists&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table style=&#34;width: 800px; height: 298px;&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;background-color: #eaeaea; height: 15px;&#34;&gt;&lt;strong&gt;Console&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;background-color: #eaeaea; height: 15px;&#34;&gt;&lt;strong&gt;Core&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;background-color: #eaeaea; height: 15px;&#34;&gt;&lt;strong&gt;Options&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 63px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;
+                &lt;a href=&#34;http://www.libretro.com/index.php/mamemessume-cores/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Arcade&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=MAME_2014&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;MAME 2014&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;Default&lt;br&gt;
+            Video Thread: Off&lt;br&gt;
+            Correct BIOS zip in ROM folder&lt;br&gt;
+            Press Right Arrow for OK&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/neo-geo&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Neo Geo&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Final_Burn_Alpha&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;FB Alpha&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/Atari-2600&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Atari 2600&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Stella&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Stella&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/Atari-7800&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Atari 7800&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=ProSystem&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;ProSystem&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Nintendo_NES_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Nintendo&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Nestopia&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Nestopia UE&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;NSTC Filter, Palette&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Nintendo_SNES_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Super Nintendo&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Bsnes-mercury&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;bsnes-mercury&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;Default&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 47px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Nintendo_N64_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Nintendo 64&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Mupen64Plus&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Mupen64Plus&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;GFX Plugin: glide64&lt;br&gt;
+            CPU Core: dynamic_recompiler&lt;br&gt;
+            Texture Filtering: N64 3-Point&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 47px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Nintendo_Game_Boy_(Color)_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Game Boy&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Gambatte&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Gambatte&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;GB Colorization: auto&lt;br&gt;
+            Internal Palette: Blue&lt;br&gt;
+            Color correction: on&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Nintendo_Game_Boy_(Color)_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Game Boy Color&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=TGB_Dual&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;TGB Dual&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;Default&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Nintendo_Game_Boy_Advance_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Game Boy Advance&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=MGBA&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;mGBA&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;Skip BIOS intro: On&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 47px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Nintendo_DS_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Nintendo DS&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=DeSmuME&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;DeSmuMe&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 47px;&#34;&gt;CPU cores: 1-4&lt;br&gt;
+            CPU mode: JIT&lt;br&gt;
+            Screen Layouts&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 63px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=PlayStation_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;PlayStation&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Beetle/Mednafen_PSX&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Mednafen PSX&lt;/a&gt;&lt;br&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=PCSX_ReARMed&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;PCSX ReARMed&lt;/a&gt; &lt;span style=&#34;color: #808080;&#34;&gt;(Pi/Mobile)&lt;/span&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;CPU Overclock: On&lt;br&gt;
+            Skip BIOS: On&lt;br&gt;
+            Texture Filtering: bilinear&lt;br&gt;
+            GTE Pixel Accuracy&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 63px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/psp&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;PSP&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=PPSSPP&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;PPSSPP&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 63px;&#34;&gt;Rendering Mode: buffered&lt;br&gt;
+            Texture Scaling: hybrid_bicubic&lt;br&gt;
+            Anisotropic Filtering: 16x&lt;br&gt;
+            Internal Shader (Optional)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15.0167px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15.0167px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/Master-System&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Master System&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td rowspan=&#34;2&#34; style=&#34;width: 33%; height: 30.0167px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Genesis_Plus_GX&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Genesis Plus GX&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td rowspan=&#34;2&#34; style=&#34;width: 33%; height: 30.0167px;&#34;&gt;NSTC Filter&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/Genesis-Megadrive&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Genesis&lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Sega_Saturn_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Saturn&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Yabause&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Yabause&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;Default&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 31px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 31px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/Dreamcast&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Dreamcast&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 31px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Reicast&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Reicast&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 31px;&#34;&gt;Default&lt;br&gt;
+            Widescreen (Optional)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=3DO_Core_Compatibility&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;3DO&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=4DO&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;4DO&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/PC&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;DOS&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=DOSBox&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;DOSBox&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/Amiga&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Amiga&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/libretro/libretro-uae&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;PUAE&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;Default&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&#34;height: 15px;&#34;&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/msx&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;MSX&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;
+                &lt;a href=&#34;http://wiki.libretro.com/index.php?title=FMSX&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;fMSX&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td style=&#34;width: 33%; height: 15px;&#34;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Add Games&lt;/h2&gt;
+&lt;ol&gt;
+    &lt;li&gt;Main Menu → Add Content&lt;/li&gt;
+    &lt;li&gt;Scan Directory → Scan This Directory (Checksums must match or games won&#39;t appear)&lt;/li&gt;
+    &lt;li&gt;Go back to Home Screen&lt;/li&gt;
+    &lt;li&gt;Settings → Playlists → Set each Playlist&#39;s Default Core&lt;/li&gt;
+    &lt;li&gt;In the Main Menu you will now see a Playlist for each console.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/RetroArch-Playlist-Cores.jpg&#34;&gt;&lt;img alt=&#34;Playlist Default Core&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/RetroArch-Playlist-Cores.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Playlist Default Cores
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;First set up the Default configuration &lt;span class=&#34;system&#34;&gt;retroarch.cfg&lt;/span&gt; to use as a template for each Core. Configuration files are saved to &lt;span class=&#34;system&#34;&gt;\config\&lt;/span&gt;.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Load Core&lt;/li&gt;
+    &lt;li&gt;Save New Config&lt;/li&gt;
+    &lt;li&gt;It will save it as &lt;span class=&#34;system&#34;&gt;snes9x_libretro.cfg&lt;/span&gt;, for example.&lt;/li&gt;
+    &lt;li&gt;Use Load Configuration to select the cfg.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/configuration-files.png&#34;&gt;&lt;img alt=&#34;Configuration Files&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/configuration-files.png&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Configuration Files
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3&gt;Overrides&lt;/h3&gt;
+&lt;p&gt;Creates a config file that will load automatically and override the default &lt;span class=&#34;system&#34;&gt;retroarch.cfg&lt;/span&gt; when launching a game.&lt;br&gt;
+Useful for different Keyboard, Controller, Video &amp;amp; Audio settings per Core.&lt;/p&gt;
+&lt;h4&gt;Simple&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Create a New Folder with the same &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Main_Page#Core_Software_Library&#34; target=&#34;_blank&#34;&gt;name as the Core&lt;/a&gt;, such as &lt;span class=&#34;system&#34;&gt;\config\&lt;strong&gt;Snes9X&lt;/strong&gt;\&lt;/span&gt;.
+    &lt;/li&gt;
+    &lt;li&gt;Create a &lt;span class=&#34;system&#34;&gt;cfg&lt;/span&gt; file with the same name as the folder, &lt;span class=&#34;system&#34;&gt;Snes9X.cfg&lt;/span&gt;.&lt;/li&gt;
+    &lt;li&gt;It should now look like this &lt;span class=&#34;system&#34;&gt;\config\&lt;strong&gt;Snes9X&lt;/strong&gt;\&lt;strong&gt;Snes9X.cfg&lt;/strong&gt;&lt;/span&gt;.&lt;/li&gt;
+    &lt;li&gt;Using a text editor, add only the lines you want to override.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Full&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Follow the Configuration and Simple instructions above.&lt;/li&gt;
+    &lt;li&gt;Create a config file, such as &lt;span class=&#34;system&#34;&gt;snes9x_libretro.cfg&lt;/span&gt;, and copy the entire contents to &lt;span class=&#34;system&#34;&gt;\config\&lt;strong&gt;Snes9X&lt;/strong&gt;\&lt;strong&gt;Snes9X.cfg&lt;/strong&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;To make future changes you will need to Load Configuration and then Save Current Configuration, or use a text editor.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/RetroArch-Configuration.jpg&#34;&gt;&lt;img alt=&#34;Configuration Menu&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/RetroArch-Configuration.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Configuration Menu
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/override-folders.png&#34;&gt;&lt;img alt=&#34;Override Folders&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/override-folders.png&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Override Folders
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/override-cfg-files.png&#34;&gt;&lt;img alt=&#34;Overrided Files&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/override-cfg-files.png&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Overrided Files
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2&gt;Settings&lt;/h2&gt;
+&lt;h3&gt;Driver&lt;/h3&gt;
+&lt;table style=&#34;width: 400px; height: 83px;&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Input&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;dinput&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Joypad&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;xinput&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Video&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;gl&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Audio&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;xaudio&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Audio Resampler&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;sinc&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Camera&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;null&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Location&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;null&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Menu&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;xmb&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;Record&lt;/td&gt;
+            &lt;td style=&#34;width: 50%;&#34;&gt;ffmpeg&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Video&lt;/h3&gt;
+&lt;table style=&#34;width: 700px; height: 243px;&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Windowed Fullscreen Mode&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;Off (Decrease input lag), On (Faster window switching)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Aspect Ratio&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;Custom (Uses Viewport) or Choose a preset such as 4:3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Custom Viewport&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;Set desired width/height and aspect ratio&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Windowed Scale&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;Adjust to fit Windowed size&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Integer Scale&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;On (Prevents warped pixels keeping 1:1 ratio)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;HW Biliner Filtering&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;Off&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Threaded Video&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;Off (Turn On to reduce stuttering)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Vsync&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;On&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Hard GPU Sync&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;On&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Hard GPU Sync Frames&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;0 (Increase to 1 to reduce audio crackling)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Frame Delay&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;0&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Video Filter&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;N/A or a Filter such as NTSC&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;G-Sync / FreeSync&lt;/h3&gt;
+&lt;table style=&#34;width: 700px; height: 23px;&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;VSync&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;Off&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Audio Sync&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;On&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;In your cfg file, set:&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;audio_rate_control = &#34;false&#34;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&#34;2&#34; style=&#34;width: 30%;&#34;&gt;
+                &lt;a href=&#34;http://libretro.com/forums/showthread.php?t=4593&amp;amp;highlight=g-sync&#34; target=&#34;_blank&#34;&gt;http://libretro.com/forums/showthread.php?t=4593&amp;amp;highlight=g-sync&lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Audio&lt;/h3&gt;
+&lt;table style=&#34;width: 700px; height: 23px;&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Audio Latency (ms)&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;64 (Increase to reduce stutter)&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Input&lt;/h3&gt;
+&lt;table style=&#34;width: 700px; height: 43px;&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Menu Toggle Gamepad Combo&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;Start + Select (This will bring up the Quick Menu during gameplay)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;Input User 1 Binds&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;User 1 Bind All&lt;br&gt;
+            (Set your gamepad buttons. Let time out for missing buttons.)&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Playlists&lt;/h3&gt;
+&lt;table style=&#34;width: 700px; height: 23px;&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 30%;&#34;&gt;History List Enable&lt;/td&gt;
+            &lt;td style=&#34;width: 70%;&#34;&gt;On&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Set each Console Playlists default cores.&lt;/p&gt;
+&lt;h3&gt;Directories&lt;/h3&gt;
+&lt;p&gt;Set the default folders to be loaded at startup.&lt;/p&gt;
+&lt;h3&gt;Thumbnails&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Automatic:&lt;/strong&gt; Main Menu → Online Updater → Thumbnails Updater&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Manually:&lt;/strong&gt; from &lt;a&gt;https://github.com/libretro/libretro-thumbnails&lt;/a&gt; (Large download). You can save individual ones for just the games you have.&lt;/p&gt;
+&lt;p&gt;Place in &lt;span class=&#34;system&#34;&gt;\RetroArch\thumbnails\&lt;/span&gt; directory using the exact folder paths and names as in the download.&lt;/p&gt;
+&lt;p&gt;Thumbnail filename must match the ROM&#39;s in-game Title. If that doesn&#39;t work, try the ROM&#39;s filename.&lt;/p&gt;
+&lt;h3&gt;Checksums&lt;/h3&gt;
+&lt;p&gt;RetroArch Playlists only recognize game filenames from Redump.&lt;/p&gt;
+&lt;p&gt;If your game will not start, download the proper cue sheets and dat files here.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://redump.org&#34; target=&#34;_blank&#34;&gt;http://redump.org&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Quick Menu&lt;/h2&gt;
+&lt;p&gt;You can access this menu after loading a Core or during gameplay by pressing Start + Select on gamepad or Enter + Shift on keyboard.&lt;/p&gt;
+&lt;p&gt;If using a gamepad you will need to set the button combo. Go to Settings → Input → Menu Toggle Gamepad Combo.&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/Quick-Menu.jpg&#34;&gt;&lt;img alt=&#34;Quick Menu&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/Quick-Menu.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Quick Menu
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/Quick-Menu-Toggle.jpg&#34;&gt;&lt;img alt=&#34;Quick Menu toggle&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/Quick-Menu-Toggle.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Quick Menu toggle
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3&gt;Options&lt;/h3&gt;
+&lt;p&gt;Core-specific options can be set here, such as overclocking and rendering effects&lt;br&gt;
+Config file is located at &lt;span class=&#34;system&#34;&gt;\RetroArch\config\retroarch-core-options.cfg&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/RetroArch-Core-Options.jpg&#34;&gt;&lt;img alt=&#34;Core Options&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/RetroArch-Core-Options.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Core Options
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h3&gt;Shaders&lt;/h3&gt;
+&lt;p&gt;Load and Apply Shader Presets here in the Quick Menu.&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/RetroArch-Shaders.jpg&#34;&gt;&lt;img alt=&#34;Shaders&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/RetroArch-Shaders.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Shaders
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2&gt;Saves&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Save Files&lt;/strong&gt; are located in &lt;span class=&#34;system&#34;&gt;\RetroArch\saves\&lt;/span&gt; and can be transferred between cores.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Save State&lt;/strong&gt; files are located in &lt;span class=&#34;system&#34;&gt;\RetroArch\states\&lt;/span&gt; and can only be used with the core that created the save.&lt;/p&gt;
+&lt;h3&gt;Converting Saves&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Project64&lt;/strong&gt; - &lt;a href=&#34;https://onedrive.live.com/?authkey=%21AJYNHmea0NSr_cY&amp;amp;cid=EEB961B2FD633089&amp;amp;id=EEB961B2FD633089%21496&amp;amp;parId=EEB961B2FD633089%21495&amp;amp;action=locate&#34; target=&#34;_blank&#34;&gt;pj64tosrm Tool&lt;/a&gt;. Drag and drop into the exe to convert sra/eep/mpk/fla saves to srm.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PS1 to PSP&lt;/strong&gt; - &lt;a href=&#34;http://www.mediafire.com/download/p6bmekcpvbzzpue/PSX+PSP+Memory+card+converter.rar&#34; target=&#34;_blank&#34;&gt;PSX-PSP Memcard Tool&lt;/a&gt;. Converts PS1 .mcr to PSP/PS1 .vmp and back.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Game Boy .srm to .sav&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;http://www.mediafire.com/download/iz71k0iush8g1fm/Save+Converter.exe&#34; target=&#34;_blank&#34;&gt;http://www.mediafire.com/download/iz71k0iush8g1fm/Save+Converter.exe&lt;/a&gt;&lt;br&gt;
+Drag and drop the .srm save file onto the .exe.&lt;br&gt;
+Rename the .srm file to .sav.&lt;/p&gt;
+&lt;h2&gt;Shaders&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/libretro/common-shaders&#34; target=&#34;_blank&#34;&gt;https://github.com/libretro/common-shaders&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Caution: Shaders may cause your PC or Laptop to run hot. Use a temperature monitor such as &lt;a href=&#34;https://www.piriform.com/speccy&#34; target=&#34;_blank&#34;&gt;Speccy&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+&lt;strong&gt;CRT Scanlines&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;These are included in common-shaders-master.zip&lt;/p&gt;
+&lt;table style=&#34;width: 800px; height: 258px;&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;Royale&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;
+                Highly configurable with Aperture Grille, Slot Mask, EDP Shadow mask options.&lt;br&gt;
+                &lt;a href=&#34;http://libretro.com/forums/showthread.php?t=4909&#34; target=&#34;_blank&#34;&gt;Kurozumi Edition&lt;/a&gt; - Configured to look like Sony&#39;s PVM/BVM monitors.
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;Hyllian&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;Goal is picture quality. Another version CRT-Hyllian Fast, twice as fast and smoother. Runs well on low end systems.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;Glow&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;By Maister, similar to CRT-Hyllian Glow.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;Caligari&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;Older shader, by xythen, for 3x scaling or higher. Dark scanlines with phospher bloom.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;Geom&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;Aperture Grille with dot mask. Standard/Sharpness/Halation.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;Lottes&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;Along the style of a really good CGA arcade monitor. Shadow mask rotated 90 degrees for less chromatic aberration.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;Easymode&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;Lightweight, works well on low end graphics cards and laptops.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;GTU&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;Highly configurable. No phosphor or shadow masks. Sharp, blur, contrast, gamma, and scanline settings. GTUv050 Cg, GTUv040 Quark, GTU-Famicom Cg, GTUv50 Test program.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width: 20%;&#34;&gt;&lt;strong&gt;Raspberry Pi&lt;/strong&gt;&lt;/td&gt;
+            &lt;td style=&#34;width: 80%;&#34;&gt;
+                &lt;a href=&#34;http://libretro.com/forums/showthread.php?t=4937&#34; target=&#34;_blank&#34;&gt;http://libretro.com/forums/showthread.php?t=4937&lt;/a&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/scanlines/chrono/Royale.jpg&#34;&gt;&lt;img alt=&#34;Royale&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/scanlines/chrono/Royale.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Royale
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/scanlines/chrono/Glow.jpg&#34;&gt;&lt;img alt=&#34;Glow&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/scanlines/chrono/Glow.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Glow
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/scanlines/chrono/Caligari.jpg&#34;&gt;&lt;img alt=&#34;Caligari&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/scanlines/chrono/Caligari.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Caligari
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/scanlines/chrono/gtuv50.jpg&#34;&gt;&lt;img alt=&#34;gtuv50&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/scanlines/chrono/gtuv50.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            gtuv50
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;&lt;br&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/scanlines/chrono/Geom.jpg&#34;&gt;&lt;img alt=&#34;Geom&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/scanlines/chrono/Geom.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Geom
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/scanlines/chrono/Hyllian.jpg&#34;&gt;&lt;img alt=&#34;Hyllian&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/scanlines/chrono/Hyllian.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Hyllian
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/scanlines/chrono/Lottes.jpg&#34;&gt;&lt;img alt=&#34;Lottes&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/scanlines/chrono/Lottes.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Lottes
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/scanlines/chrono/Easymode.jpg&#34;&gt;&lt;img alt=&#34;Easymode&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/scanlines/chrono/Easymode.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Easymode
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2&gt;Filters&lt;/h2&gt;
+&lt;p&gt;RF, Composite, S-Video, RGB&lt;/p&gt;
+&lt;p&gt;Can be applied in Settings → Video → Video Filter, and sometimes in Core Options under Quick Menu → Options.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Blargg NTSC&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.mediafire.com/?356uu02o7oxw0u1&#34; target=&#34;_blank&#34;&gt;Win32&lt;/a&gt; | &lt;a href=&#34;http://www.mediafire.com/?62p83g46s95v44r&#34; target=&#34;_blank&#34;&gt;Win64&lt;/a&gt; | &lt;a href=&#34;http://www.mediafire.com/?bqnp2etqkq3fkz1&#34; target=&#34;_blank&#34;&gt;Linux32&lt;/a&gt; | &lt;a href=&#34;http://www.mediafire.com/?01747etfqs8tt6g&#34; target=&#34;_blank&#34;&gt;Linux64&lt;/a&gt; | &lt;a href=&#34;http://www.mediafire.com/?l5abvq3077cuqvt&#34; target=&#34;_blank&#34;&gt;MacOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blargg.8bitalley.com/libs/ntsc.html&#34; target=&#34;_blank&#34;&gt;http://blargg.8bitalley.com/libs/ntsc.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://emulation-general.wikia.com/wiki/NTSC_Filters&#34; target=&#34;_blank&#34;&gt;http://emulation-general.wikia.com/wiki/NTSC_Filters&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Maister NTSC&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/libretro/common-shaders/tree/master/ntsc&#34; target=&#34;_blank&#34;&gt;https://github.com/libretro/common-shaders/tree/master/ntsc&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/filters/No-Filter.jpg&#34;&gt;&lt;img alt=&#34;No Filter&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/filters/No-Filter.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            No Filter
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/filters/Composite.jpg&#34;&gt;&lt;img alt=&#34;Composite&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/filters/Composite.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Composite
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/filters/S-Video.jpg&#34;&gt;&lt;img alt=&#34;S-Video&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/filters/S-Video.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            S-Video
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/filters/RGB.jpg&#34;&gt;&lt;img alt=&#34;RGB&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/filters/RGB.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            RGB
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/retroarch/filters/Hyllian-GlowComposite.jpg&#34;&gt;&lt;img alt=&#34;Hyllian Glow + Composite&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/retroarch/filters/Hyllian-GlowComposite.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Hyllian Glow + Composite
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;h2&gt;Troubleshooting&lt;/h2&gt;
+&lt;h4&gt;Crash after changing Menu/Video Driver&lt;/h4&gt;
+&lt;p&gt;Using a text editor, open the cfg or dll.cfg file located in &lt;span class=&#34;system&#34;&gt;\RetroArch\config\&lt;/span&gt; that is having problems.&lt;br&gt;
+Manually change the line &lt;span class=&#34;system&#34;&gt;menu_driver =&lt;/span&gt; or &lt;span class=&#34;system&#34;&gt;video_driver =&lt;/span&gt; back to it&#39;s original value, usually &#34;xmb&#34; or &#34;rgui&#34;.&lt;/p&gt;
+&lt;h4&gt;Scan Directory/File won&#39;t add to Playlist&lt;/h4&gt;
+&lt;p&gt;You can try manually editing the Playlist&#39;s file, located in the &lt;span class=&#34;system&#34;&gt;\RetroArch\playlists\&lt;/span&gt; directory and add the game&#39;s Path and CRC32 number.&lt;br&gt;
+Search on &lt;a href=&#34;http://superfamicom.org&#34; target=&#34;_blank&#34;&gt;http://superfamicom.org&lt;/a&gt; for the number.&lt;br&gt;
+&lt;br&gt;
+Example:&lt;br&gt;
+&lt;span class=&#34;system&#34;&gt;C:\Path\To\Final Fantasy V (Japan).sfc&lt;br&gt;
+Final Fantasy V (Japan)&lt;br&gt;
+DETECT&lt;br&gt;
+DETECT&lt;br&gt;
+C1BC267D|crc&lt;br&gt;
+Nintendo - Super Nintendo Entertainment System.lpl&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;Online Updater Not Working&lt;/h4&gt;
+&lt;p&gt;Try running RetroArch as Administrator.&lt;/p&gt;
+&lt;h4&gt;PS1 Game won&#39;t launch&lt;/h4&gt;
+&lt;p&gt;If the game is in CCD+IMG format, download it&#39;s CUE file from &lt;a href=&#34;http://redump.org&#34; target=&#34;_blank&#34;&gt;http://redump.org&lt;/a&gt;.&lt;br&gt;
+Open the CUE file with a text editor. Match the filename and change .bin to .img.&lt;/p&gt;
+&lt;h2&gt;Button Layouts&lt;/h2&gt;
+&lt;div class=&#34;gallery-small&#34;&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/atari-2600.jpg&#34;&gt;&lt;img alt=&#34;Atari 2600&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/atari-2600.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Atari 2600
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/atari-lynx.jpg&#34;&gt;&lt;img alt=&#34;Atari Lynx&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/atari-lynx.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Atari Lynx
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/nes.jpg&#34;&gt;&lt;img alt=&#34;Nintendo&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/nes.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Nintendo
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/snes.jpg&#34;&gt;&lt;img alt=&#34;Super Nintendo&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/snes.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Super Nintendo
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/n64.jpg&#34;&gt;&lt;img alt=&#34;Nintendo 64&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/n64.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Nintendo 64
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/gameboy.jpg&#34;&gt;&lt;img alt=&#34;Game Boy&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/gameboy.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Game Boy
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/gba.jpg&#34;&gt;&lt;img alt=&#34;Game Boy Advance&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/gba.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Game Boy Advance
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/nds.jpg&#34;&gt;&lt;img alt=&#34;Nintendo DS&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/nds.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Nintendo DS
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/playstation.jpg&#34;&gt;&lt;img alt=&#34;PlayStation&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/playstation.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            PlayStation
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/psp.jpg&#34;&gt;&lt;img alt=&#34;PSP&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/psp.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            PSP
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/master-system.jpg&#34;&gt;&lt;img alt=&#34;Master System&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/master-system.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Master System
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/genesis-3-button.jpg&#34;&gt;&lt;img alt=&#34;Genesis&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/genesis-3-button.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Genesis 3 Button
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/genesis-6-button.jpg&#34;&gt;&lt;img alt=&#34;Genesis&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/genesis-6-button.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Genesis 6 Button
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/saturn.jpg&#34;&gt;&lt;img alt=&#34;Saturn&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/saturn.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Saturn
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/dreamcast.jpg&#34;&gt;&lt;img alt=&#34;Dreamcast&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/dreamcast.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Dreamcast
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/3do.jpg&#34;&gt;&lt;img alt=&#34;3DO&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/3do.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            3DO
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/neo-geo.jpg&#34;&gt;&lt;img alt=&#34;Neo Geo&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/neo-geo.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Neo Geo
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure&gt;
+        &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/controllers/neo-geo-pocket.jpg&#34;&gt;&lt;img alt=&#34;Neo Geo Pocket&#34; class=&#34;thumb&#34; height=&#34;150&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/controllers/neo-geo-pocket.jpg&#34;&gt;&lt;/a&gt;
+        &lt;figcaption&gt;
+            Neo Geo Pocket
+        &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;Images source: &lt;a href=&#34;https://github.com/retropie/retropie-setup/wiki/retroarch-configuration&#34; target=&#34;_blank&#34;&gt;https://github.com/retropie/retropie-setup/wiki/retroarch-configuration&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a&gt;http://libretro.com/forums/showthread.php?t=4909&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sega Genesis</title>
+      <link>http://www.powerup.io/gaming/emulators/genesis/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/genesis/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Kega_Fusion&#34;&gt;Kega Fusion&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Kega Fusion is a highly compatible, closed source emulator that supports SG1000, SC3000, Master System, Game Gear, Genesis/Megadrive, SegaCD/MegaCD and 32X. It is no longer in development.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;external text&#34; href=&#34;http://www.carpeludum.com/kega-fusion/&#34; rel=&#34;nofollow&#34;&gt;&lt;b&gt;Download&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;external text&#34; href=&#34;http://www.carpeludum.com/kegafusionfaq/&#34; rel=&#34;nofollow&#34;&gt;Kega Fusion FAQ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There is not much to configure. Any changes can easily be made through the menus.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sega Saturn</title>
+      <link>http://www.powerup.io/gaming/emulators/saturn/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/saturn/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;h2&gt;SSF&lt;/h2&gt;
+&lt;p&gt;SSF is a Windows-based Sega Saturn emulator. Read more info at &lt;a class=&#34;external text&#34; href=&#34;http://segaretro.org/SSF&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;SegaRetro.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;external text&#34; href=&#34;https://ssftribute.csdprojects.co.uk/files/SSF_012_beta_R4.zip&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;Download&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;external text&#34; href=&#34;http://segaretro.org//img/f/f7/SSF_versions_006-011.7z&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Download Older Versions&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&#34;tleft&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/saturn/SSF_Emulator.JPG&#34;&gt;&lt;img alt=&#34;SSF Emulator&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/saturn/SSF_Emulator.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        SSF Emulator
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;Setup&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;external text&#34; href=&#34;http://www.fantasyanime.com/emuhelp/emuhelp_ssf.htm&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Setup Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Region_Code&#34;&gt;Region Code&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;To play Japanese and PAL games you can use any BIOS, but you must set the Area Code in Options.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Virtual_Drive_Software&#34;&gt;Virtual Drive Software&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;SSF requires a virtual drive to read ISO files.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; WinCDEmu and MagicDisc don&#39;t work with SSF.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;a class=&#34;external text&#34; href=&#34;http://dw.cbsi.com/redir?ttag=direct_download_now_link_click&amp;amp;lop=link&amp;amp;ptid=3000&amp;amp;pagetype=product_detail&amp;amp;asid=&amp;amp;astid=2&amp;amp;edid=3&amp;amp;siteid=4&amp;amp;destUrl=http://download.cnet.com/Daemon-Tools-Lite/3001-2094_4-10778842.html?hasJs=n&amp;amp;hlndr=1&amp;amp;dlm=0&amp;amp;onid=2094&amp;amp;oid=3000-2094_4-10778842&amp;amp;rsid=cbsidownloadcomsite&amp;amp;sl=en&amp;amp;sc=us&amp;amp;topicguid=utilities/sys&amp;amp;topicbrcrm=windows%20software&amp;amp;pid=13624972&amp;amp;mfgid=6299817&amp;amp;merid=6299817&amp;amp;ctype=DM&amp;amp;cval=NONE&amp;amp;ltype=dl_dlnow&amp;amp;spi=38227d6999386f887ab5b3da09f64f94&amp;amp;devicetype=desktop&amp;amp;pguid=756d3062947181d181febd39&amp;amp;viewguid=SORo98MSYkSkhnD3WCqSVvZSKip8XwECzb6i&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;Daemon Tools Lite&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/saturn/Daemon_Tools_Lite.JPG&#34;&gt;&lt;img alt=&#34;Daemon Tools Lite&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/saturn/Daemon_Tools_Lite.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Daemon Tools Lite
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+    &lt;li&gt;Be Aware: May contain a form of spyware.&lt;sup class=&#34;reference&#34; id=&#34;cite_ref-1&#34;&gt;&lt;a href=&#34;http://127.0.0.1:8888/wiki/index.php/Saturn_Emulation#cite_note-1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt; Avoid installing the included toolbars and bloatware by pressing Skip.&lt;/li&gt;
+    &lt;li&gt;Block the application and IP addresses &lt;span class=&#34;system&#34;&gt;212.117.184.51&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;212.117.185.149&lt;/span&gt; with Firewall&lt;sup class=&#34;reference&#34; id=&#34;cite_ref-2&#34;&gt;&lt;a href=&#34;http://127.0.0.1:8888/wiki/index.php/Saturn_Emulation#cite_note-2&#34;&gt;[2]&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3&gt;&lt;a class=&#34;external text&#34; href=&#34;http://www.softpedia.com/get/CD-DVD-Tools/CD-DVD-Rip-Other-Tools/Alcohol-52.shtml&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;Alcohol 52% Free Edition&lt;/b&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;Be Aware: The installer forces you to install software called Smart File Advisor, which you can&#39;t uninstall separately. However, there are workarounds below.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;If you are getting a signed driver error:&lt;/b&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Run command prompt as administrator.&lt;/li&gt;
+    &lt;li&gt;Paste the following:
+        &lt;dl&gt;
+            &lt;dd&gt;&lt;span class=&#34;system&#34;&gt;Bcdedit.exe /set nointegritychecks ON&lt;/span&gt;&lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Reinstall and run Alcohol 52%&lt;/li&gt;
+    &lt;li&gt;If all is working, re-enable Digital Signature
+        &lt;dl&gt;
+            &lt;dd&gt;&lt;span class=&#34;system&#34;&gt;Bcdedit.exe /set nointegritychecks OFF&lt;/span&gt;&lt;/dd&gt;
+        &lt;/dl&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;b&gt;To remove Smart File Advisor&lt;/b&gt;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Exit Alcohol 52%&lt;/li&gt;
+    &lt;li&gt;End task Smart File Advisor&lt;/li&gt;
+    &lt;li&gt;Delete the Smart File Advisor folder in Program Files&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Filters&#34;&gt;Filters&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;A pack of 51 filters for smoother graphics.&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        &lt;a class=&#34;external text&#34; href=&#34;https://www.sendspace.com/file/tmzm1e&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Download SSF Filters v0.1.5.4&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Extract to SSF folder&lt;/li&gt;
+    &lt;li&gt;Filter menu option will appear as &lt;class=&#34;system&#34;&gt;Ïëàãèíû&lt;/span&gt;. If it does not appear, go to Options and it should pop up.&lt;/li&gt;
+    &lt;li&gt;Works with SSF Ver0.12 beta R4. May not work with SSF_TestVer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Controls&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/saturn/SSF_Earthworm_Jim.JPG&#34;&gt;&lt;img alt=&#34;SSF running Earthworm Jim 2&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/saturn/SSF_Earthworm_Jim.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        SSF running Earthworm Jim 2
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 class=&#34;magnify&#34;&gt;Keyboard&lt;/h3&gt;
+&lt;p style=&#34;margin-left: 40px;&#34;&gt;A,B,C = Z,X,C on keyboard&lt;br&gt;
+X,Y,Z = S,D,F on keyboard&lt;br&gt;
+Left, Right Trigger = A,G on keyboard&lt;br&gt;
+Start = Enter on keyboard&lt;br&gt;
+F1 = To open the CD-ROM drive&lt;br&gt;
+F2 = To close the CD-ROM drive&lt;br&gt;
+F3 = Reset the Saturn&lt;br&gt;
+F9 = To take a snapshot of the SSF screen&lt;br&gt;
+F11 = Window mode&lt;br&gt;
+F12 = Fullscreen mode&lt;br&gt;
+Q = Field skip +1&lt;br&gt;
+W = Field skip -1&lt;br&gt;
+Esc = Close SSF&lt;/p&gt;
+&lt;h3&gt;Controllers&lt;/h3&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/saturn/Xpadder_DualShock_4.JPG&#34;&gt;&lt;img alt=&#34;Xpadder DualShock 4 for Saturn&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/saturn/Xpadder_DualShock_4.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        Xpadder DualShock 4 for Saturn
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;If your controller isn&#39;t detected by SSF, an easy way around this is to use a free program called &lt;a class=&#34;external text&#34; href=&#34;http://sourceforge.net/projects/xpadder/?source=typ_redirect&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Xpadder&lt;/a&gt;. If Redefine Keys is blank or get stuck press Alt+F4.&lt;/p&gt;
+&lt;h4&gt;&lt;b&gt;DualShock 4&lt;/b&gt;&lt;/h4&gt;
+&lt;p&gt;DualShock 4 doesn&#39;t seem to be detected by SSF.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;external text&#34; href=&#34;https://mega.co.nz/#!wYRBUA5A!xnuezeMvHE_SDKeLoGNNiaD4Ks1eFj4WvBBC-h2TAEg&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;Download&lt;/b&gt;&lt;/a&gt; a pre-configured DualShock 4 Saturn Profile for Xpadder.&lt;/p&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Shortcuts&#34;&gt;Shortcuts&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;To launch from a Windows Shorcut, you will need to create a .bat file that will launch SSF and mount the game in Daemon Tools at the same time:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Make sure SSF&#39;s CD Drive is set to use Daemon Tool&#39;s Virtual Drive&lt;/li&gt;
+    &lt;li&gt;Make sure correct Area Code is set in SSF&lt;/li&gt;
+    &lt;li&gt;Open Notepad&lt;/li&gt;
+    &lt;li&gt;Paste the following (using your own paths):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;@echo off
+cd &#34;C:\Program Files (x86)\Daemon Tools Lite&#34;
+start DTLite.exe
+&#34;C:\Program Files (x86)\Daemon Tools Lite\DTLite.exe&#34; -mount 0, &#34;C:\{Path to Your Game.cue/.mds}&#34;
+&amp;nbsp;
+cd &#34;C:\{Path to SSF Folder}&#34;
+start SSF.exe
+&amp;nbsp;
+exit&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+    &lt;li&gt;Save file as the name of your game, with the .bat extension.&lt;/li&gt;
+    &lt;li&gt;Create a Shortcut from this .bat file and use to easily launch game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;span class=&#34;mw-headline&#34; id=&#34;Troubleshooting&#34;&gt;Troubleshooting&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;SSF won&#39;t maximize but shows up on the taskbar&lt;/b&gt;&lt;br&gt;
+    Delete SSF.ini. Next time you run SSF, it will regenerate the file.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Drive Empty&lt;/b&gt;&lt;br&gt;
+    Use Daemon Tools Lite, set the drive in SSF the drive under Options. Restart program until it works.&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Redefine Keys is blank or get stuck&lt;/b&gt;&lt;br&gt;
+    Press Alt+F4 to exit. Use Xpadder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Super Nintendo</title>
+      <link>http://www.powerup.io/gaming/emulators/snes/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/gaming/emulators/snes/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/snes/Higan_emulator.JPG&#34;&gt;&lt;img class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/snes/Higan_emulator.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        higan running Chrono Trigger
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;higan&lt;/h2&gt;
+&lt;p&gt;higan is an open source, multi-system, cycle-accurate Super Nintendo emulator.&lt;/p&gt;
+&lt;p&gt;It has 3 modes:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Accuracy (use for extreme cases)&lt;/li&gt;
+    &lt;li&gt;Balance (modern PC&#39;s)&lt;/li&gt;
+    &lt;li&gt;Performance (low end PC&#39;s)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://byuu.org/emulation/higan/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download higan&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Special Chips&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Mega Man X2 and X3 will &lt;strong&gt;require cx.rom&lt;/strong&gt; in their game folder.&lt;/li&gt;
+    &lt;li&gt;Super Mario Kart will require the &lt;strong&gt;DSP1b roms&lt;/strong&gt; in its game folder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Settings&lt;/h4&gt;
+&lt;figure class=&#34;tleft&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/snes/Higan_hotkeys.JPG&#34;&gt;&lt;img class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/snes/Higan_hotkeys.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        hotkeys
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;RetroArch bsnes-mercury&lt;/h2&gt;
+&lt;figure class=&#34;tright&#34;&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/gaming/emulators/snes/RetroArch_bsnes-mercury.JPG&#34;&gt;&lt;img class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/gaming/emulators/snes/RetroArch_bsnes-mercury.JPG&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;
+        RetroArch bsnes-mercury core
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;bsnes-mercury is a Super Nintendo emulator that can be used as a libretro core in RetroArch.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&#34;gaming/emulators/retroarch&#34; target=&#34;_blank&#34;&gt;How to Setup RetroArch&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&#34;http://wiki.libretro.com/index.php?title=Bsnes-mercury&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;bsnes-mercury options&lt;/a&gt; on the Libretro Wiki.&lt;/p&gt;
+&lt;h4&gt;Special Chips&lt;/h4&gt;
+&lt;ul&gt;
+    &lt;li&gt;Mega Man X2 and X3 will require &lt;strong&gt;cx.rom&lt;/strong&gt; (rename to cx.data.rom) in the RetroArch system folder.&lt;/li&gt;
+    &lt;li&gt;Super Mario Kart will require the &lt;strong&gt;DSP1b roms&lt;/strong&gt; in the RetroArch system folder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

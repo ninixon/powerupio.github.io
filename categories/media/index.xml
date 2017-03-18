@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media on PowerUp ☆ Video Game &amp; Technology Resource</title>
+    <link>http://www.powerup.io/categories/media/index.xml</link>
+    <description>Recent content in Media on PowerUp ☆ Video Game &amp; Technology Resource</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://www.powerup.io/categories/media/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>FFmpeg</title>
+      <link>http://www.powerup.io/software/media/ffmpeg/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/software/media/ffmpeg/</guid>
+      <description>&lt;!-- Table of Contents --&gt;
+
+&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A complete, cross-platform solution to record, convert and stream audio and video.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://ffmpeg.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Move FFmpeg folder to a location of your choice, such as C:\Program Files\.&lt;/p&gt;
+&lt;h4&gt;Enable FFmpeg Through Command Prompt&lt;/h4&gt;
+&lt;ol&gt;
+    &lt;li&gt;Control Panel → System and Security → System → Advanced system settings&lt;/li&gt;
+    &lt;li&gt;Advanced Tab → Environment Variables → System variables → Path&lt;/li&gt;
+    &lt;li&gt;Add C:\Program Files\FFmpeg\ (Separate multiple paths with semicolon ;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Typing ffmpeg in CMD will now launch without needing to specify a direct path.&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Linux Compile&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install git
+&amp;nbsp;
+sudo apt-get install -y autoconf dh-autoreconf automake build-essential libgnutls28-dev
+&amp;nbsp;
+sudo apt-get install -y libass-dev libfreetype6-dev libsdl1.2-dev libtheora-dev libtool libva-dev libvdpau-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev pkg-config texinfo zlib1g-dev libx264-dev libvorbis-dev libvpx-dev libfdk-aac-dev zlib1g-dev libavcodec-extra openssl libssl-dev
+&amp;nbsp;
+autoreconf -i
+&amp;nbsp;
+mkdir ~/src
+cd ~/src
+git clone http:&amp;#47;&amp;#47;source.ffmpeg.org/git/ffmpeg.git
+cd ffmpeg
+&amp;nbsp;
+./configure &amp;ndash;enable-version3 &amp;ndash;enable-gnutls &amp;ndash;enable-gpl &amp;ndash;enable-nonfree &amp;ndash;disable-shared &amp;ndash;enable-libfdk-aac &amp;ndash;enable-libx264 &amp;ndash;enable-libvorbis &amp;ndash;enable-libvpx &amp;ndash;enable-decoder=png &amp;ndash;enable-encoder=png &amp;ndash;enable-libopenjpeg &amp;ndash;enable-openssl &amp;ndash;enable-postproc &amp;ndash;enable-swscale &amp;ndash;enable-avfilter
+&amp;nbsp;
+make &amp;amp;&amp;amp; make install
+&amp;nbsp;
+mv ~/src/ffmpeg/ffmpeg /user/local/bin
+mv ~/src/ffmpeg/ffprobe /user/local/bin
+mv ~/src/ffmpeg/ffserver /user/local/bin&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Command-line Example&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i &lt;span style=&#34;color: #00cc00;&#34;&gt;[input file]&lt;/span&gt; &lt;span style=&#34;color: #9933cc;&#34;&gt;[video codec] [video encoding] [video bit rate]&lt;/span&gt; &lt;span style=&#34;color: #ff3366;&#34;&gt;[audio codec] [audio encoding] [audio bit rate]&lt;/span&gt; &lt;span style=&#34;color: #ff9900;&#34;&gt;[additional options]&lt;/span&gt; &lt;span style=&#34;color: #00cc00;&#34;&gt;[output file]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;WEBM&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec libvpx -b:v 1500K -crf 10 -pix_fmt yuv420p -deadline good -acodec libvorbis -quality good -cpu-used 0 -b:a 320k -sn -threads 2 -movflags faststart output.webm&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;MP4&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec -crf libx264 18 -qcomp 0.8 -preset medium -acodec aac -strict experimental -b:a 400k -threads 2 output.mp4&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;GIF&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vf palettegen output.png
+ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Giflossy&lt;/h3&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif &amp;amp;&amp;amp; gifsicle -03 &amp;ndash;lossy=80 &amp;ndash;colors 256 -o output.gif input.gif&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Cut&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -ss 00:00:01 -to 00:00:15 -vcodec copy -vcodec copy output.webm&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Scale&lt;/h2&gt;
+&lt;h3&gt;VP8&lt;/h3&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=1280:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Auto&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-1:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;x264&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Aspect must be divisible by 2&lt;/strong&gt;&lt;br&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=&amp;ldquo;trunc(iw/2)*2:trunc(ih/2)*2&amp;rdquo;
+-vf scale=1280:720
+-vf scale=&amp;ldquo;1281:721, crop=1280:720:0:0&amp;rdquo;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Auto&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-2:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Thumbnail&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -y -i input.webm -vf &amp;ldquo;scale=674:-1, crop=500:280&amp;rdquo; -q:v 7 -ss 00:00:01.000 -vframes 1 output.jpg&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MPC-HC</title>
+      <link>http://www.powerup.io/software/media/mpchc/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/software/media/mpchc/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+&lt;h2&gt;Versions&lt;/h2&gt;
+&lt;h3&gt;MPC-HC&lt;/h3&gt;
+&lt;p&gt;Media Player Classic - Home Cinema&lt;br&gt;
+The Default Player&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mpc-hc.org/downloads/&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; (x86 for compatibility with MadVR and xy-SubFilter).&lt;/p&gt;
+&lt;h3&gt;CCCP&lt;/h3&gt;
+&lt;p&gt;Combined Community Codec Pack&lt;br&gt;
+MPC-HC with a collected archive of codecs.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cccp-project.net/&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;KCP&lt;/h3&gt;
+&lt;p&gt;Kawaii Codec Pack&lt;br&gt;
+MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://haruhichan.com/forum/showthread.php?7545-KCP-Kawaii-Codec-Pack&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;DirectShow Components&lt;/h2&gt;
+&lt;p&gt;The following software is included in KCP but can be downloaded and installed separately with default MPC-HC.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.madvr.com/download/&#34; target=&#34;_blank&#34;&gt;madVR&lt;/a&gt; - High quality gpu assisted video renderer.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;https://code.google.com/p/xy-vsfilter/&#34; target=&#34;_blank&#34;&gt;xy-vsfilter / XySubFilter&lt;/a&gt; - Superior subtitle renderer.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;https://code.google.com/p/lavfilters/&#34; target=&#34;_blank&#34;&gt;LAV-Filters&lt;/a&gt; - A package with the fastest and most actively developed DirectShow Media Splitter and Decoders.
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://www.videohelp.com/tools/ReClock-Directshow-Filter&#34; target=&#34;_blank&#34;&gt;ReClock&lt;/a&gt; - Addresses the problem of audio judder by adapting media for smooth playback OR utilized for bit perfect audio.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Other components:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;
+        &lt;a href=&#34;http://haali.su/mkv/&#34; target=&#34;_blank&#34;&gt;Haali Media Splitter&lt;/a&gt; - A powerful decoder and splitter that supports multitrack and multisegment linked as well as concatenated files.
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;The following settings are for very high quality playback and are not recommended for a slow computer or laptop. Settings can easily be lowered for slower hardware. You can monitor the dropped frames and presentation glitches by pressing Ctrl+J to open the madVR playback statistics. You may need to adjust your settings to match your graphics card&#39;s requirements.&lt;/p&gt;
+&lt;div class=&#34;ui-content&#34; data-role=&#34;main&#34;&gt;
+    &lt;div data-role=&#34;collapsible&#34;&gt;
+        &lt;h4&gt;MPC-HC&lt;/h4&gt;
+        &lt;p&gt;This setup is based on a KCP installation.&lt;/p&gt;
+        &lt;p&gt;Image guide in progress.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Custom Monitor Refresh Rate&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CAUTION! Overclocking can damage your monitor.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If your monitor is limited to 60Hz you can overclock or underclock the refresh rate by a multiple of 24 (24Hz, 48Hz, 72Hz) for best playback.&lt;/p&gt;
+&lt;p&gt;Not all Automatic Timings will work with all monitors. You may have to edit the Front porch, Back porch and Sync Width.&lt;/p&gt;
+&lt;h4&gt;Download&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU&#34; target=&#34;_blank&#34;&gt;http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Guide&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://linustechtips.com/main/topic/31526-overclocking-your-monitor-refresh-rate-amd-gpus/&#34; target=&#34;_blank&#34;&gt;http://linustechtips.com/main/topic/31526-overclocking-your-monitor-refresh-rate-amd-gpus/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>mpv</title>
+      <link>http://www.powerup.io/software/media/mpv/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/software/media/mpv/</guid>
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;p&gt;Mpv is a free, open-source, media player. It needs a video in order to run and will not start by simply launching the program.&lt;br&gt;
+Set your video default programs to use mpv and they will automatically use the player when opened.&lt;/p&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://mpv.io/installation&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;a href=&#34;http://mpv.io/installation&#34;&gt;http://mpv.io/installation&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Windows&lt;/h4&gt;
+&lt;p&gt;Unzip and move the mpv folder to your C:\Program Files.&lt;/p&gt;
+&lt;h2&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;There is no graphical interface, you will need to configure the settings using a file.&lt;/p&gt;
+&lt;p&gt;Using a text editor, create a file named &lt;strong&gt;config&lt;/strong&gt; (with no file extension, All types (&lt;em&gt;.&lt;/em&gt;)) in the directory C:\Users[USER]\AppData\Roaming\mpv&lt;/p&gt;
+&lt;p&gt;A basic high-quality playback configuration:&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;#35; VIDEO &amp;#35;
+vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
+hwdec=auto-copy
+geometry=50%:50%
+priority=high
+osd-fractions
+demuxer-readahead-secs=5.0
+cache-default=1048576
+cache-file=TMP&amp;lt;
+cache-seek-min=1024
+&amp;nbsp;
+&amp;#35; AUDIO &amp;#35;
+ao=wasapi
+ad-lavc-downmix=yes
+audio-channels=2
+af-defaults=volume=replaygain-track:replaygain-clip=yes:detach
+af-add=rubberband,volume
+af=bs2b
+alang=en,eng,English
+&amp;nbsp;
+&amp;#35; SUBTITLE &amp;#35;
+no-sub
+slang=en,eng,English
+ass-force-style=Kerning=yes
+demuxer-mkv-subtitle-preroll
+&amp;nbsp;
+&amp;#35; MISC &amp;#35;
+bar-height-inactive=0
+screenshot-format=png
+screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
+screenshot-tag-colorspace=yes
+loop=inf&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Low Quality&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl:deband
+hwdec=auto&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Medium Quality&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq
+hwdec=auto&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;High Quality&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft
+hwdec=auto&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Very High Quality&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;Ultra Quality&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

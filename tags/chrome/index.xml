@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chrome on PowerUp ☆ Video Game &amp; Technology Resource</title>
+    <link>http://www.powerup.io/tags/chrome/index.xml</link>
+    <description>Recent content in Chrome on PowerUp ☆ Video Game &amp; Technology Resource</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://www.powerup.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Chrome</title>
+      <link>http://www.powerup.io/software/web/chrome/</link>
+      <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
+      
+      <guid>http://www.powerup.io/software/web/chrome/</guid>
+      <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
+    /* &amp;mdash; 4 Column &amp;mdash; */
+    .column-4 .img-wrapper {
+        min-height: 100px !important;
+        line-height: 100px !important;
+        margin: 0 0 0.5em 0 !important;
+    }&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/* --- 5 Column --- */
+.column-5 {
+    text-align: center !important;
+}
+.column-5 div.item-container img {
+    max-height: 70px !important;
+    max-width: 70px !important;
+}
+
+.column-5 .img-wrapper {
+    max-height: 70px !important;
+    min-height: 70px !important;
+    line-height: 70px !important;
+    margin: 0 !important;
+}
+
+.column-5 .title {
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    line-height: 1.2em !important;
+    padding: 1.5em 0 0.5em 0 !important;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/style&gt;
+&lt;div class=&#34;wiki column-4&#34;&gt;
+&lt;h2&gt;Builds&lt;/h2&gt;
+&lt;div class=&#34;item-container&#34;&gt;
+    &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+        &lt;a href=&#34;https://www.google.com/chrome/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Chrome logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/web/chrome/Chrome_logo.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;
+        &lt;a href=&#34;https://www.google.com/chrome/&#34; target=&#34;_blank&#34;&gt;Chrome&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+        Stable release.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item-container&#34;&gt;
+    &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+        &lt;a href=&#34;https://www.google.com/chrome/browser/beta.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Chrome Beta logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/web/chrome/Chrome_Beta_logo.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;
+        &lt;a href=&#34;https://www.google.com/chrome/browser/beta.html&#34; target=&#34;_blank&#34;&gt;Beta&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+        Try out new features early.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item-container&#34;&gt;
+    &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+        &lt;a href=&#34;https://www.google.com/chrome/browser/canary.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Chrome Canary logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/web/chrome/Chrome_Canary_logo.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;
+        &lt;a href=&#34;https://www.google.com/chrome/browser/canary.html&#34; target=&#34;_blank&#34;&gt;Canary&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+        An experimental developer channel.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;item-container&#34;&gt;
+    &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+        &lt;a href=&#34;http://chromium.woolyss.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Chromium logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/web/chrome/Chromium_logo.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;title&#34;&gt;
+        &lt;a href=&#34;http://chromium.woolyss.com/&#34; target=&#34;_blank&#34;&gt;Chromium&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;description&#34;&gt;
+        Open-source project from which Google draws its source code.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Recommended Extensions&lt;/h2&gt;
+&lt;div class=&#34;column-5&#34;&gt;
+    &lt;div class=&#34;item-container&#34;&gt;
+        &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+            &lt;a href=&#34;https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ublock.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;
+            &lt;a href=&#34;https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en&#34; target=&#34;_blank&#34;&gt;uBlock Origin&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;description&#34;&gt;
+            Ad Blocker that&amp;rsquo;s easy on memory and CPU, yet can load thousands more filters than other popular blockers.
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item-container&#34;&gt;
+        &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+            &lt;a href=&#34;http://www.eff.org/https-everywhere%20&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/httpseverywhere.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;
+            &lt;a href=&#34;http://www.eff.org/https-everywhere%20&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;HTTPS Everywhere&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;description&#34;&gt;
+            Browser extension that encrypts your communications with many major websites.
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item-container&#34;&gt;
+        &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+            &lt;a href=&#34;https://www.eff.org/privacybadger&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;privacybadger&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/privacybadger.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;
+            &lt;a href=&#34;https://www.eff.org/privacybadger&#34; target=&#34;_blank&#34;&gt;Privacy Badger&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;description&#34;&gt;
+            Automatically analyze and block any tracker or ad that violates the principle of user consent.
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item-container&#34;&gt;
+        &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+            &lt;a href=&#34;https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?hl=en&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;umatrix&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/umatrix.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;
+            &lt;a href=&#34;https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?hl=en&#34; target=&#34;_blank&#34;&gt;uMatrix&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;description&#34;&gt;
+            A point-and-click matrix-based firewall, with many privacy-enhancing tools.
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;item-container&#34;&gt;
+        &lt;div class=&#34;img-wrapper img-box&#34;&gt;
+            &lt;a href=&#34;https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Tapermonkey&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/Tapermonkey.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;
+            &lt;a href=&#34;https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en&#34; target=&#34;_blank&#34;&gt;Tapermonkey&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;description&#34;&gt;
+            The most popular userscript manager for Chrome.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

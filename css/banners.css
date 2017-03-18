@@ -1,0 +1,127 @@
+/* ---- Simple ---- */
+.sitemap .banner h1,
+.about .banner h1,
+.privacy .banner h1,
+/* Gaming */
+.gaming .banner h1,
+.accessories .banner h1,
+.classics .banner h1,
+.collectible .banner h1,
+.emulators .banner h1,
+.pc .banner h1,
+.console-gamepads .banner h1,
+.pcgamepads .banner h1,
+.rarest-games .banner h1,
+/* Software */
+.software .banner h1,
+.apps .banner h1,
+.media .banner h1,
+.os .banner h1,
+.web .banner h1,
+.windows-software .banner h1,
+.macos-software .banner h1,
+.linux-software .banner h1,
+/* Tech */
+.tech .banner h1,
+.peripherals .banner h1,
+.keyboards .banner h1,
+.mice .banner h1
+{
+    margin-top: 0;
+    margin: 1.3em 0 0.5em 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: 600;
+    line-height: 1em;
+    color: #27282d;
+    border-bottom: 0;
+    background: none !important;
+}
+
+/* ---- Category Simple ---- */
+.sitemap .banner h1,
+.about .banner h1,
+.privacy .banner h1,
+/* Gaming */
+.gaming .banner h1,
+.accessories .banner h1,
+.classics .banner h1,
+.collectible .banner h1,
+.emulators .banner h1,
+.pc .banner h1,
+/* Software */
+.software .banner h1,
+.apps .banner h1,
+.media .banner h1,
+.os .banner h1,
+.web .banner h1,
+/* Tech */
+.tech .banner h1,
+.peripherals .banner h1
+{
+    font-size: 2em;
+    margin: 1.3em 0 0.8em 0;
+}
+
+
+/* ---- Pages ---- */
+
+/* PlayStation 1 Top 100 */
+.ps1-100 .banner {
+    margin-top: -2em;
+    padding: 0.8em 0;
+    background-color: #646264;
+    background-image: url("/img/banner/gaming/heading-ps1-100.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 215px) 50%;
+}
+.ps1-100 .banner h1 {
+    text-align: center;
+    border-bottom: 0;
+    font-family: 'Play', Hind, sans-serif;
+    color: #fff;
+    font-size: 2.8em;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+
+/* Super Nintendo Top 100 */
+.snes-100 .banner {
+    margin-top: -2em;
+    padding: 0.8em 0;
+    background-color: #5b3896;
+    background-image: url("/img/banner/gaming/heading-snes-100.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 280px) 50%;
+}
+.snes-100 .banner h1 {
+    text-align: center;
+    border-bottom: 0;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 2.8em;
+    line-height: 1em;
+}
+
+
+/* Super Famicom Top 100 */
+.sfc-100 .banner {
+    margin-top: -2em;
+    padding: 0.8em 0;
+    background-color: #000;
+    background-image: url("/img/banner/gaming/heading-sfc-100.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 280px) 50%;
+}
+.sfc-100 .banner h1 {
+    text-align: center;
+    border-bottom: 0;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 2.8em;
+    line-height: 1em;
+}
