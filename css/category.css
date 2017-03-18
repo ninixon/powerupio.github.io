@@ -2,27 +2,26 @@
 .category {
 	margin: 1em 0;
 }
-
 .category ul {
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 .category ul li {
-    display: inline-block;
-    margin: 1em 1em 3em 1em;
-    width: 190px;
-    height: 190px;
-    vertical-align: top;
-    text-align: center;
+  display: inline-block;
+  margin: 1em 1em 3em 1em;
+  width: 190px;
+  height: 190px;
+  vertical-align: top;
+  text-align: center;
 }
 
 /* Thumb Title */
 .category ul li a {
-    color: #000;
+  color: #000;
 }
 .category ul li a:hover {
-    color: #1771f9;
+  color: #1771f9;
 }
 .category .thumb-title {
 	margin: 0.4em 0 1em 0;
@@ -30,30 +29,29 @@
 
 /* Thumb hover, highlight Title */
 .category ul li a:hover .thumb-title a, .category ul li:hover .thumb-title {
-    color:#1771f9;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+  color:#1771f9;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /* Thumb Image */
 .category .thumb-wrapper {
 	position: relative;
-    width: 190px;
-    height: 190px;
+  width: 190px;
+  height: 190px;
 	overflow: hidden;
 }
 
 .category .thumb-wrapper img {
-    position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
-    max-width: 999px;
-    min-height: 190px;
-    max-height: 190px;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  max-width: 999px;
+  min-height: 190px;
+  max-height: 190px;
 }
-
