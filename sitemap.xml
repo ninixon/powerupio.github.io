@@ -272,12 +272,6 @@
   </url>
   
   <url>
-    <loc>http://www.powerup.io/tags/chrome/</loc>
-    <lastmod>2017-03-14T15:01:02-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.powerup.io/categories/classics/</loc>
     <lastmod>2017-03-14T15:01:02-07:00</lastmod>
     <priority>0</priority>
@@ -297,12 +291,6 @@
   
   <url>
     <loc>http://www.powerup.io/tags/featured/</loc>
-    <lastmod>2017-03-14T15:01:02-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.powerup.io/tags/firefox/</loc>
     <lastmod>2017-03-14T15:01:02-07:00</lastmod>
     <priority>0</priority>
   </url>
