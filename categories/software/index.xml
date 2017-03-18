@@ -379,6 +379,9 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
       <guid>http://www.powerup.io/software/web/chrome/</guid>
       <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
     /* &amp;mdash; 4 Column &amp;mdash; */
+    .column-4 {
+        text-align: center !important;
+    }&lt;br /&gt;
     .column-4 .img-wrapper {
         min-height: 100px !important;
         line-height: 100px !important;
@@ -529,7 +532,6 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
 &lt;div class=&#34;wiki&#34;&gt;
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
-
 &lt;p&gt;A complete, cross-platform solution to record, convert and stream audio and video.&lt;/p&gt;
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://ffmpeg.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
@@ -542,7 +544,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
 &lt;/ol&gt;
 &lt;p&gt;Typing ffmpeg in CMD will now launch without needing to specify a direct path.&lt;/p&gt;
 
-&lt;p&gt;&lt;h2&gt;Linux Compile&lt;/h2&gt;
+&lt;h2&gt;Linux Compile&lt;/h2&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install git
 &amp;nbsp;
 sudo apt-get install -y autoconf dh-autoreconf automake build-essential libgnutls28-dev
@@ -556,52 +558,52 @@ cd ~/src
 git clone http:&amp;#47;&amp;#47;source.ffmpeg.org/git/ffmpeg.git
 cd ffmpeg
 &amp;nbsp;
-./configure &amp;ndash;enable-version3 &amp;ndash;enable-gnutls &amp;ndash;enable-gpl &amp;ndash;enable-nonfree &amp;ndash;disable-shared &amp;ndash;enable-libfdk-aac &amp;ndash;enable-libx264 &amp;ndash;enable-libvorbis &amp;ndash;enable-libvpx &amp;ndash;enable-decoder=png &amp;ndash;enable-encoder=png &amp;ndash;enable-libopenjpeg &amp;ndash;enable-openssl &amp;ndash;enable-postproc &amp;ndash;enable-swscale &amp;ndash;enable-avfilter
+./configure --enable-version3 --enable-gnutls --enable-gpl --enable-nonfree --disable-shared --enable-libfdk-aac --enable-libx264 --enable-libvorbis --enable-libvpx --enable-decoder=png --enable-encoder=png --enable-libopenjpeg --enable-openssl --enable-postproc --enable-swscale --enable-avfilter
 &amp;nbsp;
 make &amp;amp;&amp;amp; make install
 &amp;nbsp;
 mv ~/src/ffmpeg/ffmpeg /user/local/bin
 mv ~/src/ffmpeg/ffprobe /user/local/bin
-mv ~/src/ffmpeg/ffserver /user/local/bin&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+mv ~/src/ffmpeg/ffserver /user/local/bin&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;Command-line Example&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i &lt;span style=&#34;color: #00cc00;&#34;&gt;[input file]&lt;/span&gt; &lt;span style=&#34;color: #9933cc;&#34;&gt;[video codec] [video encoding] [video bit rate]&lt;/span&gt; &lt;span style=&#34;color: #ff3366;&#34;&gt;[audio codec] [audio encoding] [audio bit rate]&lt;/span&gt; &lt;span style=&#34;color: #ff9900;&#34;&gt;[additional options]&lt;/span&gt; &lt;span style=&#34;color: #00cc00;&#34;&gt;[output file]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;Command-line Parameters&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i [input file] [video codec] [video encoding] [video bit rate] [audio codec] [audio encoding] [audio bit rate] [additional options] [output file]&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;WEBM&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec libvpx -b:v 1500K -crf 10 -pix_fmt yuv420p -deadline good -acodec libvorbis -quality good -cpu-used 0 -b:a 320k -sn -threads 2 -movflags faststart output.webm&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;WEBM&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec libvpx -b:v 1500K -crf 10 -pix_fmt yuv420p -deadline good -acodec libvorbis -quality good -cpu-used 0 -b:a 320k -sn -threads 2 -movflags faststart output.webm&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;MP4&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec -crf libx264 18 -qcomp 0.8 -preset medium -acodec aac -strict experimental -b:a 400k -threads 2 output.mp4&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;MP4&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec -crf libx264 18 -qcomp 0.8 -preset medium -acodec aac -strict experimental -b:a 400k -threads 2 output.mp4&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;GIF&lt;/h2&gt;
+&lt;h2&gt;GIF&lt;/h2&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vf palettegen output.png
-ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h3&gt;Giflossy&lt;/h3&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif &amp;amp;&amp;amp; gifsicle -03 &amp;ndash;lossy=80 &amp;ndash;colors 256 -o output.gif input.gif&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;Giflossy&lt;/h3&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif &amp;amp;&amp;amp; gifsicle -03 --lossy=80 --colors 256 -o output.gif input.gif&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;Cut&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -ss 00:00:01 -to 00:00:15 -vcodec copy -vcodec copy output.webm&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;Cut&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -ss 00:00:01 -to 00:00:15 -vcodec copy -vcodec copy output.webm&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;Scale&lt;/h2&gt;
+&lt;h2&gt;Scale&lt;/h2&gt;
 &lt;h3&gt;VP8&lt;/h3&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=1280:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=1280:720&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Auto&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-1:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h4&gt;Auto&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-1:720&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h3&gt;x264&lt;/h3&gt;
+&lt;h3&gt;x264&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Aspect must be divisible by 2&lt;/strong&gt;&lt;br&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=&amp;ldquo;trunc(iw/2)*2:trunc(ih/2)*2&amp;rdquo;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=&#34;trunc(iw/2)*2:trunc(ih/2)*2&#34;
 -vf scale=1280:720
--vf scale=&amp;ldquo;1281:721, crop=1280:720:0:0&amp;rdquo;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+-vf scale=&#34;1281:721, crop=1280:720:0:0&#34;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Auto&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-2:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h4&gt;Auto&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-2:720&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;Thumbnail&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -y -i input.webm -vf &amp;ldquo;scale=674:-1, crop=500:280&amp;rdquo; -q:v 7 -ss 00:00:01.000 -vframes 1 output.jpg&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;h2&gt;Thumbnail&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -y -i input.webm -vf &#34;scale=674:-1, crop=500:280&#34; -q:v 7 -ss 00:00:01.000 -vframes 1 output.jpg&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -613,6 +615,9 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
       <guid>http://www.powerup.io/software/web/firefox/</guid>
       <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
     /* &amp;mdash; 4 Column &amp;mdash; */
+    .column-4 {
+        text-align: center !important;
+    }&lt;br /&gt;
     .column-4 .img-wrapper {
         min-height: 100px !important;
         line-height: 100px !important;
@@ -621,7 +626,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
 
 &lt;pre&gt;&lt;code&gt;/* --- 5 Column --- */
 .column-5 {
-    text-align: center;
+    text-align: center !important;
 }
 .column-5 div.item-container img {
     max-height: 70px !important;
@@ -803,37 +808,35 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
       
       <guid>http://www.powerup.io/software/os/linux/</guid>
       <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
-    .linux .column-5 .img-wrapper {
+    .column-5 {
+      text-align: center !important;
+    }
+    .column-5 .img-wrapper {
         min-height: 70px !important;
         line-height: 70px !important;
         margin: 0;
-    }&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.linux .column-5 div.item-container img {
-    max-height: 70px !important;
-    width: auto;
-    max-width: 70px !important;
-}
-
-.linux .column-5 .title {
-    font-size: 1.2em !important;
-    font-weight: 700 !important;
-    line-height: 1.2em !important;
-    padding: 0.8em 0 0.6em 0 !important;
-}
-
-.linux .column-5 .description {
-    font-size: 0.8em;line-height: 1.4em !important;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/style&gt;
-&lt;div class=&#34;linux wiki&#34;&gt;
+    }
+    .column-5 .item-container img {
+        max-height: 70px !important;
+        width: auto !important;
+        max-width: 70px !important;
+    }
+    .column-5 .title {
+        font-size: 1.2em !important;
+        font-weight: 700 !important;
+        line-height: 1.2em !important;
+        padding: 0.8em 0 0.6em 0 !important;
+    }
+    .column-5 .description {
+        font-size: 0.8em;line-height: 1.4em !important;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;wiki&#34;&gt;
 &lt;h2&gt;Distributions&lt;/h2&gt;
 &lt;div class=&#34;column-5&#34;&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.debian.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/debian.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.debian.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/debian.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.debian.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Debian&lt;/a&gt;
@@ -844,7 +847,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://www.ubuntu.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Beta logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/ubuntu.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://www.ubuntu.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Beta logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/ubuntu.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.ubuntu.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Ubuntu&lt;/a&gt;
@@ -855,7 +858,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.linuxmint.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Dev logo&#34; class=&#34;multithumb&#34; height=&#34;100&#34; src=&#34;http://www.powerup.io/img/software/os/linux/mint.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.linuxmint.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Dev logo&#34; height=&#34;100&#34; src=&#34;http://www.powerup.io/img/software/os/linux/mint.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.linuxmint.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Mint&lt;/a&gt;
@@ -866,7 +869,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.redhat.com&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/redhat.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.redhat.com&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/redhat.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.redhat.com&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Red Hat&lt;/a&gt;
@@ -877,7 +880,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://getfedora.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/fedora.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://getfedora.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/fedora.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://getfedora.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Fedora&lt;/a&gt;
@@ -890,7 +893,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.centos.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/centos.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.centos.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/centos.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.centos.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;CentOS&lt;/a&gt;
@@ -901,7 +904,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.opensuse.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/opensuse.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.opensuse.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/opensuse.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.opensuse.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;openSUSE&lt;/a&gt;
@@ -912,7 +915,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://www.pclinuxos.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/pclinuxos.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://www.pclinuxos.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/pclinuxos.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.pclinuxos.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;PCLinuxOS&lt;/a&gt;
@@ -923,7 +926,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.mageia.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/mageia.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.mageia.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/mageia.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.mageia.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Mageia&lt;/a&gt;
@@ -934,7 +937,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.archlinux.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/arch.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.archlinux.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/arch.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.archlinux.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Arch&lt;/a&gt;
@@ -945,7 +948,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.gentoo.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/gentoo.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.gentoo.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/gentoo.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.gentoo.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Gentoo&lt;/a&gt;
@@ -956,7 +959,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://www.slackware.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/slackware.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://www.slackware.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/slackware.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.slackware.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Slackware&lt;/a&gt;
@@ -967,7 +970,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://puppylinux.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/puppy.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://puppylinux.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/puppy.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://puppylinux.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Puppy&lt;/a&gt;
@@ -978,7 +981,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.dragora.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/dragora.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.dragora.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/dragora.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.dragora.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Dragora&lt;/a&gt;
@@ -989,7 +992,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://www.android-x86.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/android-x86.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://www.android-x86.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/android-x86.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.android-x86.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Android-x86&lt;/a&gt;
@@ -2657,7 +2660,6 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
       
       <guid>http://www.powerup.io/software/web/vboxserver/</guid>
       <description>&lt;div class=&#34;wiki&#34;&gt;
-
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
 
@@ -2736,29 +2738,29 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
 &lt;h2&gt;Website Setup&lt;/h2&gt;
 &lt;h3&gt;Apache Example&lt;/h3&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;&amp;lt;VirtualHost *:80&amp;gt;
- ServerAdmin webmaster@example.com
- ServerName 127.0.0.1:8888
- DocumentRoot /var/www/example/public/
- 
-      Options Indexes FollowSymLinks MultiViews
-      AllowOverride All
-      Order allow,deny
-      allow from all
- 
- ErrorLog /var/www/example/logs/error.log
- CustomLog /var/www/example/logs/access.log combined
+    ServerAdmin webmaster@example.com
+    ServerName 127.0.0.1:8888
+    DocumentRoot /var/www/example/public/
+
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+
+    ErrorLog /var/www/example/logs/error.log
+    CustomLog /var/www/example/logs/access.log combined
 &amp;lt;/VirtualHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;Nginx Example&lt;/h3&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;server {
-listen 80;
+    listen 80;
 
-server_name 127.0.0.1:8888;
-root /var/www/example/public;
-index index.html index.htm index.php;
+    server_name 127.0.0.1:8888;
+    root /var/www/example/public;
+    index index.html index.htm index.php;
 
-access_log /var/log/nginx/localhost.access_log;
-error_log /var/log/nginx/localhost.error_log info;
+    access_log /var/log/nginx/localhost.access_log;
+    error_log /var/log/nginx/localhost.error_log info;
 }&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Multiple Sites&lt;/h4&gt;
@@ -2843,7 +2845,7 @@ Change root password as required.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;h3&gt;Debian&lt;/h3&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/logos/multiplat/debian.png&#34;&gt;&lt;img alt=&#34;Debian Linux&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/debian.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/logos/multiplat/debian.png&#34;&gt;&lt;img alt=&#34;Debian Linux&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/debian.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         Debian Linux
     &lt;/figcaption&gt;
@@ -2880,7 +2882,7 @@ Login with new username.&lt;/p&gt;
 
 &lt;h2&gt;Apache&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/apache.png&#34;&gt;&lt;img alt=&#34;Apache HTTP Server&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/apache.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/apache.png&#34;&gt;&lt;img alt=&#34;Apache HTTP Server&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/apache.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         Apache HTTP Server
     &lt;/figcaption&gt;
@@ -2891,19 +2893,19 @@ Login with new username.&lt;/p&gt;
 &lt;h3&gt;Virtual Hosts&lt;/h3&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo nano /etc/apache2/sites-available/example.com.conf&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;lt;VirtualHost *:80&amp;gt; 
- ServerAdmin webmaster@example.com 
- ServerName example.com 
- ServerAlias www.example.com 
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;lt;VirtualHost *:80&amp;gt;
+ ServerAdmin webmaster@example.com
+ ServerName example.com
+ ServerAlias www.example.com
  DocumentRoot /var/www/example.com/public/     
- &amp;lt;Directory /var/www/example.com&amp;gt; 
-      Options Indexes FollowSymLinks MultiViews 
-      AllowOverride All 
-      Order allow,deny 
+ &amp;lt;Directory /var/www/example.com&amp;gt;
+      Options Indexes FollowSymLinks MultiViews
+      AllowOverride All
+      Order allow,deny
       allow from all     
-      &amp;lt;/Directory&amp;gt; 
+      &amp;lt;/Directory&amp;gt;
 ErrorLog /var/www/example.com/logs/error.log     
-CustomLog /var/www/example.com/logs/access.log combined 
+CustomLog /var/www/example.com/logs/access.log combined
 &amp;lt;/VirtualHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Disable Default Virtual Host&lt;/p&gt;
@@ -2922,7 +2924,7 @@ sudo systemctl restart apache2&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;Nginx&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/nginx.png&#34;&gt;&lt;img alt=&#34;Nginx HTTP Server&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/nginx.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/nginx.png&#34;&gt;&lt;img alt=&#34;Nginx HTTP Server&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/nginx.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         Nginx HTTP Server
     &lt;/figcaption&gt;
@@ -2973,7 +2975,7 @@ sudo apt-get remove apache2&lt;/code&gt;&lt;/pre&gt;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include /etc/nginx/fastcgi.conf;
     }
-    # caching of files 
+    # caching of files
     location ~* \.(ico|pdf|flv)$ {
         expires 1y;
     }
@@ -3020,15 +3022,15 @@ location /phpMyAdmin {
 
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;http {
 [...]
-gzip on;
-gzip_disable &#34;msie6&#34;;
-gzip_vary on;
-gzip_proxied any;
-gzip_comp_level 6;
-gzip_min_length 1100;
-gzip_buffers 16 8k;
-gzip_http_version 1.1;
-gzip_types text/plain text/css application/json application/javascript text/xml$
+    gzip on;
+    gzip_disable &#34;msie6&#34;;
+    gzip_vary on;
+    gzip_proxied any;
+    gzip_comp_level 6;
+    gzip_min_length 1100;
+    gzip_buffers 16 8k;
+    gzip_http_version 1.1;
+    gzip_types text/plain text/css application/json application/javascript text/xml$
 [...]
 }&lt;/code&gt;&lt;/pre&gt;
 
@@ -3037,11 +3039,11 @@ gzip_types text/plain text/css application/json application/javascript text/xml$
 
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;http {
 [...]
-fastcgi_buffers 8 16k;
-fastcgi_buffer_size 32k;
-fastcgi_connect_timeout 300;
-fastcgi_send_timeout 300;
-fastcgi_read_timeout 300;
+    fastcgi_buffers 8 16k;
+    fastcgi_buffer_size 32k;
+    fastcgi_connect_timeout 300;
+    fastcgi_send_timeout 300;
+    fastcgi_read_timeout 300;
 [...]&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Restart Nginx to load changes&lt;/p&gt;
@@ -3049,7 +3051,7 @@ fastcgi_read_timeout 300;
 
 &lt;h2&gt;PHP&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/logos/multiplat/php.png&#34;&gt;&lt;img alt=&#34;PHP&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/php.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/logos/multiplat/php.png&#34;&gt;&lt;img alt=&#34;PHP&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/php.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         PHP
     &lt;/figcaption&gt;
@@ -3136,7 +3138,7 @@ deb-src http://security.debian.org/ jessie/updates main contrib non-free&lt;/cod
 
 &lt;p&gt;&lt;h2&gt;MySQL&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/mysql.png&#34;&gt;&lt;img alt=&#34;MySQL Database Management&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/mysql.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/mysql.png&#34;&gt;&lt;img alt=&#34;MySQL Database Management&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/mysql.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         MySQL Database Management
     &lt;/figcaption&gt;
@@ -3154,7 +3156,7 @@ Reload privilige tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Enter mysql root password&lt;/p&gt;
 &lt;h2&gt;phpMyAdmin&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/phpmyadmin.png&#34;&gt;&lt;img alt=&#34;phpMyAdmin&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/phpmyadmin.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/phpmyadmin.png&#34;&gt;&lt;img alt=&#34;phpMyAdmin&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/phpmyadmin.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         phpMyAdmin
     &lt;/figcaption&gt;
@@ -3170,7 +3172,7 @@ Reload privilige tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Change KeepAlive On to Off&lt;/p&gt;
 &lt;h2&gt;Fail2ban&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/fail2ban.png&#34;&gt;&lt;img alt=&#34;Fail2ban&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/fail2ban.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/fail2ban.png&#34;&gt;&lt;img alt=&#34;Fail2ban&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/fail2ban.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         Fail2ban
     &lt;/figcaption&gt;

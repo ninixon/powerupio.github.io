@@ -383,7 +383,7 @@ Change root password as required.</p>
 <p></p>
 <h3>Debian</h3>
 <figure class="tright" style="width: 200px;">
-    <a href="#" data-featherlight="/img/software/logos/multiplat/debian.png"><img alt="Debian Linux" class="thumb" height="115" src="/img/software/logos/multiplat/debian.png" width="250"></a>
+    <a href="#" class="thumb" data-featherlight="/img/software/logos/multiplat/debian.png"><img alt="Debian Linux" class="thumb" height="115" src="/img/software/logos/multiplat/debian.png" width="250"></a>
     <figcaption>
         Debian Linux
     </figcaption>
@@ -420,7 +420,7 @@ Login with new username.</p>
 
 <h2>Apache</h2>
 <figure class="tright" style="width: 200px;">
-    <a href="#" data-featherlight="/img/software/web/webserver/apache.png"><img alt="Apache HTTP Server" class="thumb" height="115" src="/img/software/web/webserver/apache.png" width="250"></a>
+    <a href="#" class="thumb" data-featherlight="/img/software/web/webserver/apache.png"><img alt="Apache HTTP Server" class="thumb" height="115" src="/img/software/web/webserver/apache.png" width="250"></a>
     <figcaption>
         Apache HTTP Server
     </figcaption>
@@ -431,19 +431,19 @@ Login with new username.</p>
 <h3>Virtual Hosts</h3>
 <pre><code data-language="shell">sudo nano /etc/apache2/sites-available/example.com.conf</code></pre>
 
-<pre><code data-language="generic">&lt;VirtualHost *:80&gt; 
- ServerAdmin webmaster@example.com 
- ServerName example.com 
- ServerAlias www.example.com 
+<pre><code data-language="generic">&lt;VirtualHost *:80&gt;
+ ServerAdmin webmaster@example.com
+ ServerName example.com
+ ServerAlias www.example.com
  DocumentRoot /var/www/example.com/public/     
- &lt;Directory /var/www/example.com&gt; 
-      Options Indexes FollowSymLinks MultiViews 
-      AllowOverride All 
-      Order allow,deny 
+ &lt;Directory /var/www/example.com&gt;
+      Options Indexes FollowSymLinks MultiViews
+      AllowOverride All
+      Order allow,deny
       allow from all     
-      &lt;/Directory&gt; 
+      &lt;/Directory&gt;
 ErrorLog /var/www/example.com/logs/error.log     
-CustomLog /var/www/example.com/logs/access.log combined 
+CustomLog /var/www/example.com/logs/access.log combined
 &lt;/VirtualHost&gt;</code></pre>
 
 <p>Disable Default Virtual Host</p>
@@ -462,7 +462,7 @@ sudo systemctl restart apache2</code></pre>
 
 <h2>Nginx</h2>
 <figure class="tright" style="width: 200px;">
-    <a href="#" data-featherlight="/img/software/web/webserver/nginx.png"><img alt="Nginx HTTP Server" class="thumb" height="115" src="/img/software/web/webserver/nginx.png" width="250"></a>
+    <a href="#" class="thumb" data-featherlight="/img/software/web/webserver/nginx.png"><img alt="Nginx HTTP Server" class="thumb" height="115" src="/img/software/web/webserver/nginx.png" width="250"></a>
     <figcaption>
         Nginx HTTP Server
     </figcaption>
@@ -513,7 +513,7 @@ sudo apt-get remove apache2</code></pre>
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include /etc/nginx/fastcgi.conf;
     }
-    # caching of files 
+    # caching of files
     location ~* \.(ico|pdf|flv)$ {
         expires 1y;
     }
@@ -560,15 +560,15 @@ location /phpMyAdmin {
 
 <pre><code data-language="shell">http {
 [...]
-gzip on;
-gzip_disable "msie6";
-gzip_vary on;
-gzip_proxied any;
-gzip_comp_level 6;
-gzip_min_length 1100;
-gzip_buffers 16 8k;
-gzip_http_version 1.1;
-gzip_types text/plain text/css application/json application/javascript text/xml$
+    gzip on;
+    gzip_disable "msie6";
+    gzip_vary on;
+    gzip_proxied any;
+    gzip_comp_level 6;
+    gzip_min_length 1100;
+    gzip_buffers 16 8k;
+    gzip_http_version 1.1;
+    gzip_types text/plain text/css application/json application/javascript text/xml$
 [...]
 }</code></pre>
 
@@ -577,11 +577,11 @@ gzip_types text/plain text/css application/json application/javascript text/xml$
 
 <pre><code data-language="generic">http {
 [...]
-fastcgi_buffers 8 16k;
-fastcgi_buffer_size 32k;
-fastcgi_connect_timeout 300;
-fastcgi_send_timeout 300;
-fastcgi_read_timeout 300;
+    fastcgi_buffers 8 16k;
+    fastcgi_buffer_size 32k;
+    fastcgi_connect_timeout 300;
+    fastcgi_send_timeout 300;
+    fastcgi_read_timeout 300;
 [...]</code></pre>
 
 <p>Restart Nginx to load changes</p>
@@ -589,7 +589,7 @@ fastcgi_read_timeout 300;
 
 <h2>PHP</h2>
 <figure class="tright" style="width: 200px;">
-    <a href="#" data-featherlight="/img/software/logos/multiplat/php.png"><img alt="PHP" class="thumb" height="115" src="/img/software/logos/multiplat/php.png" width="250"></a>
+    <a href="#" class="thumb" data-featherlight="/img/software/logos/multiplat/php.png"><img alt="PHP" class="thumb" height="115" src="/img/software/logos/multiplat/php.png" width="250"></a>
     <figcaption>
         PHP
     </figcaption>
@@ -676,7 +676,7 @@ deb-src http://security.debian.org/ jessie/updates main contrib non-free</code><
 
 <p><h2>MySQL</h2>
 <figure class="tright" style="width: 200px;">
-    <a href="#" data-featherlight="/img/software/web/webserver/mysql.png"><img alt="MySQL Database Management" class="thumb" height="115" src="/img/software/web/webserver/mysql.png" width="250"></a>
+    <a href="#" class="thumb" data-featherlight="/img/software/web/webserver/mysql.png"><img alt="MySQL Database Management" class="thumb" height="115" src="/img/software/web/webserver/mysql.png" width="250"></a>
     <figcaption>
         MySQL Database Management
     </figcaption>
@@ -694,7 +694,7 @@ Reload privilige tables now? [Y/n] y</code></pre>
 <p>Enter mysql root password</p>
 <h2>phpMyAdmin</h2>
 <figure class="tright" style="width: 200px;">
-    <a href="#" data-featherlight="/img/software/web/webserver/phpmyadmin.png"><img alt="phpMyAdmin" class="thumb" height="115" src="/img/software/web/webserver/phpmyadmin.png" width="250"></a>
+    <a href="#" class="thumb" data-featherlight="/img/software/web/webserver/phpmyadmin.png"><img alt="phpMyAdmin" class="thumb" height="115" src="/img/software/web/webserver/phpmyadmin.png" width="250"></a>
     <figcaption>
         phpMyAdmin
     </figcaption>
@@ -710,7 +710,7 @@ Reload privilige tables now? [Y/n] y</code></pre>
 <p>Change KeepAlive On to Off</p>
 <h2>Fail2ban</h2>
 <figure class="tright" style="width: 200px;">
-    <a href="#" data-featherlight="/img/software/web/webserver/fail2ban.png"><img alt="Fail2ban" class="thumb" height="115" src="/img/software/web/webserver/fail2ban.png" width="250"></a>
+    <a href="#" class="thumb" data-featherlight="/img/software/web/webserver/fail2ban.png"><img alt="Fail2ban" class="thumb" height="115" src="/img/software/web/webserver/fail2ban.png" width="250"></a>
     <figcaption>
         Fail2ban
     </figcaption>

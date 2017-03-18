@@ -19,7 +19,6 @@
 &lt;div class=&#34;wiki&#34;&gt;
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
-
 &lt;p&gt;A complete, cross-platform solution to record, convert and stream audio and video.&lt;/p&gt;
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://ffmpeg.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Download&lt;/a&gt;&lt;/p&gt;
@@ -32,7 +31,7 @@
 &lt;/ol&gt;
 &lt;p&gt;Typing ffmpeg in CMD will now launch without needing to specify a direct path.&lt;/p&gt;
 
-&lt;p&gt;&lt;h2&gt;Linux Compile&lt;/h2&gt;
+&lt;h2&gt;Linux Compile&lt;/h2&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install git
 &amp;nbsp;
 sudo apt-get install -y autoconf dh-autoreconf automake build-essential libgnutls28-dev
@@ -46,52 +45,52 @@ cd ~/src
 git clone http:&amp;#47;&amp;#47;source.ffmpeg.org/git/ffmpeg.git
 cd ffmpeg
 &amp;nbsp;
-./configure &amp;ndash;enable-version3 &amp;ndash;enable-gnutls &amp;ndash;enable-gpl &amp;ndash;enable-nonfree &amp;ndash;disable-shared &amp;ndash;enable-libfdk-aac &amp;ndash;enable-libx264 &amp;ndash;enable-libvorbis &amp;ndash;enable-libvpx &amp;ndash;enable-decoder=png &amp;ndash;enable-encoder=png &amp;ndash;enable-libopenjpeg &amp;ndash;enable-openssl &amp;ndash;enable-postproc &amp;ndash;enable-swscale &amp;ndash;enable-avfilter
+./configure --enable-version3 --enable-gnutls --enable-gpl --enable-nonfree --disable-shared --enable-libfdk-aac --enable-libx264 --enable-libvorbis --enable-libvpx --enable-decoder=png --enable-encoder=png --enable-libopenjpeg --enable-openssl --enable-postproc --enable-swscale --enable-avfilter
 &amp;nbsp;
 make &amp;amp;&amp;amp; make install
 &amp;nbsp;
 mv ~/src/ffmpeg/ffmpeg /user/local/bin
 mv ~/src/ffmpeg/ffprobe /user/local/bin
-mv ~/src/ffmpeg/ffserver /user/local/bin&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+mv ~/src/ffmpeg/ffserver /user/local/bin&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;Command-line Example&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i &lt;span style=&#34;color: #00cc00;&#34;&gt;[input file]&lt;/span&gt; &lt;span style=&#34;color: #9933cc;&#34;&gt;[video codec] [video encoding] [video bit rate]&lt;/span&gt; &lt;span style=&#34;color: #ff3366;&#34;&gt;[audio codec] [audio encoding] [audio bit rate]&lt;/span&gt; &lt;span style=&#34;color: #ff9900;&#34;&gt;[additional options]&lt;/span&gt; &lt;span style=&#34;color: #00cc00;&#34;&gt;[output file]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;Command-line Parameters&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i [input file] [video codec] [video encoding] [video bit rate] [audio codec] [audio encoding] [audio bit rate] [additional options] [output file]&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;WEBM&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec libvpx -b:v 1500K -crf 10 -pix_fmt yuv420p -deadline good -acodec libvorbis -quality good -cpu-used 0 -b:a 320k -sn -threads 2 -movflags faststart output.webm&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;WEBM&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec libvpx -b:v 1500K -crf 10 -pix_fmt yuv420p -deadline good -acodec libvorbis -quality good -cpu-used 0 -b:a 320k -sn -threads 2 -movflags faststart output.webm&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;MP4&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec -crf libx264 18 -qcomp 0.8 -preset medium -acodec aac -strict experimental -b:a 400k -threads 2 output.mp4&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;MP4&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vcodec -crf libx264 18 -qcomp 0.8 -preset medium -acodec aac -strict experimental -b:a 400k -threads 2 output.mp4&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;GIF&lt;/h2&gt;
+&lt;h2&gt;GIF&lt;/h2&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -vf palettegen output.png
-ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h3&gt;Giflossy&lt;/h3&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif &amp;amp;&amp;amp; gifsicle -03 &amp;ndash;lossy=80 &amp;ndash;colors 256 -o output.gif input.gif&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h3&gt;Giflossy&lt;/h3&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif &amp;amp;&amp;amp; gifsicle -03 --lossy=80 --colors 256 -o output.gif input.gif&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;Cut&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -ss 00:00:01 -to 00:00:15 -vcodec copy -vcodec copy output.webm&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;Cut&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -i input.avi -ss 00:00:01 -to 00:00:15 -vcodec copy -vcodec copy output.webm&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;Scale&lt;/h2&gt;
+&lt;h2&gt;Scale&lt;/h2&gt;
 &lt;h3&gt;VP8&lt;/h3&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=1280:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=1280:720&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Auto&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-1:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h4&gt;Auto&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-1:720&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h3&gt;x264&lt;/h3&gt;
+&lt;h3&gt;x264&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Aspect must be divisible by 2&lt;/strong&gt;&lt;br&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=&amp;ldquo;trunc(iw/2)*2:trunc(ih/2)*2&amp;rdquo;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=&#34;trunc(iw/2)*2:trunc(ih/2)*2&#34;
 -vf scale=1280:720
--vf scale=&amp;ldquo;1281:721, crop=1280:720:0:0&amp;rdquo;&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+-vf scale=&#34;1281:721, crop=1280:720:0:0&#34;&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Auto&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-2:720&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h4&gt;Auto&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;-vf scale=-2:720&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;Thumbnail&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -y -i input.webm -vf &amp;ldquo;scale=674:-1, crop=500:280&amp;rdquo; -q:v 7 -ss 00:00:01.000 -vframes 1 output.jpg&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;h2&gt;Thumbnail&lt;/h2&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ffmpeg -y -i input.webm -vf &#34;scale=674:-1, crop=500:280&#34; -q:v 7 -ss 00:00:01.000 -vframes 1 output.jpg&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </description>
     </item>
     

@@ -17,11 +17,10 @@
       <description>&lt;div class=&#34;wiki&#34;&gt;
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
-
-&lt;p&gt;&lt;p&gt;This guide covers various different PC and Mobile emulators for Game Boy, Game Boy Color, &amp;amp; Game Boy Advance.&lt;/p&gt;
+&lt;p&gt;This guide covers various different PC and Mobile emulators for Game Boy, Game Boy Color, &amp;amp; Game Boy Advance.&lt;/p&gt;
 &lt;h2&gt;Game Boy&lt;/h2&gt;
 &lt;h3&gt;Gambatte&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/gambatte/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://sourceforge.net/projects/gambatte/&#34;&gt;https://sourceforge.net/projects/gambatte/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/gambatte/&#34; target=&#34;_blank&#34;&gt;https://sourceforge.net/projects/gambatte/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Can also be used in &lt;a href=&#34;gaming/emulators/retroarch&#34; target=&#34;_blank&#34;&gt;RetroArch&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Color Palettes and Saves are stored in &lt;span class=&#34;system&#34;&gt;C:\Users\User\AppData\Roaming\gambatte&lt;/span&gt; in &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt; format.&lt;/p&gt;
 &lt;div class=&#34;gallery&#34;&gt;
@@ -40,7 +39,7 @@
 &lt;/div&gt;
 &lt;h3&gt;BGB (Super Game Boy)&lt;/h3&gt;
 &lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Super_Game_Boy&#34; target=&#34;_blank&#34;&gt;Super Game Boy&lt;/a&gt; displays more colors than the traditional Game Boy Color. The screen border graphics can be disabled.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34;&gt;http://bgb.bircd.org/#downloads&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34; target=&#34;_blank&#34;&gt;http://bgb.bircd.org/#downloads&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Palettes are configured in &lt;span class=&#34;system&#34;&gt;bgb.ini&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Saves are made to the same folder as the rom in &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt; format.&lt;/p&gt;
 &lt;div class=&#34;gallery&#34;&gt;
@@ -70,7 +69,7 @@
     &lt;/figure&gt;
 &lt;/div&gt;
 &lt;h4&gt;Color Schemes&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.emutalk.net/threads/55441-Game-Boy-Mono-quot-True-quot-colors&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.emutalk.net/threads/55441-Game-Boy-Mono-quot-True-quot-colors&#34;&gt;http://www.emutalk.net/threads/55441-Game-Boy-Mono-quot-True-quot-colors&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.emutalk.net/threads/55441-Game-Boy-Mono-quot-True-quot-colors&#34; target=&#34;_blank&#34;&gt;http://www.emutalk.net/threads/55441-Game-Boy-Mono-quot-True-quot-colors&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Palette Comparisons&lt;/h4&gt;
 &lt;div class=&#34;gallery&#34;&gt;
     &lt;figure&gt;
@@ -94,12 +93,12 @@
 &lt;/div&gt;
 &lt;h3&gt;RetroArch&lt;/h3&gt;
 &lt;p&gt;Super Game Boy can be launched through command-line using &lt;strong&gt;bsnes&lt;/strong&gt; and the correct SGB rom.&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;system&#34;&gt;retroarch -L &amp;ldquo;C:\Path\To\cores\bsnes_mercury_balanced_libretro.dll&amp;rdquo; -c &amp;ldquo;C:\Path\To\config\bsnes-mercury.cfg&amp;rdquo; &lt;strong&gt;&amp;ldquo;C:\Path\To\Super Game Boy.sfc&amp;rdquo; &amp;ndash;subsystem sgb&lt;/strong&gt; &amp;ldquo;C:\Path\To\Game.gb&amp;rdquo;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;system&#34;&gt;retroarch -L &#34;C:\Path\To\cores\bsnes_mercury_balanced_libretro.dll&#34; -c &#34;C:\Path\To\config\bsnes-mercury.cfg&#34; &lt;strong&gt;&#34;C:\Path\To\Super Game Boy.sfc&#34; --subsystem sgb&lt;/strong&gt; &#34;C:\Path\To\Game.gb&#34;&lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Game Boy Color&lt;/h2&gt;
 &lt;h3&gt;BGB&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34;&gt;http://bgb.bircd.org/#downloads&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bgb.bircd.org/#downloads&#34; target=&#34;_blank&#34;&gt;http://bgb.bircd.org/#downloads&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;TGB Dual&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;http://gamehacking.org/vb/attachment.php?s=5f31209b91ede892133244c1b8933d9d&amp;amp;attachmentid=2028&amp;amp;d=1352823397&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://gamehacking.org/vb/attachment.php?s=5f31209b91ede892133244c1b8933d9d&amp;amp;attachmentid=2028&amp;amp;d=1352823397&#34;&gt;http://gamehacking.org/vb/attachment.php?s=5f31209b91ede892133244c1b8933d9d&amp;amp;attachmentid=2028&amp;amp;d=1352823397&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gamehacking.org/vb/attachment.php?s=5f31209b91ede892133244c1b8933d9d&amp;amp;attachmentid=2028&amp;amp;d=1352823397&#34; target=&#34;_blank&#34;&gt;http://gamehacking.org/vb/attachment.php?s=5f31209b91ede892133244c1b8933d9d&amp;amp;attachmentid=2028&amp;amp;d=1352823397&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Can also be used in &lt;a href=&#34;gaming/emulators/retroarch&#34; target=&#34;_blank&#34;&gt;RetroArch&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;&lt;br&gt;
 Game Boy Advance&lt;/h2&gt;
@@ -114,7 +113,7 @@ Game Boy Advance&lt;/h2&gt;
         RetroArch Android
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.retroarch&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.retroarch&amp;amp;hl=en&#34;&gt;https://play.google.com/store/apps/details?id=com.retroarch&amp;amp;hl=en&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.retroarch&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;https://play.google.com/store/apps/details?id=com.retroarch&amp;amp;hl=en&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;See &lt;a href=&#34;gaming/emulators/retroarch&#34; target=&#34;_blank&#34;&gt;RetroArch Guide&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;Cores:&lt;/h4&gt;
 &lt;p&gt;Game Boy - Gambatte&lt;br&gt;
@@ -137,7 +136,7 @@ Game Boy Advance - mGBA&lt;/p&gt;
 &lt;h2&gt;Convert Saves&lt;/h2&gt;
 &lt;p&gt;Simply rename the save file extention to &lt;span class=&#34;system&#34;&gt;.srm&lt;/span&gt; for RetroArch and &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt; for other emulators that use it.&lt;/p&gt;
 &lt;p&gt;If &lt;span class=&#34;system&#34;&gt;.srm&lt;/span&gt; is not working try using this &lt;a href=&#34;http://www.mediafire.com/download/iz71k0iush8g1fm/Save+Converter.exe&#34; target=&#34;_blank&#34;&gt;save converter&lt;/a&gt;. Drag and drop the file onto the .exe, then rename it to &lt;span class=&#34;system&#34;&gt;.sav&lt;/span&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     

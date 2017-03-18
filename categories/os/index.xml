@@ -378,37 +378,35 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
       
       <guid>http://www.powerup.io/software/os/linux/</guid>
       <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
-    .linux .column-5 .img-wrapper {
+    .column-5 {
+      text-align: center !important;
+    }
+    .column-5 .img-wrapper {
         min-height: 70px !important;
         line-height: 70px !important;
         margin: 0;
-    }&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.linux .column-5 div.item-container img {
-    max-height: 70px !important;
-    width: auto;
-    max-width: 70px !important;
-}
-
-.linux .column-5 .title {
-    font-size: 1.2em !important;
-    font-weight: 700 !important;
-    line-height: 1.2em !important;
-    padding: 0.8em 0 0.6em 0 !important;
-}
-
-.linux .column-5 .description {
-    font-size: 0.8em;line-height: 1.4em !important;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/style&gt;
-&lt;div class=&#34;linux wiki&#34;&gt;
+    }
+    .column-5 .item-container img {
+        max-height: 70px !important;
+        width: auto !important;
+        max-width: 70px !important;
+    }
+    .column-5 .title {
+        font-size: 1.2em !important;
+        font-weight: 700 !important;
+        line-height: 1.2em !important;
+        padding: 0.8em 0 0.6em 0 !important;
+    }
+    .column-5 .description {
+        font-size: 0.8em;line-height: 1.4em !important;
+    }
+&lt;/style&gt;
+&lt;div class=&#34;wiki&#34;&gt;
 &lt;h2&gt;Distributions&lt;/h2&gt;
 &lt;div class=&#34;column-5&#34;&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.debian.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/debian.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.debian.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/debian.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.debian.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Debian&lt;/a&gt;
@@ -419,7 +417,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://www.ubuntu.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Beta logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/ubuntu.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://www.ubuntu.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Beta logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/ubuntu.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.ubuntu.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Ubuntu&lt;/a&gt;
@@ -430,7 +428,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.linuxmint.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Dev logo&#34; class=&#34;multithumb&#34; height=&#34;100&#34; src=&#34;http://www.powerup.io/img/software/os/linux/mint.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.linuxmint.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Dev logo&#34; height=&#34;100&#34; src=&#34;http://www.powerup.io/img/software/os/linux/mint.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.linuxmint.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Mint&lt;/a&gt;
@@ -441,7 +439,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.redhat.com&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/redhat.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.redhat.com&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/redhat.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.redhat.com&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Red Hat&lt;/a&gt;
@@ -452,7 +450,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://getfedora.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/fedora.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://getfedora.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/fedora.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://getfedora.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Fedora&lt;/a&gt;
@@ -465,7 +463,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.centos.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/centos.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.centos.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/centos.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.centos.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;CentOS&lt;/a&gt;
@@ -476,7 +474,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.opensuse.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/opensuse.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.opensuse.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/opensuse.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.opensuse.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;openSUSE&lt;/a&gt;
@@ -487,7 +485,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://www.pclinuxos.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/pclinuxos.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://www.pclinuxos.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/pclinuxos.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.pclinuxos.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;PCLinuxOS&lt;/a&gt;
@@ -498,7 +496,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.mageia.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/mageia.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.mageia.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/mageia.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.mageia.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Mageia&lt;/a&gt;
@@ -509,7 +507,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.archlinux.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/arch.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.archlinux.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/arch.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.archlinux.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Arch&lt;/a&gt;
@@ -520,7 +518,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.gentoo.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/gentoo.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.gentoo.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/gentoo.gif&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.gentoo.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Gentoo&lt;/a&gt;
@@ -531,7 +529,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://www.slackware.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/slackware.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://www.slackware.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/slackware.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.slackware.com/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Slackware&lt;/a&gt;
@@ -542,7 +540,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://puppylinux.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/puppy.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://puppylinux.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/puppy.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://puppylinux.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Puppy&lt;/a&gt;
@@ -553,7 +551,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;https://www.dragora.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/dragora.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;https://www.dragora.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/dragora.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.dragora.org&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Dragora&lt;/a&gt;
@@ -564,7 +562,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
-            &lt;a href=&#34;http://www.android-x86.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; class=&#34;multithumb&#34; src=&#34;http://www.powerup.io/img/software/os/linux/android-x86.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
+            &lt;a href=&#34;http://www.android-x86.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Firefox Nightly logo&#34; src=&#34;http://www.powerup.io/img/software/os/linux/android-x86.png&#34; width=&#34;100&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.android-x86.org/&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Android-x86&lt;/a&gt;

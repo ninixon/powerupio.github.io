@@ -337,7 +337,6 @@
 
 				
 				<div class="wiki">
-
 <div id="toc" class="right">
 </div>
 
@@ -416,29 +415,29 @@
 <h2>Website Setup</h2>
 <h3>Apache Example</h3>
 <pre><code data-language="shell">&lt;VirtualHost *:80&gt;
- ServerAdmin webmaster@example.com
- ServerName 127.0.0.1:8888
- DocumentRoot /var/www/example/public/
- 
-      Options Indexes FollowSymLinks MultiViews
-      AllowOverride All
-      Order allow,deny
-      allow from all
- 
- ErrorLog /var/www/example/logs/error.log
- CustomLog /var/www/example/logs/access.log combined
+    ServerAdmin webmaster@example.com
+    ServerName 127.0.0.1:8888
+    DocumentRoot /var/www/example/public/
+
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+
+    ErrorLog /var/www/example/logs/error.log
+    CustomLog /var/www/example/logs/access.log combined
 &lt;/VirtualHost&gt;</code></pre>
 
 <h3>Nginx Example</h3>
 <pre><code data-language="shell">server {
-listen 80;
+    listen 80;
 
-server_name 127.0.0.1:8888;
-root /var/www/example/public;
-index index.html index.htm index.php;
+    server_name 127.0.0.1:8888;
+    root /var/www/example/public;
+    index index.html index.htm index.php;
 
-access_log /var/log/nginx/localhost.access_log;
-error_log /var/log/nginx/localhost.error_log info;
+    access_log /var/log/nginx/localhost.access_log;
+    error_log /var/log/nginx/localhost.error_log info;
 }</code></pre>
 
 <h4>Multiple Sites</h4>

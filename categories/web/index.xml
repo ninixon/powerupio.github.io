@@ -16,6 +16,9 @@
       <guid>http://www.powerup.io/software/web/chrome/</guid>
       <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
     /* &amp;mdash; 4 Column &amp;mdash; */
+    .column-4 {
+        text-align: center !important;
+    }&lt;br /&gt;
     .column-4 .img-wrapper {
         min-height: 100px !important;
         line-height: 100px !important;
@@ -163,6 +166,9 @@
       <guid>http://www.powerup.io/software/web/firefox/</guid>
       <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
     /* &amp;mdash; 4 Column &amp;mdash; */
+    .column-4 {
+        text-align: center !important;
+    }&lt;br /&gt;
     .column-4 .img-wrapper {
         min-height: 100px !important;
         line-height: 100px !important;
@@ -171,7 +177,7 @@
 
 &lt;pre&gt;&lt;code&gt;/* --- 5 Column --- */
 .column-5 {
-    text-align: center;
+    text-align: center !important;
 }
 .column-5 div.item-container img {
     max-height: 70px !important;
@@ -353,7 +359,6 @@
       
       <guid>http://www.powerup.io/software/web/vboxserver/</guid>
       <description>&lt;div class=&#34;wiki&#34;&gt;
-
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
 
@@ -432,29 +437,29 @@
 &lt;h2&gt;Website Setup&lt;/h2&gt;
 &lt;h3&gt;Apache Example&lt;/h3&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;&amp;lt;VirtualHost *:80&amp;gt;
- ServerAdmin webmaster@example.com
- ServerName 127.0.0.1:8888
- DocumentRoot /var/www/example/public/
- 
-      Options Indexes FollowSymLinks MultiViews
-      AllowOverride All
-      Order allow,deny
-      allow from all
- 
- ErrorLog /var/www/example/logs/error.log
- CustomLog /var/www/example/logs/access.log combined
+    ServerAdmin webmaster@example.com
+    ServerName 127.0.0.1:8888
+    DocumentRoot /var/www/example/public/
+
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+
+    ErrorLog /var/www/example/logs/error.log
+    CustomLog /var/www/example/logs/access.log combined
 &amp;lt;/VirtualHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;Nginx Example&lt;/h3&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;server {
-listen 80;
+    listen 80;
 
-server_name 127.0.0.1:8888;
-root /var/www/example/public;
-index index.html index.htm index.php;
+    server_name 127.0.0.1:8888;
+    root /var/www/example/public;
+    index index.html index.htm index.php;
 
-access_log /var/log/nginx/localhost.access_log;
-error_log /var/log/nginx/localhost.error_log info;
+    access_log /var/log/nginx/localhost.access_log;
+    error_log /var/log/nginx/localhost.error_log info;
 }&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Multiple Sites&lt;/h4&gt;
@@ -539,7 +544,7 @@ Change root password as required.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;h3&gt;Debian&lt;/h3&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/logos/multiplat/debian.png&#34;&gt;&lt;img alt=&#34;Debian Linux&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/debian.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/logos/multiplat/debian.png&#34;&gt;&lt;img alt=&#34;Debian Linux&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/debian.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         Debian Linux
     &lt;/figcaption&gt;
@@ -576,7 +581,7 @@ Login with new username.&lt;/p&gt;
 
 &lt;h2&gt;Apache&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/apache.png&#34;&gt;&lt;img alt=&#34;Apache HTTP Server&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/apache.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/apache.png&#34;&gt;&lt;img alt=&#34;Apache HTTP Server&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/apache.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         Apache HTTP Server
     &lt;/figcaption&gt;
@@ -587,19 +592,19 @@ Login with new username.&lt;/p&gt;
 &lt;h3&gt;Virtual Hosts&lt;/h3&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo nano /etc/apache2/sites-available/example.com.conf&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;lt;VirtualHost *:80&amp;gt; 
- ServerAdmin webmaster@example.com 
- ServerName example.com 
- ServerAlias www.example.com 
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;lt;VirtualHost *:80&amp;gt;
+ ServerAdmin webmaster@example.com
+ ServerName example.com
+ ServerAlias www.example.com
  DocumentRoot /var/www/example.com/public/     
- &amp;lt;Directory /var/www/example.com&amp;gt; 
-      Options Indexes FollowSymLinks MultiViews 
-      AllowOverride All 
-      Order allow,deny 
+ &amp;lt;Directory /var/www/example.com&amp;gt;
+      Options Indexes FollowSymLinks MultiViews
+      AllowOverride All
+      Order allow,deny
       allow from all     
-      &amp;lt;/Directory&amp;gt; 
+      &amp;lt;/Directory&amp;gt;
 ErrorLog /var/www/example.com/logs/error.log     
-CustomLog /var/www/example.com/logs/access.log combined 
+CustomLog /var/www/example.com/logs/access.log combined
 &amp;lt;/VirtualHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Disable Default Virtual Host&lt;/p&gt;
@@ -618,7 +623,7 @@ sudo systemctl restart apache2&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;Nginx&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/nginx.png&#34;&gt;&lt;img alt=&#34;Nginx HTTP Server&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/nginx.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/nginx.png&#34;&gt;&lt;img alt=&#34;Nginx HTTP Server&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/nginx.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         Nginx HTTP Server
     &lt;/figcaption&gt;
@@ -669,7 +674,7 @@ sudo apt-get remove apache2&lt;/code&gt;&lt;/pre&gt;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include /etc/nginx/fastcgi.conf;
     }
-    # caching of files 
+    # caching of files
     location ~* \.(ico|pdf|flv)$ {
         expires 1y;
     }
@@ -716,15 +721,15 @@ location /phpMyAdmin {
 
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;http {
 [...]
-gzip on;
-gzip_disable &#34;msie6&#34;;
-gzip_vary on;
-gzip_proxied any;
-gzip_comp_level 6;
-gzip_min_length 1100;
-gzip_buffers 16 8k;
-gzip_http_version 1.1;
-gzip_types text/plain text/css application/json application/javascript text/xml$
+    gzip on;
+    gzip_disable &#34;msie6&#34;;
+    gzip_vary on;
+    gzip_proxied any;
+    gzip_comp_level 6;
+    gzip_min_length 1100;
+    gzip_buffers 16 8k;
+    gzip_http_version 1.1;
+    gzip_types text/plain text/css application/json application/javascript text/xml$
 [...]
 }&lt;/code&gt;&lt;/pre&gt;
 
@@ -733,11 +738,11 @@ gzip_types text/plain text/css application/json application/javascript text/xml$
 
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;http {
 [...]
-fastcgi_buffers 8 16k;
-fastcgi_buffer_size 32k;
-fastcgi_connect_timeout 300;
-fastcgi_send_timeout 300;
-fastcgi_read_timeout 300;
+    fastcgi_buffers 8 16k;
+    fastcgi_buffer_size 32k;
+    fastcgi_connect_timeout 300;
+    fastcgi_send_timeout 300;
+    fastcgi_read_timeout 300;
 [...]&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Restart Nginx to load changes&lt;/p&gt;
@@ -745,7 +750,7 @@ fastcgi_read_timeout 300;
 
 &lt;h2&gt;PHP&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/logos/multiplat/php.png&#34;&gt;&lt;img alt=&#34;PHP&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/php.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/logos/multiplat/php.png&#34;&gt;&lt;img alt=&#34;PHP&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/php.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         PHP
     &lt;/figcaption&gt;
@@ -832,7 +837,7 @@ deb-src http://security.debian.org/ jessie/updates main contrib non-free&lt;/cod
 
 &lt;p&gt;&lt;h2&gt;MySQL&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/mysql.png&#34;&gt;&lt;img alt=&#34;MySQL Database Management&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/mysql.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/mysql.png&#34;&gt;&lt;img alt=&#34;MySQL Database Management&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/mysql.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         MySQL Database Management
     &lt;/figcaption&gt;
@@ -850,7 +855,7 @@ Reload privilige tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Enter mysql root password&lt;/p&gt;
 &lt;h2&gt;phpMyAdmin&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/phpmyadmin.png&#34;&gt;&lt;img alt=&#34;phpMyAdmin&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/phpmyadmin.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/phpmyadmin.png&#34;&gt;&lt;img alt=&#34;phpMyAdmin&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/phpmyadmin.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         phpMyAdmin
     &lt;/figcaption&gt;
@@ -866,7 +871,7 @@ Reload privilige tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Change KeepAlive On to Off&lt;/p&gt;
 &lt;h2&gt;Fail2ban&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
-    &lt;a href=&#34;#&#34; data-featherlight=&#34;/img/software/web/webserver/fail2ban.png&#34;&gt;&lt;img alt=&#34;Fail2ban&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/fail2ban.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/fail2ban.png&#34;&gt;&lt;img alt=&#34;Fail2ban&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/fail2ban.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         Fail2ban
     &lt;/figcaption&gt;

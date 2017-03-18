@@ -341,7 +341,6 @@
 <div class="wiki">
 <div id="toc" class="right">
 </div>
-
 <p>A complete, cross-platform solution to record, convert and stream audio and video.</p>
 <h2>Installation</h2>
 <p><a href="http://ffmpeg.org/" target="_blank" title="">Download</a></p>
@@ -354,7 +353,7 @@
 </ol>
 <p>Typing ffmpeg in CMD will now launch without needing to specify a direct path.</p>
 
-<p><h2>Linux Compile</h2>
+<h2>Linux Compile</h2>
 <pre><code data-language="shell">sudo apt-get install git
 &nbsp;
 sudo apt-get install -y autoconf dh-autoreconf automake build-essential libgnutls28-dev
@@ -368,52 +367,52 @@ cd ~/src
 git clone http:&#47;&#47;source.ffmpeg.org/git/ffmpeg.git
 cd ffmpeg
 &nbsp;
-./configure &ndash;enable-version3 &ndash;enable-gnutls &ndash;enable-gpl &ndash;enable-nonfree &ndash;disable-shared &ndash;enable-libfdk-aac &ndash;enable-libx264 &ndash;enable-libvorbis &ndash;enable-libvpx &ndash;enable-decoder=png &ndash;enable-encoder=png &ndash;enable-libopenjpeg &ndash;enable-openssl &ndash;enable-postproc &ndash;enable-swscale &ndash;enable-avfilter
+./configure --enable-version3 --enable-gnutls --enable-gpl --enable-nonfree --disable-shared --enable-libfdk-aac --enable-libx264 --enable-libvorbis --enable-libvpx --enable-decoder=png --enable-encoder=png --enable-libopenjpeg --enable-openssl --enable-postproc --enable-swscale --enable-avfilter
 &nbsp;
 make &amp;&amp; make install
 &nbsp;
 mv ~/src/ffmpeg/ffmpeg /user/local/bin
 mv ~/src/ffmpeg/ffprobe /user/local/bin
-mv ~/src/ffmpeg/ffserver /user/local/bin</code></pre></p>
+mv ~/src/ffmpeg/ffserver /user/local/bin</code></pre>
 
-<p><h2>Command-line Example</h2>
-<pre><code data-language="shell">ffmpeg -i <span style="color: #00cc00;">[input file]</span> <span style="color: #9933cc;">[video codec] [video encoding] [video bit rate]</span> <span style="color: #ff3366;">[audio codec] [audio encoding] [audio bit rate]</span> <span style="color: #ff9900;">[additional options]</span> <span style="color: #00cc00;">[output file]</span></code></pre></p>
+<h2>Command-line Parameters</h2>
+<pre><code data-language="shell">ffmpeg -i [input file] [video codec] [video encoding] [video bit rate] [audio codec] [audio encoding] [audio bit rate] [additional options] [output file]</code></pre>
 
-<p><h2>WEBM</h2>
-<pre><code data-language="shell">ffmpeg -i input.avi -vcodec libvpx -b:v 1500K -crf 10 -pix_fmt yuv420p -deadline good -acodec libvorbis -quality good -cpu-used 0 -b:a 320k -sn -threads 2 -movflags faststart output.webm</code></pre></p>
+<h2>WEBM</h2>
+<pre><code data-language="shell">ffmpeg -i input.avi -vcodec libvpx -b:v 1500K -crf 10 -pix_fmt yuv420p -deadline good -acodec libvorbis -quality good -cpu-used 0 -b:a 320k -sn -threads 2 -movflags faststart output.webm</code></pre>
 
-<p><h2>MP4</h2>
-<pre><code data-language="shell">ffmpeg -i input.avi -vcodec -crf libx264 18 -qcomp 0.8 -preset medium -acodec aac -strict experimental -b:a 400k -threads 2 output.mp4</code></pre></p>
+<h2>MP4</h2>
+<pre><code data-language="shell">ffmpeg -i input.avi -vcodec -crf libx264 18 -qcomp 0.8 -preset medium -acodec aac -strict experimental -b:a 400k -threads 2 output.mp4</code></pre>
 
-<p><h2>GIF</h2>
+<h2>GIF</h2>
 <pre><code data-language="shell">ffmpeg -i input.avi -vf palettegen output.png
-ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif</code></pre></p>
+ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif</code></pre>
 
-<p><h3>Giflossy</h3>
-<pre><code data-language="shell">ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif &amp;&amp; gifsicle -03 &ndash;lossy=80 &ndash;colors 256 -o output.gif input.gif</code></pre></p>
+<h3>Giflossy</h3>
+<pre><code data-language="shell">ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif &amp;&amp; gifsicle -03 --lossy=80 --colors 256 -o output.gif input.gif</code></pre>
 
-<p><h2>Cut</h2>
-<pre><code data-language="shell">ffmpeg -i input.avi -ss 00:00:01 -to 00:00:15 -vcodec copy -vcodec copy output.webm</code></pre></p>
+<h2>Cut</h2>
+<pre><code data-language="shell">ffmpeg -i input.avi -ss 00:00:01 -to 00:00:15 -vcodec copy -vcodec copy output.webm</code></pre>
 
-<p><h2>Scale</h2>
+<h2>Scale</h2>
 <h3>VP8</h3>
-<pre><code data-language="shell">-vf scale=1280:720</code></pre></p>
+<pre><code data-language="shell">-vf scale=1280:720</code></pre>
 
-<p><h4>Auto</h4>
-<pre><code data-language="shell">-vf scale=-1:720</code></pre></p>
+<h4>Auto</h4>
+<pre><code data-language="shell">-vf scale=-1:720</code></pre>
 
-<p><h3>x264</h3>
+<h3>x264</h3>
 <p><strong>Aspect must be divisible by 2</strong><br>
-<pre><code data-language="shell">-vf scale=&ldquo;trunc(iw/2)*2:trunc(ih/2)*2&rdquo;
+<pre><code data-language="shell">-vf scale="trunc(iw/2)*2:trunc(ih/2)*2"
 -vf scale=1280:720
--vf scale=&ldquo;1281:721, crop=1280:720:0:0&rdquo;</code></pre></p>
+-vf scale="1281:721, crop=1280:720:0:0"</code></pre>
 
-<p><h4>Auto</h4>
-<pre><code data-language="shell">-vf scale=-2:720</code></pre></p>
+<h4>Auto</h4>
+<pre><code data-language="shell">-vf scale=-2:720</code></pre>
 
-<p><h2>Thumbnail</h2>
-<pre><code data-language="shell">ffmpeg -y -i input.webm -vf &ldquo;scale=674:-1, crop=500:280&rdquo; -q:v 7 -ss 00:00:01.000 -vframes 1 output.jpg</code></pre>
-</div></p>
+<h2>Thumbnail</h2>
+<pre><code data-language="shell">ffmpeg -y -i input.webm -vf "scale=674:-1, crop=500:280" -q:v 7 -ss 00:00:01.000 -vframes 1 output.jpg</code></pre>
+</div>
 
 
 		</div>
