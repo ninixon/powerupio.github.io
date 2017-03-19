@@ -40,7 +40,8 @@
 
         <link rel="shortcut icon" href="/img/favicon.ico" />
     </head>
-    <body id="main" class="parallax-window" data-parallax="scroll" data-stellar-background-ratio="0.5">
+    <body>
+      <div id="parallax" data-parallax="scroll" data-image-src="/img/bg.jpg">
 
 <header class="nav">
     <div class="row">
@@ -872,6 +873,8 @@
 
 </main>
 
+</div>
+
 
 
 <div class="subfeature">
@@ -985,7 +988,7 @@
 
     
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
     
     <script src="/js/foundation/vendor/what-input.js"></script>
@@ -993,15 +996,9 @@
     <script src="/js/foundation/app.js"></script>
 
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js" integrity="sha256-aQ6KGDKk7w8XQNZsQaQnbfeC//XPUIphSp/X/ZEwtV0=" crossorigin="anonymous"></script>
-    <script>
-        jQuery('#main').stellar();
-
-        jQuery.stellar({
-            horizontalScrolling: false,
-            verticalOffset: 150
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js" integrity="sha256-/TKJBviWcAP/DQ1wJNivyhP8QJfcxUSV269ZHkRBS9s=" crossorigin="anonymous"></script>
+    
+    
 
     
     <script type="text/javascript">
