@@ -1964,13 +1964,12 @@
             &lt;a href=&#34;http://crystalmark.info/software/CrystalDiskInfo/index-e.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/crystal-disk-info.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;
-            &lt;a href=&#34;http://crystalmark.info/software/CrystalDiskInfo/index-e.html&#34; target=&#34;_blank&#34;&gt;CrystalDiskInfo&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;description&#34;&gt;
-            A HDD/SSD utility software which supports S.M.A.R.T. and a part of USB-HDD.
+            &lt;div class=&#34;title&#34;&gt;
+                &lt;a href=&#34;http://crystalmark.info/software/CrystalDiskInfo/index-e.html&#34; target=&#34;_blank&#34;&gt;CrystalDiskInfo&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;description&#34;&gt;
+                A HDD/SSD utility software which supports S.M.A.R.T. and a part of USB-HDD.
+            &lt;/div&gt;        
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -1979,13 +1978,12 @@
             &lt;a href=&#34;http://windirstat.info/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/windirstat.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;
-            &lt;a href=&#34;http://windirstat.info/&#34; target=&#34;_blank&#34;&gt;WinDirStat&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;description&#34;&gt;
-            Disk usage statistics viewer and cleanup tool.
+            &lt;div class=&#34;title&#34;&gt;
+                &lt;a href=&#34;http://windirstat.info/&#34; target=&#34;_blank&#34;&gt;WinDirStat&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;description&#34;&gt;
+                Disk usage statistics viewer and cleanup tool.
+            &lt;/div&gt;        
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -1994,13 +1992,12 @@
             &lt;a href=&#34;http://www.cpuid.com/softwares/cpu-z.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/cpu-z.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;
-            &lt;a href=&#34;http://www.cpuid.com/softwares/cpu-z.html&#34; target=&#34;_blank&#34;&gt;CPU-Z&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;description&#34;&gt;
-            Processor and RAM information tool with temperatures.
+            &lt;div class=&#34;title&#34;&gt;
+                &lt;a href=&#34;http://www.cpuid.com/softwares/cpu-z.html&#34; target=&#34;_blank&#34;&gt;CPU-Z&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;description&#34;&gt;
+                Processor and RAM information tool with temperatures.
+            &lt;/div&gt;        
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2009,13 +2006,12 @@
             &lt;a href=&#34;http://www.techpowerup.com/gpuz/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/gpu-z.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;
-            &lt;a href=&#34;http://www.techpowerup.com/gpuz/&#34; target=&#34;_blank&#34;&gt;GPU-Z&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;description&#34;&gt;
-            Grahpics Card information tool with temperatures.
+            &lt;div class=&#34;title&#34;&gt;
+                &lt;a href=&#34;http://www.techpowerup.com/gpuz/&#34; target=&#34;_blank&#34;&gt;GPU-Z&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;description&#34;&gt;
+                Grahpics Card information tool with temperatures.
+            &lt;/div&gt;        
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2024,16 +2020,17 @@
             &lt;a href=&#34;http://www.revouninstaller.com/revo_uninstaller_free_download.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;revo uninstaller&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/revo-uninstaller.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;
-            &lt;a href=&#34;http://www.revouninstaller.com/revo_uninstaller_free_download.html&#34; target=&#34;_blank&#34;&gt;Revo Uninstaller&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;description&#34;&gt;
-            Lists installed programs and scans for leftovers the Windows default doesn&#39;t remove.
+            &lt;div class=&#34;title&#34;&gt;
+                &lt;a href=&#34;http://www.revouninstaller.com/revo_uninstaller_free_download.html&#34; target=&#34;_blank&#34;&gt;Revo Uninstaller&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;description&#34;&gt;
+                Lists installed programs and scans for leftovers the Windows default doesn&#39;t remove.
+            &lt;/div&gt;        
         &lt;/div&gt;
     &lt;/div&gt;
+
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
+
     &lt;h3 class=&#34;category&#34; id=&#34;security&#34;&gt;Security&lt;/h3&gt;
     &lt;div class=&#34;header-line&#34;&gt;&lt;/div&gt;
 
@@ -2042,13 +2039,12 @@
             &lt;a href=&#34;http://www.kaspersky.com&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/kaspersky.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.kaspersky.com&#34; target=&#34;_blank&#34;&gt;Kaspersky&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Paid Antivirus &amp;amp; Firewall. Protects your privacy, money, Identity, photos and family against online threats.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2057,13 +2053,12 @@
             &lt;a href=&#34;http://www.eset.com&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/eset.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.eset.com&#34; target=&#34;_blank&#34;&gt;ESET&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Paid Antivirus &amp;amp; Firewall. All-in-one protection against all types of online threats.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2072,13 +2067,12 @@
             &lt;a href=&#34;http://www.bitdefender.com/solutions/free.html&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/bitdefender.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.bitdefender.com/solutions/free.html&#34; rel=&#34;alternate&#34; target=&#34;_blank&#34;&gt;Bitdefender&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Paid &amp;amp; Free Antivirus &amp;amp; Firewall. Protects you while browsing, shopping and banking. Uncovers and removes malware.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2087,13 +2081,12 @@
             &lt;a href=&#34;http://www.avast.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/avast.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.avast.com/&#34; target=&#34;_blank&#34;&gt;Avast&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Paid &amp;amp; Free Antivirus. Detect viruses, malware and more, plus strengthen your home network.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2102,13 +2095,12 @@
             &lt;a href=&#34;http://www.malwarebytes.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/malwarebytes.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.malwarebytes.org/&#34; target=&#34;_blank&#34;&gt;Malwarebytes&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Detects and removes malware with industry-leading anti-malware, anti-spyware, and anti-rootkit tech.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2117,13 +2109,12 @@
             &lt;a href=&#34;http://www.malwarebytes.com/antirootkit&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;mbar&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/mbar.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.malwarebytes.com/antirootkit&#34; target=&#34;_blank&#34;&gt;Anti-Rootkit&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Malwarebytes, drills down and removes even deeply embedded rootkits.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2132,13 +2123,12 @@
             &lt;a href=&#34;http://www.comodo.com/home/internet-security/firewall.php&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/comodo.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.comodo.com/home/internet-security/firewall.php&#34; target=&#34;_blank&#34;&gt;Comodo Firewall&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Removes existing viruses, blocks all unwanted Internet attacks, protects your system completely.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2147,13 +2137,12 @@
             &lt;a href=&#34;https://dnscrypt.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;DNSCrypt&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/DNSCrypt.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://dnscrypt.org/&#34; target=&#34;_blank&#34;&gt;DNSCrypt&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A protocol to improve DNS security. It prevents DNS spoofing and uses cryptographic signatures.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2162,13 +2151,12 @@
             &lt;a href=&#34;http://filehippo.com/download_truecrypt/11601/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/truecrypt.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://filehippo.com/download_truecrypt/11601/&#34; target=&#34;_blank&#34;&gt;TrueCrypt 7.1a&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A discontinued source-available freeware utility used for disk encryption.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2177,13 +2165,12 @@
             &lt;a href=&#34;https://www.gnupg.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;gnupg&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/gnupg.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.gnupg.org/&#34; target=&#34;_blank&#34;&gt;GnuPG&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Encrypts, decrypts, signs, digests files using strong cryptography.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2192,13 +2179,12 @@
             &lt;a href=&#34;http://sourceforge.net/projects/keepass/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/keepass.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/keepass/&#34; target=&#34;_blank&#34;&gt;KeePass&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A lightweight and easy-to-use password manager. Strong security, portable, multiple user keys, and password generator.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2207,13 +2193,12 @@
             &lt;a href=&#34;http://lastpass.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/lastpass.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://lastpass.com/&#34; target=&#34;_blank&#34;&gt;LastPass&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Save your passwords and keep everything organized in your LastPass vault.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -2225,13 +2210,12 @@
             &lt;a href=&#34;http://www.mozilla.org/en-US/firefox/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/firefox.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;
-            &lt;a href=&#34;http://www.mozilla.org/en-US/firefox/&#34; target=&#34;_blank&#34;&gt;Firefox&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;description&#34;&gt;
-            Open-source web browser developed by the Mozilla Foundation.
+             &lt;div class=&#34;title&#34;&gt;
+                &lt;a href=&#34;http://www.mozilla.org/en-US/firefox/&#34; target=&#34;_blank&#34;&gt;Firefox&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;description&#34;&gt;
+                Open-source web browser developed by the Mozilla Foundation.
+            &lt;/div&gt;       
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2240,13 +2224,12 @@
             &lt;a href=&#34;http://www.google.com/chrome/browser/desktop/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/chrome.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.google.com/chrome/browser/desktop/&#34; target=&#34;_blank&#34;&gt;Chrome&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Closed-source web browser developed by Google.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2255,13 +2238,12 @@
             &lt;a href=&#34;http://chromium.woolyss.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/chromium.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://chromium.woolyss.com/&#34; target=&#34;_blank&#34;&gt;Chromium&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source web browser project from which Google Chrome draws its source code.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2270,13 +2252,12 @@
             &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;decentraleyes&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/decentraleyes.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/&#34; target=&#34;_blank&#34;&gt;Decentraleyes&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Protects you against tracking through free, centralized, content delivery.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2285,13 +2266,12 @@
             &lt;a href=&#34;http://github.com/gorhill/uBlock&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ublock.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://github.com/gorhill/uBlock&#34; target=&#34;_blank&#34;&gt;uBlock Origin&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Ad Blocker that&#39;s easy on memory and CPU, yet can load thousands more filters than other popular blockers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2300,13 +2280,12 @@
             &lt;a href=&#34;http://www.eff.org/https-everywhere%20&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/httpseverywhere.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.eff.org/https-everywhere%20&#34; target=&#34;_blank&#34;&gt;HTTPS Everywhere&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Browser extension that encrypts your communications with many major websites.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2315,13 +2294,12 @@
             &lt;a href=&#34;http://noscript.net/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/noscript.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://noscript.net/&#34; target=&#34;_blank&#34;&gt;NoScript&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Blocks malicious scripts and allows JavaScript and Java content only from sites you trust.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2330,13 +2308,12 @@
             &lt;a href=&#34;https://www.eff.org/privacybadger&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;privacybadger&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/privacybadger.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.eff.org/privacybadger&#34; target=&#34;_blank&#34;&gt;Privacy Badger&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Automatically analyze and block any tracker or ad that violates the principle of user consent.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2345,15 +2322,15 @@
             &lt;a href=&#34;http://developers.google.com/speed/public-dns/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/google.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://developers.google.com/speed/public-dns/&#34; target=&#34;_blank&#34;&gt;Google Public DNS&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Global Domain Name System resolution service that you can use as an alternative to your current DNS provider.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
     &lt;h3 class=&#34;category&#34; id=&#34;production&#34;&gt;Production&lt;/h3&gt;
     &lt;div class=&#34;header-line&#34;&gt;&lt;/div&gt;
@@ -2363,13 +2340,12 @@
             &lt;a href=&#34;http://www.libreoffice.org/download/libreoffice-fresh/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/libreoffice.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.libreoffice.org/download/libreoffice-fresh/&#34; target=&#34;_blank&#34;&gt;LibreOffice&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free, open-source office suite and compatible alternative to Microsoft Office.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2378,13 +2354,12 @@
             &lt;a href=&#34;http://notepad-plus-plus.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/notepadplusplus.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://notepad-plus-plus.org/&#34; target=&#34;_blank&#34;&gt;Notepad++&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Notepad replacement and source code editor which supports several programming languages.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2393,13 +2368,12 @@
             &lt;a href=&#34;http://www.lwks.com&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/lightworks.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.lwks.com&#34; target=&#34;_blank&#34;&gt;Lightworks&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free and Paid video editor supporting resolutions up to 4K.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2408,13 +2382,12 @@
             &lt;a href=&#34;http://www.blender.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/blender.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.blender.org/&#34; target=&#34;_blank&#34;&gt;Blender&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Professional, free and open-source 3D graphics and animation software.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2423,13 +2396,12 @@
             &lt;a href=&#34;http://www.adobe.com/creativecloud.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/adobe-cc.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.adobe.com/creativecloud.html&#34; target=&#34;_blank&#34;&gt;Adobe Creative Cloud&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Industry standard graphic design, video editing, web development, photography, and cloud services.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2438,13 +2410,12 @@
             &lt;a href=&#34;http://www.gimp.org/downloads/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/gimp.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.gimp.org/downloads/&#34; target=&#34;_blank&#34;&gt;GIMP&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free and open-source raster graphics editor used for image retouching and editing, free-form drawing.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2453,13 +2424,12 @@
             &lt;a href=&#34;http://krita.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/kirta.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://krita.org/&#34; target=&#34;_blank&#34;&gt;Krita&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Digital painting application based on Qt 5 and the KDE Frameworks 5.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2468,13 +2438,12 @@
             &lt;a href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/inkscape.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34;&gt;Inkscape&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Create vector graphics such as illustrations, diagrams, line arts, charts, logos and complex paintings.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2483,13 +2452,12 @@
             &lt;a href=&#34;http://www.scribus.net/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/scribus.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.scribus.net/&#34; target=&#34;_blank&#34;&gt;Scribus&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Professional layout and publishing software supporting EPS and SVG import/export, and PDF support.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -2498,13 +2466,12 @@
             &lt;a href=&#34;http://www.audacityteam.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/audacity.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.audacityteam.org/&#34; target=&#34;_blank&#34;&gt;Audacity&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free, easy-to-use, multi-track audio editor and recorder.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -2516,136 +2483,137 @@
             &lt;a href=&#34;software/mpc-hc&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/mpc-hc.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;software/mpc-hc&#34; target=&#34;_blank&#34;&gt;MPC-HC&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Compact media player with classic look and feel, but provides advanced features and plugin support.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://haruhichan.com/forum/showthread.php?7545-KCP-Kawaii-Codec-Pack&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/kcp.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://haruhichan.com/forum/showthread.php?7545-KCP-Kawaii-Codec-Pack&#34; target=&#34;_blank&#34;&gt;KCP&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Kawaii Codec Pack. MPC-HC with the latest DirectShow components and focus on Hi10P content playback and quality.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.videolan.org/vlc/index.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/vlc.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.videolan.org/vlc/index.html&#34; target=&#34;_blank&#34;&gt;VLC&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Multimedia player and framework that plays most multimedia files and doesn&#39;t require codec packs.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://mpv.io/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/mpv.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://mpv.io/&#34; target=&#34;_blank&#34;&gt;mpv&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Minimal, powerful media player that&#39;s highly customizable.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.foobar2000.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/foobar2000.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.foobar2000.org/&#34; target=&#34;_blank&#34;&gt;foobar2000&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Music player with simple UI, low memory use and plugin support for new features.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/equalizerapo/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/equalizer-apo.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/equalizerapo/&#34; target=&#34;_blank&#34;&gt;Equalizer APO&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A system-wide equalizer. Used with &lt;a href=&#34;http://sourceforge.net/projects/eqapo-gui/&#34; target=&#34;_blank&#34;&gt;EQ APO&lt;/a&gt; or &lt;a href=&#34;http://sourceforge.net/projects/peace-equalizer-apo-extension&#34; target=&#34;_blank&#34;&gt;Peace&lt;/a&gt; GUI.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://ffmpeg.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ffmpeg.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://ffmpeg.org/&#34; target=&#34;_blank&#34;&gt;FFmpeg&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Record, convert and stream audio and video.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.cdisplayex.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/cdisplay.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.cdisplayex.com/&#34; target=&#34;_blank&#34;&gt;CDisplayEx&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Comic book archive viewer and sequential image viewer.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://plex.tv&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;plex&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/plex.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://plex.tv&#34; target=&#34;_blank&#34;&gt;Plex&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Organizes your video, music, and photo collections and streams them to all of your screens.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
+    
     &lt;h3 class=&#34;category&#34; id=&#34;utilities&#34;&gt;Utilities&lt;/h3&gt;
     &lt;div class=&#34;header-line&#34;&gt;&lt;/div&gt;
 
@@ -2654,135 +2622,135 @@
             &lt;a href=&#34;http://ninite.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ninite.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://ninite.com/&#34; target=&#34;_blank&#34;&gt;Ninite&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             The easiest, fastest way to update or install software. Downloads and installs programs automatically in the background.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://chocolatey.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/chocolatey.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://chocolatey.org/&#34; target=&#34;_blank&#34;&gt;Chocolatey&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A Machine Package Manager, like apt-get for Windows.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://www.voidtools.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Everything&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/Everything.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.voidtools.com/&#34; target=&#34;_blank&#34;&gt;Everything&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             &lt;span class=&#34;st&#34;&gt;Locate files and folders by name instantly. Quick file indexing, minimal resource usage.&lt;/span&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.acronis.com/en-us/personal/computer-backup/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/acronis-true-image.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.acronis.com/en-us/personal/computer-backup/&#34; target=&#34;_blank&#34;&gt;Acronis True Image&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             &lt;span class=&#34;st&#34;&gt;Provides data protection including, backup, archive, access and recovery.&lt;/span&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.7-zip.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/7zip.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.7-zip.org/&#34; target=&#34;_blank&#34;&gt;7-Zip&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free archive compression utility that supports multiple formats.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.sumatrapdfreader.org/free-pdf-reader.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/sumatra-pdf.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.sumatrapdfreader.org/free-pdf-reader.html&#34; target=&#34;_blank&#34;&gt;Sumatra PDF&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             PDF, eBook, XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://rufus.akeo.ie/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/rufus.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://rufus.akeo.ie/&#34; target=&#34;_blank&#34;&gt;Rufus&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Create bootable USB flash drives for operating systems.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://autohotkey.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;autohotkey&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/autohotkey.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://autohotkey.com/&#34; target=&#34;_blank&#34;&gt;AutoHotkey&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Macro-creation software that allows users to automate repetitive tasks.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.wolframalpha.com&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/wolfram-alpha.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.wolframalpha.com&#34; target=&#34;_blank&#34;&gt;Wolfram|Alpha&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Computational knowledge engine and answer engine.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
     &lt;h3 class=&#34;category&#34; id=&#34;gaming&#34;&gt;Gaming&lt;/h3&gt;
     &lt;div class=&#34;header-line&#34;&gt;&lt;/div&gt;
@@ -2792,210 +2760,210 @@
             &lt;a href=&#34;http://store.steampowered.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/steam.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://store.steampowered.com/&#34; target=&#34;_blank&#34;&gt;Steam&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Delivers a range of games straight to a desktop with automatic updates.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.gog.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/gog.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.gog.com/&#34; target=&#34;_blank&#34;&gt;GOG&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A vast selection of classic and new games, DRM-free.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.g2a.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/g2a.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.g2a.com/&#34; target=&#34;_blank&#34;&gt;G2A&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Buy and sell legit game CD-Keys for Steam, Origin, Uplay, Battle.net, Xbox, PSN and more.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://downloadcenter.intel.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/intel.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://downloadcenter.intel.com/&#34; target=&#34;_blank&#34;&gt;Intel Drivers&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Graphics chip drivers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.nvidia.com/Download/index.aspx&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/nvidia.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.nvidia.com/Download/index.aspx&#34; target=&#34;_blank&#34;&gt;NVIDIA Drivers&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Graphics card drivers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.nvidia.com/object/physx_system_software.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/physx.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.nvidia.com/object/physx_system_software.html&#34; target=&#34;_blank&#34;&gt;PhysX&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Taps into the power of NVIDIA’s GeForce GTX GPUs to create incredible effects and scenes.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://support.amd.com/en-us/download&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/amd.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://support.amd.com/en-us/download&#34; target=&#34;_blank&#34;&gt;AMD Drivers&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Graphics card drivers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/en-us/download/search.aspx?q=directx&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/directx.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/en-us/download/search.aspx?q=directx&#34; target=&#34;_blank&#34;&gt;DirectX&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Microsoft end-user runtime for 3D graphics.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.evga.com/precision/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/evga-precisionx16.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.evga.com/precision/&#34; target=&#34;_blank&#34;&gt;EVGA Precision&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Overclock and adjust your graphics cards fanspeed. Display ingame temp, framerate, and clock monitoring.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://gaming.msi.com/features/afterburner&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/msi-afterburner.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://gaming.msi.com/features/afterburner&#34; target=&#34;_blank&#34;&gt;MSI Afterburner&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Overclocking utility which gives you full control of your graphics cards and detailed overview of your hardware.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.ozone3d.net/benchmarks/fur/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/furmark.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.ozone3d.net/benchmarks/fur/&#34; target=&#34;_blank&#34;&gt;FurMark&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             OpenGL benchmark test for measuring the performance of a graphics card.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.almico.com/speedfan.php&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/speedfan.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.almico.com/speedfan.php&#34; target=&#34;_blank&#34;&gt;SpeedFan&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Monitors voltages, fan speeds and temperatures in computers with hardware monitor chips.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://reshade.me/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/reshade.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://reshade.me/&#34; target=&#34;_blank&#34;&gt;Reshade&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Advanced post-processing injector and graphics tweaks.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://obsproject.com&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/obs.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://obsproject.com&#34; target=&#34;_blank&#34;&gt;Open Broadcaster Software&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source program for recording and live streaming. Stream to Twitch, YouTube and many other providers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
     &lt;h3 class=&#34;category&#34; id=&#34;communication&#34;&gt;Communication&lt;/h3&gt;
     &lt;div class=&#34;header-line&#34;&gt;&lt;/div&gt;
@@ -3005,135 +2973,135 @@
             &lt;a href=&#34;http://www.mozilla.org/en-US/thunderbird/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/thunderbird.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.mozilla.org/en-US/thunderbird/&#34; target=&#34;_blank&#34;&gt;Thunderbird&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source, cross-platform email, news, and chat client developed by the Mozilla Foundation.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://discordapp.com&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/discord.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://discordapp.com&#34; target=&#34;_blank&#34;&gt;Discord&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Voice and text chat app designed specifically for gaming communities.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/mumble/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/mumble.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/mumble/&#34; target=&#34;_blank&#34;&gt;Mumble&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source, low-latency, high quality voice chat.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.teamspeak.com/downloads&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/teamspeak.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.teamspeak.com/downloads&#34; target=&#34;_blank&#34;&gt;TeamSpeak&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Voice chat for online gaming, education and training, internal business communication .
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.skype.com/en/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/skype.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.skype.com/en/&#34; target=&#34;_blank&#34;&gt;Skype&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Video chat, text messaging and voice calls.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://vb-audio.pagesperso-orange.fr/Voicemeeter/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/voicemeeter.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://vb-audio.pagesperso-orange.fr/Voicemeeter/&#34; target=&#34;_blank&#34;&gt;VoiceMeeter&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Mix audio sources coming from devices as well as applications.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://desktop.telegram.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/telegram.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://desktop.telegram.org/&#34; target=&#34;_blank&#34;&gt;Telegram&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Mssaging app with a focus on speed and security.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.teamviewer.com&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/teamviewer.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.teamviewer.com&#34; target=&#34;_blank&#34;&gt;TeamViewer&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Easy, fast and secure remote access to Windows, Mac and Linux systems.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://retroshare.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;retroshare&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/retroshare.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://retroshare.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;RetroShare&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Secure chat and file sharing features. Includes screenshots, a wiki and support forum.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
     &lt;h3 class=&#34;category&#34; id=&#34;development&#34;&gt;Development&lt;/h3&gt;
     &lt;div class=&#34;header-line&#34;&gt;&lt;/div&gt;
@@ -3143,180 +3111,180 @@
             &lt;a href=&#34;http://www.apachefriends.org/index.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/xampp.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.apachefriends.org/index.html&#34; target=&#34;_blank&#34;&gt;XAMPP&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             &lt;span class=&#34;st&#34;&gt;An easy to install Apache distribution containing MariaDB, PHP and Perl.&lt;/span&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.virtualbox.org/wiki/Downloads&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/virtualbox.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.virtualbox.org/wiki/Downloads&#34; target=&#34;_blank&#34;&gt;VirtualBox&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source, full virtualizer for x86 hardware, targeted at server, desktop and embedded use.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.vmware.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/vmware.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.vmware.com/&#34; target=&#34;_blank&#34;&gt;VMware&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Hosted hypervisor that runs on x64 versions of Windows and Linux operating systems.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.ubuntu.com/download/server&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ubuntu-server.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.ubuntu.com/download/server&#34; target=&#34;_blank&#34;&gt;Ubuntu Server&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Ubuntu edition configured for web server. Can be installed in a virtual machine.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.centos.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/centos.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.centos.org/&#34; target=&#34;_blank&#34;&gt;CentOS&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A free rebuild of source packages from the Red Hat Enterprise Linux.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/windows-server.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview&#34; target=&#34;_blank&#34;&gt;Windows Server&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Supports enterprise-level management, data storage, applications, and communications.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://developer.android.com/studio/index.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/android-studio.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://developer.android.com/studio/index.html&#34; target=&#34;_blank&#34;&gt;Android Studio&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             The Official IDE for Android. Provides the fastest tools for building apps on every type of Android device.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.xamarin.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;xamagon&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/xamagon.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.xamarin.com/&#34; target=&#34;_blank&#34;&gt;Xamarin&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Build &amp;amp; design a mobile app using cross-platform development software which simplifies mobile application creation.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://azure.microsoft.com&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/microsoft-azure.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://azure.microsoft.com&#34; target=&#34;_blank&#34;&gt;Microsoft Azure&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Cloud computing platform for deploying applications and services through Microsoft-managed data centers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://m.do.co/c/701345b9d248&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/digital-ocean.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://m.do.co/c/701345b9d248&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Simple cloud computing web host, built for developers, pay-as-you-use based model.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.chiark.greenend.org.uk/~sgtatham/putty/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/putty.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.chiark.greenend.org.uk/~sgtatham/putty/&#34; target=&#34;_blank&#34;&gt;Putty&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free implementation of SSH and Telnet for Windows and Unix platforms.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://filezilla-project.org&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/filezilla.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://filezilla-project.org&#34; target=&#34;_blank&#34;&gt;FileZilla&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free, open-source FTP solution for both client and server.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
     &lt;h3 class=&#34;category&#34; id=&#34;programming&#34;&gt;Programming&lt;/h3&gt;
     &lt;div class=&#34;header-line&#34;&gt;&lt;/div&gt;
@@ -3326,225 +3294,225 @@
             &lt;a href=&#34;http://www.visualstudio.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/visual-studio.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.visualstudio.com/&#34; target=&#34;_blank&#34;&gt;Visual Studio&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Collection of developer tools and services to help you create apps for the Microsoft platform and beyond.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://www.jetbrains.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;JetBrains&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/JetBrains.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.jetbrains.com/&#34; target=&#34;_blank&#34;&gt;JetBrains&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Technology-leading software vendor specializing in the creation of intelligent development tools.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.qt.io&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;Qt&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/qt.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.qt.io&#34; target=&#34;_blank&#34;&gt;Qt&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A cross-platform application framework that is widely used for developing application software.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://eclipse.org/downloads/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/eclipse.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://eclipse.org/downloads/&#34; target=&#34;_blank&#34;&gt;Eclipse&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             IDE primarily intended for development in Java, but also supports other languages.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://netbeans.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/netbeans.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://netbeans.org/&#34; target=&#34;_blank&#34;&gt;NetBeans&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             IDE primarily intended for development in Java, but also supports other languages, in particular PHP, C/C++ and HTML5.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.codeblocks.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/codeblocks.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.codeblocks.org/&#34; target=&#34;_blank&#34;&gt;Code::Blocks&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             C, C++ and Fortran IDE built around wxWidgets, designed to be extensible and configurable.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.sublimetext.com/3&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/sublime-text.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.sublimetext.com/3&#34; target=&#34;_blank&#34;&gt;Sublime Text 3&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A sophisticated text editor for code, markup and prose. Use with &lt;a href=&#34;http://packagecontrol.io/&#34; target=&#34;_blank&#34;&gt;Package Control&lt;/a&gt;.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://code.visualstudio.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/visual-studio-code.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://code.visualstudio.com/&#34; target=&#34;_blank&#34;&gt;Visual Studio Code&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Text editor redefined and optimized for building and debugging modern web and cloud applications.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://atom.io/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/atom.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://atom.io/&#34; target=&#34;_blank&#34;&gt;Atom&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Text editor that&#39;s modern, approachable, yet hackable to the core. Full-featured, right out of the box.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.oracle.com/technetwork/topics/newtojava/learn-141096.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/java.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.oracle.com/technetwork/topics/newtojava/learn-141096.html&#34; target=&#34;_blank&#34;&gt;Java&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             General-purpose programming language that is concurrent, class-based, object-oriented.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://secure.php.net/manual/en/install.windows.php&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/php.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://secure.php.net/manual/en/install.windows.php&#34; target=&#34;_blank&#34;&gt;PHP&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Server-side scripting language designed for web development.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://learn.perl.org/installing/windows.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/perl.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://learn.perl.org/installing/windows.html&#34; target=&#34;_blank&#34;&gt;Perl&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             High-level, general-purpose, interpreted, dynamic programming language.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.python.org/downloads/windows/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/python.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.python.org/downloads/windows/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             High-level, general-purpose, interpreted, dynamic programming language. Commonly used with &lt;a href=&#34;http://www.djangoproject.com/&#34; target=&#34;_blank&#34;&gt;Django&lt;/a&gt; and &lt;a href=&#34;http://flask.pocoo.org/&#34; target=&#34;_blank&#34;&gt;Flask&lt;/a&gt; frameworks.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://rubyinstaller.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/ruby.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://rubyinstaller.org/&#34; target=&#34;_blank&#34;&gt;Ruby&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A dynamic programming language with a focus on simplicity and productivity. Commonly used with &lt;a href=&#34;http://rubyonrails.org/&#34; target=&#34;_blank&#34;&gt;Rails&lt;/a&gt; framework.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://nodejs.org&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/node.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://nodejs.org&#34; target=&#34;_blank&#34;&gt;Node.js&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Event-driven I/O server-side JavaScript environment based on V8.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
     &lt;h3 class=&#34;category&#34; id=&#34;plugins&#34;&gt;Plugins &amp;amp; Runtimes&lt;/h3&gt;
     &lt;div class=&#34;header-line&#34;&gt;&lt;/div&gt;
@@ -3554,75 +3522,75 @@
             &lt;a href=&#34;http://java.com/en/download/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/java.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://java.com/en/download/&#34; target=&#34;_blank&#34;&gt;Java&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Allows applets written in the Java programming language to run inside various browsers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://get.adobe.com/flashplayer/otherversions/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/flash.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://get.adobe.com/flashplayer/otherversions/&#34; target=&#34;_blank&#34;&gt;Flash&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Views content created with Adobe Flash, including Internet applications, and streaming video and audio.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/silverlight/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/silverlight.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/silverlight/&#34; target=&#34;_blank&#34;&gt;Silverlight&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Development tool for creating engaging, interactive user experiences for Web and mobile applications.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;gaming/emulators/pc&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/dotnet.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             .NET Framework
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             &lt;a href=&#34;http://www.filehippo.com/download_dotnet_framework_3/1807/&#34; target=&#34;_blank&#34;&gt;3.0&lt;/a&gt; | &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=21&#34; target=&#34;_blank&#34;&gt;3.5&lt;/a&gt; | &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=17718&#34; target=&#34;_blank&#34;&gt;4.0&lt;/a&gt; | &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=30653&#34; target=&#34;_blank&#34;&gt;4.5&lt;/a&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;gaming/emulators/arcade&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/windows/viusal-c.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;&lt;!--
         --&gt;&lt;div class=&#34;info&#34;&gt;
-        
-        &lt;/div&gt;
         &lt;div class=&#34;title&#34;&gt;
             Visual C++
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=40784&#34; target=&#34;_blank&#34;&gt;2013&lt;/a&gt; | &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=30679&#34; target=&#34;_blank&#34;&gt;2012&lt;/a&gt; | &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=5555&#34; target=&#34;_blank&#34;&gt;2010&lt;/a&gt; (&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=14632&#34; target=&#34;_blank&#34;&gt;64-bit&lt;/a&gt;) | &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=29&#34; target=&#34;_blank&#34;&gt;2008&lt;/a&gt; (&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=15336&#34; target=&#34;_blank&#34;&gt;64-bit&lt;/a&gt;) | &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=3387&#34; target=&#34;_blank&#34;&gt;2005&lt;/a&gt; (&lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=21254&#34; target=&#34;_blank&#34;&gt;64-bit&lt;/a&gt;)
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
+
 &lt;/div&gt;
 </description>
     </item>
@@ -3639,100 +3607,118 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.titanium.free.fr/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/onyx.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.titanium.free.fr/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Onyx&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Multifunction utility that performs maintenance, cleanup, turn on hidden functions and more.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.piriform.com/ccleaner-mac&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ccleaner.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.piriform.com/ccleaner-mac&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;CCleaner&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Cleans all areas of your computer, protects your privacy, and makes it faster and more secure.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://freemacsoft.net/appcleaner/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/appcleaner.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://freemacsoft.net/appcleaner/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;AppCleaner&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Thoroughly uninstall unwanted app&#39;s files throughout your System.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.macupdate.com/app/mac/47267/macutil&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/macutil.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.macupdate.com/app/mac/47267/macutil&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;MacUtil&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Customize the look and functionality of the dock, finder and user interfaces.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.trankynam.com/xtrafinder/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/xtrafinder.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.trankynam.com/xtrafinder/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Xtrafinder&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Adds Tabs and features to Mac Finder.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.osx86.net/files/file/3152-cpu-x/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/cpu-x.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.osx86.net/files/file/3152-cpu-x/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;CPU-X&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Shows the CPU info like: CPU name, Code Name, Package, Technology, Core Speed, Multiplier, Bus Speed, Rated FSB enz.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://cuda-z.sourceforge.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/cuda-z.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://cuda-z.sourceforge.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Cuda-Z&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Shows information about CUDA-enabled GPUs and GPGPUs. Works with NVIDIA Geforce, Quadro and Tesla cards, ION chipsets.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.coconut-flavour.com/coconutbattery/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/coconutBattery.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.coconut-flavour.com/coconutbattery/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;coconutBattery&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Shows you live information about the battery in your Mac and iOS devices.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.derlien.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/disk-inventory-x.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.derlien.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Disk Inventory X&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Disk usage utility that shows the sizes of files and folders in a graphical way called treemaps.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -3741,67 +3727,79 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.obdev.at/products/littlesnitch/index.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/little-snitch.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.obdev.at/products/littlesnitch/index.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Little Snitch&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Network Monitor that provides realtime traffic information, connectivity status and much more.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://www.apple.com/downloads/dashboard/networking_security/airlock_danielpimley.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/airlock.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.eset.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Airlock&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Displays a regularly updated list of service information for the Wi-Fi access points.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://hiddenapp.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/hidden.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://hiddenapp.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Hidden&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             If your device is lost or stolen, Hidden will show you where it is and who has it.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.grc.com/misc/truecrypt/truecrypt.htm&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/truecrypt.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.grc.com/misc/truecrypt/truecrypt.htm&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;TrueCrypt&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A discontinued source-available freeware utility used for disk encryption.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://gpgtools.org/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;gnupg&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/gnupg.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://gpgtools.org/&#34; target=&#34;_blank&#34;&gt;MacGPG&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Encrypts, decrypts, signs, digests files using strong cryptography.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.keepassx.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/keepassx.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.keepassx.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;KeePassX&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A lightweight and easy-to-use password manager. Strong security, portable, multiple user keys, and password generator.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -3810,100 +3808,118 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.mozilla.org/en-US/firefox/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/firefox.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.mozilla.org/en-US/firefox/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Firefox&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source web browser developed by the Mozilla Foundation.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.google.com/chrome/browser/desktop/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/chrome.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.google.com/chrome/browser/desktop/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Chrome&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Closed-source web browser developed by Google.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/osxportableapps/files/Chromium/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/chromium.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/osxportableapps/files/Chromium/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Chromium&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source web browser project from which Google Chrome draws its source code.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;decentraleyes&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/decentraleyes.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/&#34; target=&#34;_blank&#34;&gt;Decentraleyes&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Protects you against tracking through free, centralized, content delivery.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://github.com/gorhill/uBlock&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ublock.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://github.com/gorhill/uBlock&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;uBlock Origin&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Ad Blocker that&#39;s easy on memory and CPU, yet can load thousands more filters than other popular blockers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.eff.org/https-everywhere%20&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/httpseverywhere.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.eff.org/https-everywhere%20&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;HTTPS Everywhere&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Browser extension that encrypts your communications with many major websites.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://noscript.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/noscript.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://noscript.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;NoScript&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Blocks malicious scripts and allows JavaScript and Java content only from sites you trust.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://www.eff.org/privacybadger&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;privacybadger&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/privacybadger.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.eff.org/privacybadger&#34; target=&#34;_blank&#34;&gt;Privacy Badger&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Automatically analyze and block any tracker or ad that violates the principle of user consent.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://developers.google.com/speed/public-dns/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/google.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://developers.google.com/speed/public-dns/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Google Public DNS&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Global Domain Name System resolution service that you can use as an alternative to your current DNS provider.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -3912,111 +3928,131 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.libreoffice.org/download/libreoffice-fresh/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/libreoffice.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.libreoffice.org/download/libreoffice-fresh/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;LibreOffice&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free, open-source office suite and compatible alternative to Microsoft Office.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://macromates.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/textmate.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://macromates.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Textmate&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Graphical text editor that support many different languages, syntax highlighting and packages.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.lwks.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/lightworks.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.lwks.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Lightworks&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free and Paid video editor supporting resolutions up to 4K.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.blender.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/blender.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.blender.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Blender&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Professional, free and open-source 3D graphics and animation software.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.adobe.com/creativecloud.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/adobe-cc.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.adobe.com/creativecloud.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Adobe Creative Cloud&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Industry standard graphic design, video editing, web development, photography, and cloud services.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.gimp.org/downloads/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/gimp.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.gimp.org/downloads/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;GIMP&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free and open-source raster graphics editor used for image retouching and editing, free-form drawing.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://krita.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/kirta.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://krita.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Krita&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Digital painting application based on Qt 5 and the KDE Frameworks 5.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/inkscape.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://inkscape.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Inkscape&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Create vector graphics such as illustrations, diagrams, line arts, charts, logos and complex paintings.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.scribus.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/scribus.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.scribus.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Scribus&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Professional layout and publishing software supporting EPS and SVG import/export, and PDF support.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.audacityteam.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/audacity.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.audacityteam.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Audacity&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free, easy-to-use, multi-track audio editor and recorder.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -4025,67 +4061,79 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.videolan.org/vlc/index.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/vlc.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.videolan.org/vlc/index.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;VLC&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Multimedia player and framework that plays most multimedia files and doesn&#39;t require codec packs.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://mpv.io/installation/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/mpv.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://mpv.io/installation/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;mpv&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Minimal, powerful media player that&#39;s highly customizable.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://coppertino.com/vox/mac&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/vox.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://coppertino.com/vox/mac&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Vox&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Lightweight yet full-featured music player with a minimalistic UI reflecting the future.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/xld/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/xld.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://sourceforge.net/projects/xld/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;XLD&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Decode, convert, play various lossless audio files.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://ffmpeg.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ffmpeg.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://ffmpeg.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;FFmpeg&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Record, convert and stream audio and video.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://wakaba.c3.cx/s/apps/xee&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/xee.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://wakaba.c3.cx/s/apps/xee&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Xee&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Streamlined and convenient image viewer and browser.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -4094,111 +4142,131 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://brew.sh/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/homebrew.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://brew.sh/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Homebrew&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             The missing package manager for OS X. Installs the packages you need that Apple didn’t.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.cakebrew.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/cakebrew.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.cakebrew.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Cakebrew&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Manage your Homebrew formulas with style using Cakebrew.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.alfredapp.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/alfred.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.alfredapp.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Alfred&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Boosts your efficiency with hotkeys, keywords, text expansion and more.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.acronis.com/en-us/personal/computer-backup/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/acronis-true-image.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.acronis.com/en-us/personal/computer-backup/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Acronis True Image&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             &lt;span class=&#34;st&#34;&gt;Provides data protection including, backup, archive, access and recovery.&lt;/span&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.7-zip.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/7zip.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.7-zip.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;7-Zip&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free archive compression utility that supports multiple formats.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://unetbootin.github.io/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/UNetbootin.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://unetbootin.github.io/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;UNetbootin&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Allows you to create bootable Live USB drives.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.wolframalpha.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/wolfram-alpha.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.wolframalpha.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Wolfram|Alpha&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Computational knowledge engine and answer engine.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://aptonic.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/dropzone-3.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://aptonic.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Dropzone&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Makes it faster and easier to move and copy files, launch applications, upload to many different services, and more.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://www.getcloudapp.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/cloudapp.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.getcloudapp.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;CloudApp&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Easily share anything, anywhere.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://mjdescy.github.io/TodoTxtMac/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/TodoTxtMac.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://mjdescy.github.io/TodoTxtMac/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;TodoTxtMac&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Minimalist, keyboard-driven to-do manager for Mac OS X that conforms to the todo.txt format spec.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -4207,100 +4275,118 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://store.steampowered.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/steam.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://store.steampowered.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Steam&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Delivers a range of games straight to a desktop with automatic updates.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.gog.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/gog.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.gog.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;GOG&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A vast selection of classic and new games, DRM-free.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.g2a.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/g2a.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.g2a.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;G2A&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Buy and sell legit game CD-Keys for Steam, Origin, Uplay, Battle.net, Xbox, PSN and more.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://downloadcenter.intel.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/intel.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://downloadcenter.intel.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Intel Drivers&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Graphics card drivers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.nvidia.com/Download/index.aspx&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/nvidia.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.nvidia.com/Download/index.aspx&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;NVIDIA Drivers&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Graphics card drivers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.nvidia.com/object/physx_system_software.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/physx.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.nvidia.com/object/physx_system_software.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;PhysX&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Taps into the power of NVIDIA’s GeForce GTX GPUs to create incredible effects and scenes.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://support.amd.com/en-us/download&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/amd.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://support.amd.com/en-us/download&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;AMD Drivers&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Graphics card drivers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.ozone3d.net/benchmarks/fur/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/furmark.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.ozone3d.net/benchmarks/fur/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;FurMark&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             OpenGL benchmark test for measuring the performance of a graphics card.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://obsproject.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/obs.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://obsproject.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Open Broadcaster Software&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source program for recording and live streaming. Stream to Twitch, YouTube and many other providers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -4309,89 +4395,105 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.mozilla.org/en-US/thunderbird/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/thunderbird.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.mozilla.org/en-US/thunderbird/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Thunderbird&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source, cross-platform email, news, and chat client developed by the Mozilla Foundation.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://discordapp.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/discord.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://discordapp.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Discord&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Voice and text chat app designed specifically for gaming communities.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://wiki.mumble.info/wiki/Main_Page&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/mumble.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://wiki.mumble.info/wiki/Main_Page&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Mumble&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source, low-latency, high quality voice chat.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.teamspeak.com/downloads&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/teamspeak.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.teamspeak.com/downloads&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;TeamSpeak&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Voice chat for online gaming, education and training, internal business communication .
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.skype.com/en/download-skype/skype-for-mac/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/skype.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.skype.com/en/download-skype/skype-for-mac/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Skype&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Video chat, text messaging and voice calls.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://itunes.apple.com/us/app/messenger-for-telegram/id747648890&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/telegram.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://itunes.apple.com/us/app/messenger-for-telegram/id747648890&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Telegram&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Mssaging app with a focus on speed and security.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://retroshare.sourceforge.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;retroshare&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/retroshare.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://retroshare.sourceforge.net/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;RetroShare&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Secure chat and file sharing features. Includes screenshots, a wiki and support forum.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.teamviewer.com/en/download/mac/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/teamviewer.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.teamviewer.com/en/download/mac/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;TeamViewer&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Easy, fast and secure remote access to Windows, Mac and Linux systems.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -4400,122 +4502,144 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.apachefriends.org/index.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/xampp.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.apachefriends.org/index.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;XAMPP&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             &lt;span class=&#34;st&#34;&gt;An easy to install Apache distribution containing MariaDB, PHP and Perl.&lt;/span&gt;
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.virtualbox.org/wiki/Downloads&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/virtualbox.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.virtualbox.org/wiki/Downloads&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;VirtualBox&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Open-source, full virtualizer for x86 hardware, targeted at server, desktop and embedded use.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.vmware.com/products/fusion&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/vmware.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.vmware.com/products/fusion&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;VMware&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Hosted hypervisor that runs on x64 versions of Windows and Linux operating systems.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.ubuntu.com/download/server&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ubuntu-server.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.ubuntu.com/download/server&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Ubuntu Server&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Ubuntu edition configured for web server. Can be installed in a virtual machine.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.centos.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/centos.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.centos.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;CentOS&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A free rebuild of source packages from the Red Hat Enterprise Linux.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.debian.org/distrib/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/debian.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.debian.org/distrib/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Debian&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             The Stable Linux distribution is one of the most popular for personal computers and network servers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/windows-server.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-technical-preview&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Windows Server&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Supports enterprise-level management, data storage, applications, and communications.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://developer.android.com/studio/index.html&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/android-studio.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://developer.android.com/studio/index.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Android Studio&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             The Official IDE for Android. Provides the fastest tools for building apps on every type of Android device.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://azure.microsoft.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/microsoft-azure.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://azure.microsoft.com&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Microsoft Azure&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Cloud computing platform for deploying applications and services through Microsoft-managed data centers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.digitalocean.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/digital-ocean.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.digitalocean.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Digital Ocean&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Simple cloud computing web host, built for developers, pay-as-you-use based model.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://filezilla-project.org/download.php?platform=osx&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/filezilla.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://filezilla-project.org/download.php?platform=osx&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;FileZilla&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Free, open-source FTP solution for both client and server.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -4524,144 +4648,170 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://www.jetbrains.com/&#34; target=&#34;_blank&#34;&gt;&lt;img alt=&#34;JetBrains&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/JetBrains.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://www.jetbrains.com/&#34; target=&#34;_blank&#34;&gt;JetBrains&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Technology-leading software vendor specializing in the creation of intelligent development tools.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://eclipse.org/downloads/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/eclipse.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://eclipse.org/downloads/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Eclipse&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             IDE primarily intended for development in Java, but also supports other languages.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://netbeans.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/netbeans.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://netbeans.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;NetBeans&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             IDE primarily intended for development in Java, but also supports other languages, in particular PHP, C/C++ and HTML5.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.codeblocks.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/codeblocks.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.codeblocks.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Code::Blocks&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             C, C++ and Fortran IDE built around wxWidgets, designed to be extensible and configurable.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.sublimetext.com/3&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/sublime-text.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.sublimetext.com/3&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Sublime Text 3&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A sophisticated text editor for code, markup and prose. Use with &lt;a href=&#34;http://packagecontrol.io/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Package Control&lt;/a&gt;.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://code.visualstudio.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/visual-studio-code.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://code.visualstudio.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Visual Studio Code&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Text editor redefined and optimized for building and debugging modern web and cloud applications.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://atom.io/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/atom.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://atom.io/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Atom&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Text editor that&#39;s modern, approachable, yet hackable to the core. Full-featured, right out of the box.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/java.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Java&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             General-purpose programming language that is concurrent, class-based, object-oriented.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;https://secure.php.net/manual/en/install.macosx.php&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/php.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;https://secure.php.net/manual/en/install.macosx.php&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;PHP&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Server-side scripting language designed for web development.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://learn.perl.org/installing/osx.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/perl.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://learn.perl.org/installing/osx.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Perl&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             High-level, general-purpose, interpreted, dynamic programming language.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://docs.python.org/3/using/mac.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/python.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://docs.python.org/3/using/mac.html&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Python&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             High-level, general-purpose, interpreted, dynamic programming language. Commonly used with &lt;a href=&#34;http://www.djangoproject.com/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Django&lt;/a&gt; and &lt;a href=&#34;http://flask.pocoo.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Flask&lt;/a&gt; frameworks.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.ruby-lang.org/en/documentation/installation/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/ruby.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.ruby-lang.org/en/documentation/installation/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Ruby&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             A dynamic programming language with a focus on simplicity and productivity. Commonly used with &lt;a href=&#34;http://rubyonrails.org/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Rails&lt;/a&gt; framework.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://nodejs.org&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/node.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://nodejs.org&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Node.js&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Event-driven I/O server-side JavaScript environment based on V8.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;divider&#34;&gt;&lt;/div&gt;
@@ -4670,40 +4820,47 @@
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://java.com/en/download/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/java.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://java.com/en/download/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Java&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Allows applets written in the Java programming language to run inside various browsers.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://get.adobe.com/flashplayer/otherversions/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/flash.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://get.adobe.com/flashplayer/otherversions/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Flash&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Views content created with Adobe Flash, including Internet applications, and streaming video and audio.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/silverlight/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/silverlight.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.microsoft.com/silverlight/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Silverlight&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
             Development tool for creating engaging, interactive user experiences for Web and mobile applications.
+            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
         &lt;div class=&#34;img-wrapper img-box&#34;&gt;
             &lt;a href=&#34;http://www.mono-project.com/docs/about-mono/supported-platforms/osx/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;img alt=&#34;&#34; class=&#34;multithumb&#34; height=&#34;70&#34; src=&#34;http://www.powerup.io/img/software/logos/macos/mono.png&#34; width=&#34;70&#34;&gt;&lt;/a&gt;
-        &lt;/div&gt;
+        &lt;/div&gt;&lt;!--
+        --&gt;&lt;div class=&#34;info&#34;&gt;
         &lt;div class=&#34;title&#34;&gt;
             &lt;a href=&#34;http://www.mono-project.com/docs/about-mono/supported-platforms/osx/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Mono&lt;/a&gt;
         &lt;/div&gt;
@@ -4711,8 +4868,7 @@
             Open-source implementation of Microsoft&#39;s .NET Framework.
         &lt;/div&gt;
     &lt;/div&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>
