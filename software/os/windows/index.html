@@ -352,7 +352,7 @@
 <div id="toc" class="right">
 </div>
 
-<p><h2>Security</h2>
+<h2>Security</h2>
 <h3>Antivirus</h3>
 <p>Antivirus ratings can be found at <a href="https://www.av-test.org" target="_blank">av-test.org</a></p>
 <ul>
@@ -467,7 +467,7 @@
         </ul>
     </li>
 </ul>
-<p>See more <a href="software/apps/windows" rel="alternate">Windows Applications</a>.</p>
+<p>See more <a href="/software/apps/windows" rel="alternate">Windows Applications</a>.</p>
 <h2>Performance</h2>
 <h3>Startup Programs</h3>
 <figure class="tright">
@@ -515,7 +515,7 @@
     <li>In the Performance Options window click the <span class="highlight">Advanced</span> tab</li>
     <li>Click <span class="highlight">Change Virtual Memory</span></li>
     <li>Choose your <span class="highlight">C: Drive</span> → Click <span class="highlight">Custom Size</span></li>
-    <li>Set, in Megabytes, Initial and Maximum size to 1.5 times the amount of your computer&rsquo;s RAM.
+    <li>Set, in Megabytes, Initial and Maximum size to 1.5 times the amount of your computer's RAM.
         <ol>
             <li>(e.g. 1GB RAM = 1000MB)</li>
             <li>(e.g. 1.5 x 4GB RAM = 6000MB)<span id="cke_bm_220E" style="display: none;"></span></li>
@@ -536,12 +536,12 @@ Note: High Performance will be harder on your CPU and use more power.</p>
         Google DNS
     </figcaption>
 </figure>
-<p>Third-party DNS servers can be faster than your Internet Service Providor&rsquo;s depending on your location. Try Google&rsquo;s Public DNS, <span class="system">8.8.8.8</span> and <span class="system">8.8.4.4</span>.</p>
+<p>Third-party DNS servers can be faster than your Internet Service Providor's depending on your location. Try Google's Public DNS, <span class="system">8.8.8.8</span> and <span class="system">8.8.4.4</span>.</p>
 <ol>
     <li>Go to <span class="highlight">Control Panel</span> → <span class="highlight">Network</span> → <span class="highlight">Network and Sharing Center</span> → <span class="highlight">Change Adapter Settings</span></li>
     <li>Right click on your <span class="highlight">Local Area</span> or <span class="highlight">Wireless connection</span> and go to Properties.</li>
     <li>Scroll down to <span class="highlight">IPv4</span> and click Properties.</li>
-    <li>Choose <span class="highlight">&ldquo;Use the following DNS server addresses&rdquo;</span> and enter the address.</li>
+    <li>Choose <span class="highlight">"Use the following DNS server addresses"</span> and enter the address.</li>
 </ol>
 <h2>Telemery</h2>
 <p>Removing Windows Data Collection</p>
@@ -569,9 +569,9 @@ Note: High Performance will be harder on your CPU and use more power.</p>
 <ul>
     <li>Open Command Prompt as Administrator</li>
     <li>Enter:<br>
-    <span class="system">sc stop Diagtrack<br>
-    sc delete Diagtrack<br>
-    sc delete dmwappushservice</span></li>
+    <pre style="max-width: 400px;"><code data-language="shell">sc stop Diagtrack
+sc delete Diagtrack
+sc delete dmwappushservice</code></pre></li>
 </ul>
 <h4>Tasks</h4>
 <ul>
@@ -618,8 +618,8 @@ Install O&amp;O <a href="https://www.oo-software.com/en/shutup10" target="_blank
     <ul>
         <li>Open Command Prompt as Administrator</li>
         <li>Enter:<br>
-        <span class="system">sc stop Diagtrack<br>
-        sc delete Diagtrack</span></li>
+        <pre style="max-width: 400px;"><code data-language="shell">sc stop Diagtrack
+sc delete Diagtrack</code></pre></li>
     </ul>
 </div>
 <p></p>
@@ -638,9 +638,9 @@ Install O&amp;O <a href="https://www.oo-software.com/en/shutup10" target="_blank
     <li>Go to the registry key:</li>
     <li><span class="system">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection</span></li>
     <li>Create a new a <span class="highlight">32-bit DWORD</span> value named <span class="highlight">AllowTelemetry</span> and set it to <span class="highlight">0</span>.</li>
-    <li><span class="system">Go to C:\Windows\System32\Drivers\Etc&lt;/span&gt;</li>
+    <li><span class="system">Go to C:\Windows\System32\Drivers\Etc\</span></li>
     <li>Open the <span class="highlight">hosts</span> file with a text editor</li>
-    <li>Add the IP&rsquo;s from this list <a href="http://pastebin.com/AbTqLqwY" target="_blank" title=""><a href="http://pastebin.com/AbTqLqwY">http://pastebin.com/AbTqLqwY</a></a>
+    <li>Add the IP's from this list <a href="http://pastebin.com/AbTqLqwY" target="_blank" title="">http://pastebin.com/AbTqLqwY</a>
     </li>
 </ul>
 <h4>Group Policy</h4>
@@ -694,14 +694,14 @@ Install O&amp;O <a href="https://www.oo-software.com/en/shutup10" target="_blank
             <li>Download and install Unlocker</li>
             <li>Navigate to the following folder:</li>
             <li><span class="system">C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy</span></li>
-            <li>Right click &ldquo;SearchUI.exe&rdquo; and select &ldquo;Unlocker&rdquo;</li>
-            <li>Under the action menu, select &ldquo;Rename&rdquo;</li>
-            <li>Give it a new name such as &ldquo;Disabled.SearchUI.exe&rdquo;</li>
+            <li>Right click "SearchUI.exe" and select "Unlocker"</li>
+            <li>Under the action menu, select "Rename"</li>
+            <li>Give it a new name such as "Disabled.SearchUI.exe"</li>
             <li>Restart PC</li>
         </ul>
     </li>
 </ul>
-</div></p>
+</div>
 
 
 		</div>

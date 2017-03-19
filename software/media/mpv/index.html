@@ -352,15 +352,15 @@
 <div id="toc" class="right">
 </div>
 
-<p><p>Mpv is a free, open-source, media player. It needs a video in order to run and will not start by simply launching the program.<br>
+<p>Mpv is a free, open-source, media player. It needs a video in order to run and will not start by simply launching the program.<br>
 Set your video default programs to use mpv and they will automatically use the player when opened.</p>
 <h2>Installation</h2>
-<p><a href="http://mpv.io/installation" target="_blank" title=""><a href="http://mpv.io/installation">http://mpv.io/installation</a></a></p>
+<p><a href="http://mpv.io/installation" target="_blank" title="">http://mpv.io/installation</a></p>
 <h4>Windows</h4>
 <p>Unzip and move the mpv folder to your C:\Program Files.</p>
 <h2>Configuration</h2>
 <p>There is no graphical interface, you will need to configure the settings using a file.</p>
-<p>Using a text editor, create a file named <strong>config</strong> (with no file extension, All types (<em>.</em>)) in the directory C:\Users[USER]\AppData\Roaming\mpv</p>
+<p>Using a text editor, create a file named <strong>config</strong> (with no file extension, All types (*.*)) in the directory C:\Users\[USER]\AppData\Roaming\mpv</p>
 <p>A basic high-quality playback configuration:</p>
 <pre><code data-language="generic">&#35; VIDEO &#35;
 vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
@@ -370,7 +370,7 @@ priority=high
 osd-fractions
 demuxer-readahead-secs=5.0
 cache-default=1048576
-cache-file=TMP&lt;
+cache-file=TMP<
 cache-seek-min=1024
 &nbsp;
 &#35; AUDIO &#35;
@@ -393,27 +393,26 @@ bar-height-inactive=0
 screenshot-format=png
 screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
 screenshot-tag-colorspace=yes
-loop=inf</code></pre></p>
+loop=inf</code></pre>
 
-<p><h4>Low Quality</h4>
+<h4>Low Quality</h4>
 <pre><code data-language="generic">vo=opengl:deband
-hwdec=auto</code></pre></p>
+hwdec=auto</code></pre>
 
-<p><h4>Medium Quality</h4>
+<h4>Medium Quality</h4>
 <pre><code data-language="generic">vo=opengl-hq
-hwdec=auto</code></pre></p>
+hwdec=auto</code></pre>
 
-<p><h4>High Quality</h4>
+<h4>High Quality</h4>
 <pre><code data-language="generic">vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft
-hwdec=auto</code></pre></p>
+hwdec=auto</code></pre>
 
-<p><h4>Very High Quality</h4>
-<pre><code data-language="generic">vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr</code></pre></p>
+<h4>Very High Quality</h4>
+<pre><code data-language="generic">vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr</code></pre>
 
-<p><h4>Ultra Quality</h4>
+<h4>Ultra Quality</h4>
 <pre><code data-language="generic">vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3</code></pre>
-</div></p>
-
+</div>
 
 		</div>
 	</div>

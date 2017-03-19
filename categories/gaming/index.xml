@@ -961,39 +961,52 @@
       <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
       
       <guid>http://www.powerup.io/gaming/pc/enhancements/</guid>
-      <description>&lt;p&gt;&lt;h3&gt;Platforms &amp;amp; Stores&lt;/h3&gt;
+      <description>&lt;div class=&#34;wiki&#34;&gt;
+&lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Platforms &amp;amp; Stores&lt;/h2&gt;
 &lt;p&gt;&lt;/p&gt;
-&lt;h3&gt;Graphics Enhancements&lt;/h3&gt;
-&lt;h4&gt;SweetFX&lt;/h4&gt;
+&lt;h2&gt;Graphics Enhancements&lt;/h2&gt;
+
+&lt;h3&gt;SweetFX&lt;/h3&gt;
 &lt;p&gt;A universal image improvement and tweaking mod, that works with almost any 32-bit DirectX 9, 10 or 11 game or application.&lt;/p&gt;
 &lt;p&gt;Official Website.&lt;/p&gt;
-&lt;h4&gt;ENB&lt;/h4&gt;
+
+&lt;h3&gt;ENB&lt;/h3&gt;
 &lt;p&gt;ENBSeries is the project of graphic modifications for games. The main idea is to allow every gamer to configure how game looks like for their own taste.&lt;br&gt;
 If there is no ENBSeries version for game you wish to modify, just try several available, maybe one of them will work.&lt;/p&gt;
 &lt;p&gt;Official Website.&lt;/p&gt;
 &lt;p&gt;SweetFX Settings Database&lt;/p&gt;
-&lt;h4&gt;injectSMAA&lt;/h4&gt;
+
+&lt;h3&gt;injectSMAA&lt;/h3&gt;
 &lt;p&gt;A small patch for Direct3D 9, 10 and 11 based games that adds SMAA support, a new post-processing anti-aliasing technique.&lt;/p&gt;
 &lt;p&gt;injectSMAA is included with SweetFX.&lt;/p&gt;
 &lt;p&gt;Official Website.&lt;/p&gt;
-&lt;h4&gt;HBAO+&lt;/h4&gt;
+
+&lt;h3&gt;HBAO+&lt;/h3&gt;
 &lt;p&gt;Improves upon existing Ambient Occlusion techniques to add richer, more detailed, more realistic shadows around objects that occlude rays of light.&lt;/p&gt;
 &lt;p&gt;Official Website&lt;/p&gt;
-&lt;h4&gt;GeDoSaTo&lt;/h4&gt;
+
+&lt;h3&gt;GeDoSaTo&lt;/h3&gt;
 &lt;p&gt;A utility for modifying the rendering of games. Its primary purpose is allowing for downsampling without any limitations and with high quality filtering, but it can also be used to inject various effects, hide HuDs, or even add new capabilities with game-specific plugins.&lt;/p&gt;
 &lt;p&gt;Official Website&lt;/p&gt;
-&lt;h4&gt;Borderless-Gaming&lt;/h4&gt;
+
+&lt;h3&gt;Borderless-Gaming&lt;/h3&gt;
 &lt;p&gt;Play games in a borderless window mode. This may come in useful for solving performance issues in some games.&lt;/p&gt;
 &lt;p&gt;Official Website&lt;/p&gt;
-&lt;h3&gt;Mods&lt;/h3&gt;
-&lt;h4&gt;Nexus Mod Manager&lt;/h4&gt;
+
+&lt;h2&gt;Mods&lt;/h2&gt;
+&lt;h3&gt;Nexus Mod Manager&lt;/h3&gt;
 &lt;p&gt;Allows you to download, install, update and manage your files through an easy to use interface. It integrates with the Nexus sites to provide you with a fast, efficient and much less hassled modding experience.&lt;/p&gt;
 &lt;p&gt;Official Website&lt;/p&gt;
 &lt;p&gt;Nexus Wiki&lt;/p&gt;
-&lt;h4&gt;Mod Organizer&lt;/h4&gt;
+
+&lt;h3&gt;Mod Organizer&lt;/h3&gt;
 &lt;p&gt;This is a better option for Skyrim and Fallout 3 than Nexus Mod Manager. It is specifically designed for people who like to experiment with mods and thus need an easy and reliable way to install and uninstall them.&lt;/p&gt;
 &lt;p&gt;It is compatible with the nexusmods.com website and account.&lt;/p&gt;
-&lt;p&gt;Download&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;Download&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     

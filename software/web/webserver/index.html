@@ -354,11 +354,14 @@
 
 <p>This guide is for <a href="https://m.do.co/c/701345b9d248" target="_blank">Digital Ocean</a> and <a href="https://wiki.debian.org/DebianReleases" target="_blank">Debian Linux</a> and covers both <a href="https://httpd.apache.org/" target="_blank">Apache</a> and <a href="https://www.nginx.com/" target="_blank">Nginx</a> Servers.</p>
 <p>Use the following commands as a template for your site.</p>
+
 <h2>Digital Ocean</h2>
+
 <h3>Create Droplet</h3>
 <p>After completion, you'll get an email with login credentials.<br>
 Login SSH as root. Use <a href="http://www.putty.org/" target="_blank">Putty</a> if on Windows.<br>
 Change root password as required.</p>
+
 <h3>Domain Name Servers</h3>
 <p>In Digital Ocean Networking set your Records:</p>
 <table style="width: 500px;">
@@ -393,6 +396,7 @@ Change root password as required.</p>
     </tbody>
 </table>
 <p></p>
+
 <h3>Debian</h3>
 <figure class="tright" style="width: 200px;">
     <a href="#" class="thumb" data-featherlight="/img/software/logos/multiplat/debian.png"><img alt="Debian Linux" class="thumb" height="115" src="/img/software/logos/multiplat/debian.png" width="250"></a>
@@ -423,9 +427,11 @@ Login with new username.</p>
 
 <h2>Directories</h2>
 <p>Make directories on your server:</p>
-<p>/var/www/example.com<br>
-/var/www/example.com/public<br>
-/var/www/example.com/logs</p>
+<p>
+<span class="system">/var/www/example.com</span><br>
+<span class="system">/var/www/example.com/public</span><br>
+<span class="system">/var/www/example.com/logs</span>
+</p>
 <h2>NTP</h2>
 <p>Network Time Protocol daemon</p>
 <pre><code data-language="shell">sudo apt-get install ntp ntpdate</code></pre>
@@ -447,14 +453,14 @@ Login with new username.</p>
  ServerAdmin webmaster@example.com
  ServerName example.com
  ServerAlias www.example.com
- DocumentRoot /var/www/example.com/public/     
+ DocumentRoot /var/www/example.com/public/
  &lt;Directory /var/www/example.com&gt;
       Options Indexes FollowSymLinks MultiViews
       AllowOverride All
       Order allow,deny
-      allow from all     
+      allow from all
       &lt;/Directory&gt;
-ErrorLog /var/www/example.com/logs/error.log     
+ErrorLog /var/www/example.com/logs/error.log
 CustomLog /var/www/example.com/logs/access.log combined
 &lt;/VirtualHost&gt;</code></pre>
 
@@ -534,13 +540,13 @@ sudo apt-get remove apache2</code></pre>
     }
 }</code></pre>
 
-<p><h4>Enable access to phpMyAdmin</h4>
+<h4>Enable access to phpMyAdmin</h4>
 <pre data-language="generic"><code data-language="generic">server {
-[&hellip;]
+[...]
 location /phpmyadmin {
         root /usr/share/;
         index index.php index.html index.htm;
-        location ~ ^/phpmyadmin/(.+.php)$ {
+        location ~ ^/phpmyadmin/(.+\.php)$ {
             try_files $uri =404;
             root /usr/share/;
             # With php5-fpm:
@@ -551,15 +557,15 @@ location /phpmyadmin {
             fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
             include /etc/nginx/fastcgi_params;
     }
-    location ~* ^/phpmyadmin/(.+.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
+    location ~* ^/phpmyadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
         root /usr/share/;
     }
 }
 location /phpMyAdmin {
         rewrite ^/* /phpmyadmin last;
 }
-[&hellip;]
-}</code></pre></p>
+[...]
+}</code></pre>
 
 <p>Create a symlink in sites-enabled.</p>
 <pre><code data-language="shell">sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com</code></pre>
@@ -621,11 +627,14 @@ sudo apt-get update</code></pre>
 
 <h3>php.ini Locations</h3>
 <h4>Apache</h4>
-<p>/etc/php5/apache2/php.ini<br>
-/etc/php/7.0/apache2/php.ini</p>
+<p>
+<span class="system">/etc/php5/apache2/php.ini</span><br>
+<span class="system">/etc/php/7.0/apache2/php.ini</span>
+</p>
 <h4>Nginx</h4>
-<p>/etc/php5/fpm/php.ini<br>
-/etc/php/7.0/fpm/php.ini</p>
+<p>
+<span class="system">/etc/php5/fpm/php.ini</span><br>
+<span class="system">/etc/php/7.0/fpm/php.ini</span></p>
 <h3>Upload Temp Directory</h3>
 <p>Uncomment and set your path:<br>
 upload_tmp_dir = /var/www/example.com/public/tmp</p>
@@ -638,26 +647,26 @@ upload_tmp_dir = /var/www/example.com/public/tmp</p>
 upload_max_filesize =
 max_file_uploads =</code></pre>
 
-<p><h4>Restart php5-fpm (Nginx)</h4>
+<h4>Restart php5-fpm (Nginx)</h4>
 <pre><code data-language="shell">sudo service php5-fpm reload
-sudo service php5-fpm restart </code></pre></p>
+sudo service php5-fpm restart </code></pre>
 
-<p><h4>Restart Apache / Nginx</h4>
+<h4>Restart Apache / Nginx</h4>
 <pre><code data-language="shell">sudo systemctl restart apache2
-sudo systemctl restart nginx</code></pre></p>
+sudo systemctl restart nginx</code></pre>
 
-<p><h3>APC</h3>
+<h3>APC</h3>
 <p>Alternative PHP Cache</p>
-<pre><code data-language="shell">sudo apt-get install php-apc</code></pre></p>
+<pre><code data-language="shell">sudo apt-get install php-apc</code></pre>
 
 <p>create /etc/php5/conf.d/apc.ini</p>
 <pre data-language="shell"><code data-language="shell">extension=apc.so
 ; enable APC
-apc.enabled=1    
+apc.enabled=1
 ; The number of shared memory segments
-apc.shm_segments=1      
+apc.shm_segments=1
 ; The size of each shared memory segment
-apc.shm_size=64    
+apc.shm_size=64
 ; The number of seconds a cache entry is allowed to idle in a slot in case this
 ; cache entry slot is needed by another entry.
 apc.ttl=7200</code></pre>
@@ -686,13 +695,13 @@ deb-src http://security.debian.org/ jessie/updates main contrib non-free</code><
 
 <pre><code data-language="shell">sudo service php5-fpm restart</code></pre>
 
-<p><h2>MySQL</h2>
+<h2>MySQL</h2>
 <figure class="tright" style="width: 200px;">
     <a href="#" class="thumb" data-featherlight="/img/software/web/webserver/mysql.png"><img alt="MySQL Database Management" class="thumb" height="115" src="/img/software/web/webserver/mysql.png" width="250"></a>
     <figcaption>
         MySQL Database Management
     </figcaption>
-</figure></p>
+</figure>
 
 <pre><code data-language="shell">sudo apt-get install mysql-server php5-mysql
 sudo mysql_secure_installation</code></pre>
@@ -750,13 +759,39 @@ groups username</code></pre>
 sudo systemctl restart nginx</code></pre>
 
 <h2>FTP</h2>
-<p>Host = Server IP Address<br>
-Protocol: SFTP<br>
-Logon Type: Normal</p>
-<p>Default remote directory<br>
-/var/www/example.com/public</p>
+<p>Host: <span class="system">Server IP Address</span><br>
+Protocol: <span class="system">SFTP</span><br>
+Logon Type: <span class="system">Normal</span><br>
+Default remote directory: <span class="system">/var/www/example.com/public</span>
 
-<p></div></p>
+<h3>www-data</h3>
+<p>
+Enable ftp upload writing to files owned by www-data.
+</p>
+<p>
+Create Group and add User
+</p>
+<pre><code data-language="shell">sudo adduser --group www-pub
+sudo usermod -a -G www-data
+sudo usermod -a -G username
+</code></pre>
+
+<p>
+Change directories and files owner
+</p>
+<pre><code data-language="shell">sudo chown -R www-data:www-pub /var/www
+</code></pre>
+
+<p>
+Change directories and files permissions
+</p>
+<pre><code data-language="shell">sudo chmod 2775 /var/www
+
+sudo find /var/www -type d -exec chmod 2775 {} +
+sudo find /var/www -type f -exec chmod 0664 {} +</code></pre>
+</p>
+
+</div>
 
 
 		</div>

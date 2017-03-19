@@ -221,7 +221,7 @@ Users are able to change their personal information:&lt;br /&gt;
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;h2&gt;Security&lt;/h2&gt;
+&lt;h2&gt;Security&lt;/h2&gt;
 &lt;h3&gt;Antivirus&lt;/h3&gt;
 &lt;p&gt;Antivirus ratings can be found at &lt;a href=&#34;https://www.av-test.org&#34; target=&#34;_blank&#34;&gt;av-test.org&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -336,7 +336,7 @@ Users are able to change their personal information:&lt;br /&gt;
         &lt;/ul&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;See more &lt;a href=&#34;software/apps/windows&#34; rel=&#34;alternate&#34;&gt;Windows Applications&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See more &lt;a href=&#34;http://www.powerup.io/software/apps/windows&#34; rel=&#34;alternate&#34;&gt;Windows Applications&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Performance&lt;/h2&gt;
 &lt;h3&gt;Startup Programs&lt;/h3&gt;
 &lt;figure class=&#34;tright&#34;&gt;
@@ -384,7 +384,7 @@ Users are able to change their personal information:&lt;br /&gt;
     &lt;li&gt;In the Performance Options window click the &lt;span class=&#34;highlight&#34;&gt;Advanced&lt;/span&gt; tab&lt;/li&gt;
     &lt;li&gt;Click &lt;span class=&#34;highlight&#34;&gt;Change Virtual Memory&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;Choose your &lt;span class=&#34;highlight&#34;&gt;C: Drive&lt;/span&gt; → Click &lt;span class=&#34;highlight&#34;&gt;Custom Size&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;Set, in Megabytes, Initial and Maximum size to 1.5 times the amount of your computer&amp;rsquo;s RAM.
+    &lt;li&gt;Set, in Megabytes, Initial and Maximum size to 1.5 times the amount of your computer&#39;s RAM.
         &lt;ol&gt;
             &lt;li&gt;(e.g. 1GB RAM = 1000MB)&lt;/li&gt;
             &lt;li&gt;(e.g. 1.5 x 4GB RAM = 6000MB)&lt;span id=&#34;cke_bm_220E&#34; style=&#34;display: none;&#34;&gt;&lt;/span&gt;&lt;/li&gt;
@@ -405,12 +405,12 @@ Note: High Performance will be harder on your CPU and use more power.&lt;/p&gt;
         Google DNS
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Third-party DNS servers can be faster than your Internet Service Providor&amp;rsquo;s depending on your location. Try Google&amp;rsquo;s Public DNS, &lt;span class=&#34;system&#34;&gt;8.8.8.8&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;8.8.4.4&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Third-party DNS servers can be faster than your Internet Service Providor&#39;s depending on your location. Try Google&#39;s Public DNS, &lt;span class=&#34;system&#34;&gt;8.8.8.8&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;8.8.4.4&lt;/span&gt;.&lt;/p&gt;
 &lt;ol&gt;
     &lt;li&gt;Go to &lt;span class=&#34;highlight&#34;&gt;Control Panel&lt;/span&gt; → &lt;span class=&#34;highlight&#34;&gt;Network&lt;/span&gt; → &lt;span class=&#34;highlight&#34;&gt;Network and Sharing Center&lt;/span&gt; → &lt;span class=&#34;highlight&#34;&gt;Change Adapter Settings&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;Right click on your &lt;span class=&#34;highlight&#34;&gt;Local Area&lt;/span&gt; or &lt;span class=&#34;highlight&#34;&gt;Wireless connection&lt;/span&gt; and go to Properties.&lt;/li&gt;
     &lt;li&gt;Scroll down to &lt;span class=&#34;highlight&#34;&gt;IPv4&lt;/span&gt; and click Properties.&lt;/li&gt;
-    &lt;li&gt;Choose &lt;span class=&#34;highlight&#34;&gt;&amp;ldquo;Use the following DNS server addresses&amp;rdquo;&lt;/span&gt; and enter the address.&lt;/li&gt;
+    &lt;li&gt;Choose &lt;span class=&#34;highlight&#34;&gt;&#34;Use the following DNS server addresses&#34;&lt;/span&gt; and enter the address.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Telemery&lt;/h2&gt;
 &lt;p&gt;Removing Windows Data Collection&lt;/p&gt;
@@ -438,9 +438,9 @@ Note: High Performance will be harder on your CPU and use more power.&lt;/p&gt;
 &lt;ul&gt;
     &lt;li&gt;Open Command Prompt as Administrator&lt;/li&gt;
     &lt;li&gt;Enter:&lt;br&gt;
-    &lt;span class=&#34;system&#34;&gt;sc stop Diagtrack&lt;br&gt;
-    sc delete Diagtrack&lt;br&gt;
-    sc delete dmwappushservice&lt;/span&gt;&lt;/li&gt;
+    &lt;pre style=&#34;max-width: 400px;&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;sc stop Diagtrack
+sc delete Diagtrack
+sc delete dmwappushservice&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Tasks&lt;/h4&gt;
 &lt;ul&gt;
@@ -487,8 +487,8 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;ul&gt;
         &lt;li&gt;Open Command Prompt as Administrator&lt;/li&gt;
         &lt;li&gt;Enter:&lt;br&gt;
-        &lt;span class=&#34;system&#34;&gt;sc stop Diagtrack&lt;br&gt;
-        sc delete Diagtrack&lt;/span&gt;&lt;/li&gt;
+        &lt;pre style=&#34;max-width: 400px;&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;sc stop Diagtrack
+sc delete Diagtrack&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -507,9 +507,9 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;li&gt;Go to the registry key:&lt;/li&gt;
     &lt;li&gt;&lt;span class=&#34;system&#34;&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;Create a new a &lt;span class=&#34;highlight&#34;&gt;32-bit DWORD&lt;/span&gt; value named &lt;span class=&#34;highlight&#34;&gt;AllowTelemetry&lt;/span&gt; and set it to &lt;span class=&#34;highlight&#34;&gt;0&lt;/span&gt;.&lt;/li&gt;
-    &lt;li&gt;&lt;span class=&#34;system&#34;&gt;Go to C:\Windows\System32\Drivers\Etc&amp;lt;/span&amp;gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;system&#34;&gt;Go to C:\Windows\System32\Drivers\Etc\&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;Open the &lt;span class=&#34;highlight&#34;&gt;hosts&lt;/span&gt; file with a text editor&lt;/li&gt;
-    &lt;li&gt;Add the IP&amp;rsquo;s from this list &lt;a href=&#34;http://pastebin.com/AbTqLqwY&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;a href=&#34;http://pastebin.com/AbTqLqwY&#34;&gt;http://pastebin.com/AbTqLqwY&lt;/a&gt;&lt;/a&gt;
+    &lt;li&gt;Add the IP&#39;s from this list &lt;a href=&#34;http://pastebin.com/AbTqLqwY&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;http://pastebin.com/AbTqLqwY&lt;/a&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Group Policy&lt;/h4&gt;
@@ -563,14 +563,14 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
             &lt;li&gt;Download and install Unlocker&lt;/li&gt;
             &lt;li&gt;Navigate to the following folder:&lt;/li&gt;
             &lt;li&gt;&lt;span class=&#34;system&#34;&gt;C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy&lt;/span&gt;&lt;/li&gt;
-            &lt;li&gt;Right click &amp;ldquo;SearchUI.exe&amp;rdquo; and select &amp;ldquo;Unlocker&amp;rdquo;&lt;/li&gt;
-            &lt;li&gt;Under the action menu, select &amp;ldquo;Rename&amp;rdquo;&lt;/li&gt;
-            &lt;li&gt;Give it a new name such as &amp;ldquo;Disabled.SearchUI.exe&amp;rdquo;&lt;/li&gt;
+            &lt;li&gt;Right click &#34;SearchUI.exe&#34; and select &#34;Unlocker&#34;&lt;/li&gt;
+            &lt;li&gt;Under the action menu, select &#34;Rename&#34;&lt;/li&gt;
+            &lt;li&gt;Give it a new name such as &#34;Disabled.SearchUI.exe&#34;&lt;/li&gt;
             &lt;li&gt;Restart PC&lt;/li&gt;
         &lt;/ul&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     

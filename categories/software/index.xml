@@ -18,7 +18,7 @@
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;h2&gt;Security&lt;/h2&gt;
+&lt;h2&gt;Security&lt;/h2&gt;
 &lt;h3&gt;Antivirus&lt;/h3&gt;
 &lt;p&gt;Antivirus ratings can be found at &lt;a href=&#34;https://www.av-test.org&#34; target=&#34;_blank&#34;&gt;av-test.org&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -133,7 +133,7 @@
         &lt;/ul&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;See more &lt;a href=&#34;software/apps/windows&#34; rel=&#34;alternate&#34;&gt;Windows Applications&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See more &lt;a href=&#34;http://www.powerup.io/software/apps/windows&#34; rel=&#34;alternate&#34;&gt;Windows Applications&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Performance&lt;/h2&gt;
 &lt;h3&gt;Startup Programs&lt;/h3&gt;
 &lt;figure class=&#34;tright&#34;&gt;
@@ -181,7 +181,7 @@
     &lt;li&gt;In the Performance Options window click the &lt;span class=&#34;highlight&#34;&gt;Advanced&lt;/span&gt; tab&lt;/li&gt;
     &lt;li&gt;Click &lt;span class=&#34;highlight&#34;&gt;Change Virtual Memory&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;Choose your &lt;span class=&#34;highlight&#34;&gt;C: Drive&lt;/span&gt; → Click &lt;span class=&#34;highlight&#34;&gt;Custom Size&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;Set, in Megabytes, Initial and Maximum size to 1.5 times the amount of your computer&amp;rsquo;s RAM.
+    &lt;li&gt;Set, in Megabytes, Initial and Maximum size to 1.5 times the amount of your computer&#39;s RAM.
         &lt;ol&gt;
             &lt;li&gt;(e.g. 1GB RAM = 1000MB)&lt;/li&gt;
             &lt;li&gt;(e.g. 1.5 x 4GB RAM = 6000MB)&lt;span id=&#34;cke_bm_220E&#34; style=&#34;display: none;&#34;&gt;&lt;/span&gt;&lt;/li&gt;
@@ -202,12 +202,12 @@ Note: High Performance will be harder on your CPU and use more power.&lt;/p&gt;
         Google DNS
     &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Third-party DNS servers can be faster than your Internet Service Providor&amp;rsquo;s depending on your location. Try Google&amp;rsquo;s Public DNS, &lt;span class=&#34;system&#34;&gt;8.8.8.8&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;8.8.4.4&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Third-party DNS servers can be faster than your Internet Service Providor&#39;s depending on your location. Try Google&#39;s Public DNS, &lt;span class=&#34;system&#34;&gt;8.8.8.8&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;8.8.4.4&lt;/span&gt;.&lt;/p&gt;
 &lt;ol&gt;
     &lt;li&gt;Go to &lt;span class=&#34;highlight&#34;&gt;Control Panel&lt;/span&gt; → &lt;span class=&#34;highlight&#34;&gt;Network&lt;/span&gt; → &lt;span class=&#34;highlight&#34;&gt;Network and Sharing Center&lt;/span&gt; → &lt;span class=&#34;highlight&#34;&gt;Change Adapter Settings&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;Right click on your &lt;span class=&#34;highlight&#34;&gt;Local Area&lt;/span&gt; or &lt;span class=&#34;highlight&#34;&gt;Wireless connection&lt;/span&gt; and go to Properties.&lt;/li&gt;
     &lt;li&gt;Scroll down to &lt;span class=&#34;highlight&#34;&gt;IPv4&lt;/span&gt; and click Properties.&lt;/li&gt;
-    &lt;li&gt;Choose &lt;span class=&#34;highlight&#34;&gt;&amp;ldquo;Use the following DNS server addresses&amp;rdquo;&lt;/span&gt; and enter the address.&lt;/li&gt;
+    &lt;li&gt;Choose &lt;span class=&#34;highlight&#34;&gt;&#34;Use the following DNS server addresses&#34;&lt;/span&gt; and enter the address.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Telemery&lt;/h2&gt;
 &lt;p&gt;Removing Windows Data Collection&lt;/p&gt;
@@ -235,9 +235,9 @@ Note: High Performance will be harder on your CPU and use more power.&lt;/p&gt;
 &lt;ul&gt;
     &lt;li&gt;Open Command Prompt as Administrator&lt;/li&gt;
     &lt;li&gt;Enter:&lt;br&gt;
-    &lt;span class=&#34;system&#34;&gt;sc stop Diagtrack&lt;br&gt;
-    sc delete Diagtrack&lt;br&gt;
-    sc delete dmwappushservice&lt;/span&gt;&lt;/li&gt;
+    &lt;pre style=&#34;max-width: 400px;&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;sc stop Diagtrack
+sc delete Diagtrack
+sc delete dmwappushservice&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Tasks&lt;/h4&gt;
 &lt;ul&gt;
@@ -284,8 +284,8 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;ul&gt;
         &lt;li&gt;Open Command Prompt as Administrator&lt;/li&gt;
         &lt;li&gt;Enter:&lt;br&gt;
-        &lt;span class=&#34;system&#34;&gt;sc stop Diagtrack&lt;br&gt;
-        sc delete Diagtrack&lt;/span&gt;&lt;/li&gt;
+        &lt;pre style=&#34;max-width: 400px;&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;sc stop Diagtrack
+sc delete Diagtrack&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -304,9 +304,9 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
     &lt;li&gt;Go to the registry key:&lt;/li&gt;
     &lt;li&gt;&lt;span class=&#34;system&#34;&gt;HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;Create a new a &lt;span class=&#34;highlight&#34;&gt;32-bit DWORD&lt;/span&gt; value named &lt;span class=&#34;highlight&#34;&gt;AllowTelemetry&lt;/span&gt; and set it to &lt;span class=&#34;highlight&#34;&gt;0&lt;/span&gt;.&lt;/li&gt;
-    &lt;li&gt;&lt;span class=&#34;system&#34;&gt;Go to C:\Windows\System32\Drivers\Etc&amp;lt;/span&amp;gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span class=&#34;system&#34;&gt;Go to C:\Windows\System32\Drivers\Etc\&lt;/span&gt;&lt;/li&gt;
     &lt;li&gt;Open the &lt;span class=&#34;highlight&#34;&gt;hosts&lt;/span&gt; file with a text editor&lt;/li&gt;
-    &lt;li&gt;Add the IP&amp;rsquo;s from this list &lt;a href=&#34;http://pastebin.com/AbTqLqwY&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;a href=&#34;http://pastebin.com/AbTqLqwY&#34;&gt;http://pastebin.com/AbTqLqwY&lt;/a&gt;&lt;/a&gt;
+    &lt;li&gt;Add the IP&#39;s from this list &lt;a href=&#34;http://pastebin.com/AbTqLqwY&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;http://pastebin.com/AbTqLqwY&lt;/a&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Group Policy&lt;/h4&gt;
@@ -360,14 +360,14 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
             &lt;li&gt;Download and install Unlocker&lt;/li&gt;
             &lt;li&gt;Navigate to the following folder:&lt;/li&gt;
             &lt;li&gt;&lt;span class=&#34;system&#34;&gt;C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy&lt;/span&gt;&lt;/li&gt;
-            &lt;li&gt;Right click &amp;ldquo;SearchUI.exe&amp;rdquo; and select &amp;ldquo;Unlocker&amp;rdquo;&lt;/li&gt;
-            &lt;li&gt;Under the action menu, select &amp;ldquo;Rename&amp;rdquo;&lt;/li&gt;
-            &lt;li&gt;Give it a new name such as &amp;ldquo;Disabled.SearchUI.exe&amp;rdquo;&lt;/li&gt;
+            &lt;li&gt;Right click &#34;SearchUI.exe&#34; and select &#34;Unlocker&#34;&lt;/li&gt;
+            &lt;li&gt;Under the action menu, select &#34;Rename&#34;&lt;/li&gt;
+            &lt;li&gt;Give it a new name such as &#34;Disabled.SearchUI.exe&#34;&lt;/li&gt;
             &lt;li&gt;Restart PC&lt;/li&gt;
         &lt;/ul&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -377,42 +377,40 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
       <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
       
       <guid>http://www.powerup.io/software/web/chrome/</guid>
-      <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
-    /* &amp;mdash; 4 Column &amp;mdash; */
+      <description>&lt;style type=&#34;text/css&#34;&gt;
+    /* --- 4 Column --- */
     .column-4 {
         text-align: center !important;
-    }&lt;br /&gt;
+    }  
     .column-4 .img-wrapper {
         min-height: 100px !important;
         line-height: 100px !important;
         margin: 0 0 0.5em 0 !important;
-    }&lt;/p&gt;
+    }
 
-&lt;pre&gt;&lt;code&gt;/* --- 5 Column --- */
-.column-5 {
-    text-align: center !important;
-}
-.column-5 div.item-container img {
-    max-height: 70px !important;
-    max-width: 70px !important;
-}
+    /* --- 5 Column --- */
+    .column-5 {
+        text-align: center !important;
+    }
+    .column-5 div.item-container img {
+        max-height: 70px !important;
+        max-width: 70px !important;
+    }
 
-.column-5 .img-wrapper {
-    max-height: 70px !important;
-    min-height: 70px !important;
-    line-height: 70px !important;
-    margin: 0 !important;
-}
+    .column-5 .img-wrapper {
+        max-height: 70px !important;
+        min-height: 70px !important;
+        line-height: 70px !important;
+        margin: 0 !important;
+    }
 
-.column-5 .title {
-    font-size: 1em !important;
-    font-weight: 700 !important;
-    line-height: 1.2em !important;
-    padding: 1.5em 0 0.5em 0 !important;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/style&gt;
+    .column-5 .title {
+        font-size: 1em !important;
+        font-weight: 700 !important;
+        line-height: 1.2em !important;
+        padding: 1.5em 0 0.5em 0 !important;
+    }
+&lt;/style&gt;
 &lt;div class=&#34;wiki column-4&#34;&gt;
 &lt;h2&gt;Builds&lt;/h2&gt;
 &lt;div class=&#34;item-container&#34;&gt;
@@ -469,7 +467,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
             &lt;a href=&#34;https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en&#34; target=&#34;_blank&#34;&gt;uBlock Origin&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
-            Ad Blocker that&amp;rsquo;s easy on memory and CPU, yet can load thousands more filters than other popular blockers.
+            Ad Blocker that&#39;s easy on memory and CPU, yet can load thousands more filters than other popular blockers.
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
@@ -517,7 +515,7 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -528,7 +526,6 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
       
       <guid>http://www.powerup.io/software/media/ffmpeg/</guid>
       <description>&lt;!-- Table of Contents --&gt;
-
 &lt;div class=&#34;wiki&#34;&gt;
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
@@ -613,42 +610,40 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
       <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
       
       <guid>http://www.powerup.io/software/web/firefox/</guid>
-      <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
-    /* &amp;mdash; 4 Column &amp;mdash; */
+      <description>&lt;style type=&#34;text/css&#34;&gt;
+    /* --- 4 Column --- */
     .column-4 {
         text-align: center !important;
-    }&lt;br /&gt;
+    }  
     .column-4 .img-wrapper {
         min-height: 100px !important;
         line-height: 100px !important;
         margin: 0 0 0.5em 0 !important;
-    }&lt;/p&gt;
+    }
 
-&lt;pre&gt;&lt;code&gt;/* --- 5 Column --- */
-.column-5 {
-    text-align: center !important;
-}
-.column-5 div.item-container img {
-    max-height: 70px !important;
-    max-width: 70px !important;
-}
+    /* --- 5 Column --- */
+    .column-5 {
+        text-align: center !important;
+    }
+    .column-5 div.item-container img {
+        max-height: 70px !important;
+        max-width: 70px !important;
+    }
 
-.column-5 .img-wrapper {
-    max-height: 70px !important;
-    min-height: 70px !important;
-    line-height: 70px !important;
-    margin: 0;
-}
+    .column-5 .img-wrapper {
+        max-height: 70px !important;
+        min-height: 70px !important;
+        line-height: 70px !important;
+        margin: 0;
+    }
 
-.column-5 .title {
-    font-size: 1em !important;
-    font-weight: 700 !important;
-    line-height: 1.2em !important;
-    padding: 1.5em 0 0.5em 0 !important;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/style&gt;
+    .column-5 .title {
+        font-size: 1em !important;
+        font-weight: 700 !important;
+        line-height: 1.2em !important;
+        padding: 1.5em 0 0.5em 0 !important;
+    }
+&lt;/style&gt;
 &lt;div class=&#34;wiki column-4&#34;&gt;
 &lt;h2&gt;Builds&lt;/h2&gt;
 &lt;div class=&#34;item-container&#34;&gt;
@@ -716,7 +711,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
             &lt;a href=&#34;http://github.com/gorhill/uBlock&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;uBlock Origin&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
-            Ad Blocker that&amp;rsquo;s easy on memory and CPU, yet can load thousands more filters than other popular blockers.
+            Ad Blocker that&#39;s easy on memory and CPU, yet can load thousands more filters than other popular blockers.
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
@@ -760,7 +755,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
             &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/&#34; target=&#34;_blank&#34;&gt;Better Privacy&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
-            Remove or manage a new and uncommon kind of cookies, better known as LSO&amp;rsquo;s.
+            Remove or manage a new and uncommon kind of cookies, better known as LSO&#39;s.
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;item-container&#34;&gt;
@@ -793,11 +788,11 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
             &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/speed-tweaks-speedyfox/&#34; target=&#34;_blank&#34;&gt;Speed Tweaks&lt;/a&gt;
         &lt;/div&gt;
         &lt;div class=&#34;description&#34;&gt;
-            Provides a list to almost all the settings that you may need to alter in order to enhance Firefox&amp;rsquo;s speed.
+            Provides a list to almost all the settings that you may need to alter in order to enhance Firefox&#39;s speed.
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class=&#34;wiki&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;wiki&#34;&gt;
 </description>
     </item>
     
@@ -807,7 +802,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
       <pubDate>Tue, 14 Mar 2017 15:01:02 -0700</pubDate>
       
       <guid>http://www.powerup.io/software/os/linux/</guid>
-      <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
+      <description>&lt;style type=&#34;text/css&#34;&gt;
     .column-5 {
       text-align: center !important;
     }
@@ -1386,7 +1381,7 @@ ffmpeg -i input.avi -i output.png -lavfi paletteuse -r 14 output.gif&lt;/code&gt
     &lt;li&gt;lxtask&lt;/li&gt;
     &lt;li&gt;wgetpaste&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -2857,8 +2852,7 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
 &lt;p&gt;&lt;a href=&#34;http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU&#34; target=&#34;_blank&#34;&gt;http://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Guide&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;http://linustechtips.com/main/topic/31526-overclocking-your-monitor-refresh-rate-amd-gpus/&#34; target=&#34;_blank&#34;&gt;http://linustechtips.com/main/topic/31526-overclocking-your-monitor-refresh-rate-amd-gpus/&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -2871,11 +2865,11 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;h2&gt;Download&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;&gt;https://www.virtualbox.org/wiki/Downloads&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Download&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34; target=&#34;_blank&#34;&gt;https://www.virtualbox.org/wiki/Downloads&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Port Forwarding&lt;/h2&gt;
 &lt;p&gt;Get Linux Guest IP address in terminal using:&lt;/p&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ip addr show&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ip addr show&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;You will get something like:&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;eth0: inet 10.0.2.15 (example)&lt;/code&gt;&lt;/pre&gt;
@@ -2974,7 +2968,7 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
 &lt;h4&gt;Multiple Sites&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-configure-single-and-multiple-wordpress-site-settings-with-nginx&#34; target=&#34;_blank&#34;&gt;https://www.digitalocean.com/community/tutorials/how-to-configure-single-and-multiple-wordpress-site-settings-with-nginx&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;h2&gt;FTP&lt;/h2&gt;
+&lt;h2&gt;FTP&lt;/h2&gt;
 &lt;table style=&#34;height: 73px; width: 400px;&#34;&gt;
     &lt;tbody&gt;
         &lt;tr&gt;
@@ -2994,9 +2988,9 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
             &lt;td style=&#34;width: 258px;&#34;&gt;Normal&lt;/td&gt;
         &lt;/tr&gt;
     &lt;/tbody&gt;
-&lt;/table&gt;&lt;/p&gt;
+&lt;/table&gt;
 
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -3012,11 +3006,14 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
 
 &lt;p&gt;This guide is for &lt;a href=&#34;https://m.do.co/c/701345b9d248&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt; and &lt;a href=&#34;https://wiki.debian.org/DebianReleases&#34; target=&#34;_blank&#34;&gt;Debian Linux&lt;/a&gt; and covers both &lt;a href=&#34;https://httpd.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache&lt;/a&gt; and &lt;a href=&#34;https://www.nginx.com/&#34; target=&#34;_blank&#34;&gt;Nginx&lt;/a&gt; Servers.&lt;/p&gt;
 &lt;p&gt;Use the following commands as a template for your site.&lt;/p&gt;
+
 &lt;h2&gt;Digital Ocean&lt;/h2&gt;
+
 &lt;h3&gt;Create Droplet&lt;/h3&gt;
 &lt;p&gt;After completion, you&#39;ll get an email with login credentials.&lt;br&gt;
 Login SSH as root. Use &lt;a href=&#34;http://www.putty.org/&#34; target=&#34;_blank&#34;&gt;Putty&lt;/a&gt; if on Windows.&lt;br&gt;
 Change root password as required.&lt;/p&gt;
+
 &lt;h3&gt;Domain Name Servers&lt;/h3&gt;
 &lt;p&gt;In Digital Ocean Networking set your Records:&lt;/p&gt;
 &lt;table style=&#34;width: 500px;&#34;&gt;
@@ -3051,6 +3048,7 @@ Change root password as required.&lt;/p&gt;
     &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;/p&gt;
+
 &lt;h3&gt;Debian&lt;/h3&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
     &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/logos/multiplat/debian.png&#34;&gt;&lt;img alt=&#34;Debian Linux&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/logos/multiplat/debian.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
@@ -3081,9 +3079,11 @@ Login with new username.&lt;/p&gt;
 
 &lt;h2&gt;Directories&lt;/h2&gt;
 &lt;p&gt;Make directories on your server:&lt;/p&gt;
-&lt;p&gt;/var/www/example.com&lt;br&gt;
-/var/www/example.com/public&lt;br&gt;
-/var/www/example.com/logs&lt;/p&gt;
+&lt;p&gt;
+&lt;span class=&#34;system&#34;&gt;/var/www/example.com&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;system&#34;&gt;/var/www/example.com/public&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;system&#34;&gt;/var/www/example.com/logs&lt;/span&gt;
+&lt;/p&gt;
 &lt;h2&gt;NTP&lt;/h2&gt;
 &lt;p&gt;Network Time Protocol daemon&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install ntp ntpdate&lt;/code&gt;&lt;/pre&gt;
@@ -3105,14 +3105,14 @@ Login with new username.&lt;/p&gt;
  ServerAdmin webmaster@example.com
  ServerName example.com
  ServerAlias www.example.com
- DocumentRoot /var/www/example.com/public/     
+ DocumentRoot /var/www/example.com/public/
  &amp;lt;Directory /var/www/example.com&amp;gt;
       Options Indexes FollowSymLinks MultiViews
       AllowOverride All
       Order allow,deny
-      allow from all     
+      allow from all
       &amp;lt;/Directory&amp;gt;
-ErrorLog /var/www/example.com/logs/error.log     
+ErrorLog /var/www/example.com/logs/error.log
 CustomLog /var/www/example.com/logs/access.log combined
 &amp;lt;/VirtualHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 
@@ -3192,13 +3192,13 @@ sudo apt-get remove apache2&lt;/code&gt;&lt;/pre&gt;
     }
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Enable access to phpMyAdmin&lt;/h4&gt;
+&lt;h4&gt;Enable access to phpMyAdmin&lt;/h4&gt;
 &lt;pre data-language=&#34;generic&#34;&gt;&lt;code data-language=&#34;generic&#34;&gt;server {
-[&amp;hellip;]
+[...]
 location /phpmyadmin {
         root /usr/share/;
         index index.php index.html index.htm;
-        location ~ ^/phpmyadmin/(.+.php)$ {
+        location ~ ^/phpmyadmin/(.+\.php)$ {
             try_files $uri =404;
             root /usr/share/;
             # With php5-fpm:
@@ -3209,15 +3209,15 @@ location /phpmyadmin {
             fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
             include /etc/nginx/fastcgi_params;
     }
-    location ~* ^/phpmyadmin/(.+.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
+    location ~* ^/phpmyadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
         root /usr/share/;
     }
 }
 location /phpMyAdmin {
         rewrite ^/* /phpmyadmin last;
 }
-[&amp;hellip;]
-}&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+[...]
+}&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Create a symlink in sites-enabled.&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com&lt;/code&gt;&lt;/pre&gt;
@@ -3279,11 +3279,14 @@ sudo apt-get update&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;php.ini Locations&lt;/h3&gt;
 &lt;h4&gt;Apache&lt;/h4&gt;
-&lt;p&gt;/etc/php5/apache2/php.ini&lt;br&gt;
-/etc/php/7.0/apache2/php.ini&lt;/p&gt;
+&lt;p&gt;
+&lt;span class=&#34;system&#34;&gt;/etc/php5/apache2/php.ini&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;system&#34;&gt;/etc/php/7.0/apache2/php.ini&lt;/span&gt;
+&lt;/p&gt;
 &lt;h4&gt;Nginx&lt;/h4&gt;
-&lt;p&gt;/etc/php5/fpm/php.ini&lt;br&gt;
-/etc/php/7.0/fpm/php.ini&lt;/p&gt;
+&lt;p&gt;
+&lt;span class=&#34;system&#34;&gt;/etc/php5/fpm/php.ini&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;system&#34;&gt;/etc/php/7.0/fpm/php.ini&lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Upload Temp Directory&lt;/h3&gt;
 &lt;p&gt;Uncomment and set your path:&lt;br&gt;
 upload_tmp_dir = /var/www/example.com/public/tmp&lt;/p&gt;
@@ -3296,26 +3299,26 @@ upload_tmp_dir = /var/www/example.com/public/tmp&lt;/p&gt;
 upload_max_filesize =
 max_file_uploads =&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Restart php5-fpm (Nginx)&lt;/h4&gt;
+&lt;h4&gt;Restart php5-fpm (Nginx)&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service php5-fpm reload
-sudo service php5-fpm restart &lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+sudo service php5-fpm restart &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Restart Apache / Nginx&lt;/h4&gt;
+&lt;h4&gt;Restart Apache / Nginx&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo systemctl restart apache2
-sudo systemctl restart nginx&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+sudo systemctl restart nginx&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h3&gt;APC&lt;/h3&gt;
+&lt;h3&gt;APC&lt;/h3&gt;
 &lt;p&gt;Alternative PHP Cache&lt;/p&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php-apc&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php-apc&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;create /etc/php5/conf.d/apc.ini&lt;/p&gt;
 &lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;extension=apc.so
 ; enable APC
-apc.enabled=1    
+apc.enabled=1
 ; The number of shared memory segments
-apc.shm_segments=1      
+apc.shm_segments=1
 ; The size of each shared memory segment
-apc.shm_size=64    
+apc.shm_size=64
 ; The number of seconds a cache entry is allowed to idle in a slot in case this
 ; cache entry slot is needed by another entry.
 apc.ttl=7200&lt;/code&gt;&lt;/pre&gt;
@@ -3344,13 +3347,13 @@ deb-src http://security.debian.org/ jessie/updates main contrib non-free&lt;/cod
 
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service php5-fpm restart&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h2&gt;MySQL&lt;/h2&gt;
+&lt;h2&gt;MySQL&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
     &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/mysql.png&#34;&gt;&lt;img alt=&#34;MySQL Database Management&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/mysql.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
     &lt;figcaption&gt;
         MySQL Database Management
     &lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/p&gt;
+&lt;/figure&gt;
 
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install mysql-server php5-mysql
 sudo mysql_secure_installation&lt;/code&gt;&lt;/pre&gt;
@@ -3408,13 +3411,39 @@ groups username&lt;/code&gt;&lt;/pre&gt;
 sudo systemctl restart nginx&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;FTP&lt;/h2&gt;
-&lt;p&gt;Host = Server IP Address&lt;br&gt;
-Protocol: SFTP&lt;br&gt;
-Logon Type: Normal&lt;/p&gt;
-&lt;p&gt;Default remote directory&lt;br&gt;
-/var/www/example.com/public&lt;/p&gt;
+&lt;p&gt;Host: &lt;span class=&#34;system&#34;&gt;Server IP Address&lt;/span&gt;&lt;br&gt;
+Protocol: &lt;span class=&#34;system&#34;&gt;SFTP&lt;/span&gt;&lt;br&gt;
+Logon Type: &lt;span class=&#34;system&#34;&gt;Normal&lt;/span&gt;&lt;br&gt;
+Default remote directory: &lt;span class=&#34;system&#34;&gt;/var/www/example.com/public&lt;/span&gt;
 
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h3&gt;www-data&lt;/h3&gt;
+&lt;p&gt;
+Enable ftp upload writing to files owned by www-data.
+&lt;/p&gt;
+&lt;p&gt;
+Create Group and add User
+&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo adduser --group www-pub
+sudo usermod -a -G www-data
+sudo usermod -a -G username
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+Change directories and files owner
+&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo chown -R www-data:www-pub /var/www
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;
+Change directories and files permissions
+&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo chmod 2775 /var/www
+
+sudo find /var/www -type d -exec chmod 2775 {} +
+sudo find /var/www -type f -exec chmod 0664 {} +&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
 </description>
     </item>
     
@@ -6448,15 +6477,15 @@ Logon Type: Normal&lt;/p&gt;
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;p&gt;Mpv is a free, open-source, media player. It needs a video in order to run and will not start by simply launching the program.&lt;br&gt;
+&lt;p&gt;Mpv is a free, open-source, media player. It needs a video in order to run and will not start by simply launching the program.&lt;br&gt;
 Set your video default programs to use mpv and they will automatically use the player when opened.&lt;/p&gt;
 &lt;h2&gt;Installation&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://mpv.io/installation&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;&lt;a href=&#34;http://mpv.io/installation&#34;&gt;http://mpv.io/installation&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://mpv.io/installation&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;http://mpv.io/installation&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Windows&lt;/h4&gt;
 &lt;p&gt;Unzip and move the mpv folder to your C:\Program Files.&lt;/p&gt;
 &lt;h2&gt;Configuration&lt;/h2&gt;
 &lt;p&gt;There is no graphical interface, you will need to configure the settings using a file.&lt;/p&gt;
-&lt;p&gt;Using a text editor, create a file named &lt;strong&gt;config&lt;/strong&gt; (with no file extension, All types (&lt;em&gt;.&lt;/em&gt;)) in the directory C:\Users[USER]\AppData\Roaming\mpv&lt;/p&gt;
+&lt;p&gt;Using a text editor, create a file named &lt;strong&gt;config&lt;/strong&gt; (with no file extension, All types (*.*)) in the directory C:\Users\[USER]\AppData\Roaming\mpv&lt;/p&gt;
 &lt;p&gt;A basic high-quality playback configuration:&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;#35; VIDEO &amp;#35;
 vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
@@ -6466,7 +6495,7 @@ priority=high
 osd-fractions
 demuxer-readahead-secs=5.0
 cache-default=1048576
-cache-file=TMP&amp;lt;
+cache-file=TMP&lt;
 cache-seek-min=1024
 &amp;nbsp;
 &amp;#35; AUDIO &amp;#35;
@@ -6489,27 +6518,26 @@ bar-height-inactive=0
 screenshot-format=png
 screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
 screenshot-tag-colorspace=yes
-loop=inf&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+loop=inf&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Low Quality&lt;/h4&gt;
+&lt;h4&gt;Low Quality&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl:deband
-hwdec=auto&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Medium Quality&lt;/h4&gt;
+&lt;h4&gt;Medium Quality&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq
-hwdec=auto&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;High Quality&lt;/h4&gt;
+&lt;h4&gt;High Quality&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft
-hwdec=auto&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Very High Quality&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h4&gt;Very High Quality&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;h4&gt;Ultra Quality&lt;/h4&gt;
+&lt;h4&gt;Ultra Quality&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>
