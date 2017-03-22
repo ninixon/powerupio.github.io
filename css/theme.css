@@ -1,3 +1,82 @@
+@charset "utf-8";
+
+/* Mobile */
+/* If Width Larger than 768px */
+@media only screen and (min-width: 769px) {
+    /* Mobile Menu */
+    .nav-main ul li a {
+      text-align: center;
+    }
+    .nav-main ul li {
+      float: left;
+    }
+    .nav .active {
+      border-bottom: 2px solid #1a70f1;
+    }
+    .nav-main li:hover > ul {
+      position: absolute;
+    }
+    .nav-main ul ul {
+      left: 0;
+    }
+    .nav-main ul ul ul {
+      left: 100%;
+    }
+}
+/* If Width Smaller than 768px */
+@media only screen and (max-width: 768px) {
+   /* Mobile Menu */
+   .nav-main ul li a {
+     text-align: left;
+   }
+   .nav-main ul li {
+     float: none;
+   }
+   .nav .active {
+     border-bottom: 0;
+   }
+   .nav-main li:hover > ul {
+     position: relative;
+   }
+   .nav-main ul ul {
+     left: 1em;
+   }
+
+   /* Footer */
+   .copyright {
+     text-align: center !important;
+   }
+   .copyright {
+     padding: 0.5em 0 0 0;
+     text-align: center !important;
+   }
+   .nav-footer {
+     padding: 1em 0 0 0;
+     text-align: center !important;
+   }
+   .social-buttons {
+     padding: 1.5em 0 1em 0;
+     text-align: center !important;
+   }
+}
+/* If Width Smaller than 480px */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* If Height Larger than 480px */
+@media only screen and (min-height: 480px) {
+
+}
+/* If Height Smaller than 720px */
+@media only screen and (max-height: 720px) {
+
+}
+/* If Height Smaller than 480px */
+@media only screen and (max-height: 480px) {
+
+}
+
 /* ----- Fonts ----- */
 /* Navigation */
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600');
@@ -188,7 +267,7 @@ pre, code {
 .nav-main ul li {
   display: block;
   position: relative;
-  float: left;
+  /* float: left; */
   background: #27282d;
   min-width: 25%;
 }
@@ -201,7 +280,7 @@ pre, code {
   display: block;
   padding: 1.2em;
   text-decoration: none;
-  text-align: center;
+  /* text-align: center; */
   white-space: nowrap;
   color: #fff;
 }
@@ -223,7 +302,7 @@ pre, code {
 }
 .nav-main li:hover > ul {
   display: block;
-  position: absolute;
+  /* position: absolute; */
   opacity: 1;
   height: auto;
   width: auto;
@@ -249,7 +328,7 @@ pre, code {
   text-align: left;
 }
 .nav-main ul ul ul {
-  left: 100%;
+  /* left: 100%; */
   top: 0;
 }
 
