@@ -424,7 +424,7 @@ Login with new username.</p>
 <pre><code data-language="shell">sudo service sshd restart</code></pre>
 
 <h4>Update Package List</h4>
-<pre><code data-language="shell">sudo apt-get update &amp;&amp; upgrade</code></pre>
+<pre><code data-language="shell">sudo apt-get update &amp;&amp; dist-upgrade</code></pre>
 
 <h2>Directories</h2>
 <p>Make directories on your server:</p>
@@ -503,7 +503,7 @@ sudo apt-get remove apache2</code></pre>
 
 <pre><code data-language="generic">server {
     listen 80;
-    server_name example.com;
+    server_name example.com www.example.com;
     server_name_in_redirect off;
     access_log /var/log/nginx/localhost.access_log;
     error_log /var/log/nginx/localhost.error_log info;
@@ -773,8 +773,8 @@ Enable ftp upload writing to files owned by www-data.
 Create Group and add User
 </p>
 <pre><code data-language="shell">sudo adduser --group www-pub
-sudo usermod -a -G www-data
-sudo usermod -a -G username
+sudo usermod -a -G www-pub www-data
+sudo usermod -a -G www-pub username
 </code></pre>
 
 <p>

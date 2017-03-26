@@ -3075,7 +3075,7 @@ Login with new username.&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service sshd restart&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Update Package List&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get update &amp;amp;&amp;amp; upgrade&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get update &amp;amp;&amp;amp; dist-upgrade&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;Directories&lt;/h2&gt;
 &lt;p&gt;Make directories on your server:&lt;/p&gt;
@@ -3154,7 +3154,7 @@ sudo apt-get remove apache2&lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;server {
     listen 80;
-    server_name example.com;
+    server_name example.com www.example.com;
     server_name_in_redirect off;
     access_log /var/log/nginx/localhost.access_log;
     error_log /var/log/nginx/localhost.error_log info;
@@ -3424,8 +3424,8 @@ Enable ftp upload writing to files owned by www-data.
 Create Group and add User
 &lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo adduser --group www-pub
-sudo usermod -a -G www-data
-sudo usermod -a -G username
+sudo usermod -a -G www-pub www-data
+sudo usermod -a -G www-pub username
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;
