@@ -541,36 +541,6 @@ sudo apt-get remove apache2</code></pre>
     }
 }</code></pre>
 
-<h4>Enable access to phpMyAdmin</h4>
-<pre data-language="generic"><code data-language="generic">server {
-[...]
-location /phpmyadmin {
-        root /usr/share/;
-        index index.php index.html index.htm;
-        location ~ ^/phpmyadmin/(.+\.php)$ {
-            try_files $uri =404;
-            root /usr/share/;
-            # With php5-fpm:
-            fastcgi_pass unix:/var/run/php5-fpm.sock;
-            # With php5-cgi alone:
-            # fastcgi_pass  127.0.0.1:9000;
-            fastcgi_index index.php;
-            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-            include /etc/nginx/fastcgi_params;
-    }
-    location ~* ^/phpmyadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
-        root /usr/share/;
-    }
-}
-location /phpMyAdmin {
-        rewrite ^/* /phpmyadmin last;
-}
-[...]
-}</code></pre>
-
-<p>Create a symlink in sites-enabled.</p>
-<pre><code data-language="shell">sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com</code></pre>
-
 <p>Remove the default in sites-enabled.</p>
 <pre><code data-language="shell">sudo rm /etc/nginx/sites-enabled/default</code></pre>
 
@@ -730,6 +700,38 @@ Reload privilige tables now? [Y/n] y</code></pre>
 <pre><code data-language="generic">Include /etc/phpmyadmin/apache.conf</code></pre>
 
 <p>Change KeepAlive On to Off</p>
+
+<h3>NGINX</h3>
+<h4>Enable access to phpMyAdmin</h4>
+<pre data-language="generic"><code data-language="generic">server {
+[...]
+location /phpmyadmin {
+        root /usr/share/;
+        index index.php index.html index.htm;
+        location ~ ^/phpmyadmin/(.+\.php)$ {
+            try_files $uri =404;
+            root /usr/share/;
+            # With php5-fpm:
+            fastcgi_pass unix:/var/run/php5-fpm.sock;
+            # With php5-cgi alone:
+            # fastcgi_pass  127.0.0.1:9000;
+            fastcgi_index index.php;
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            include /etc/nginx/fastcgi_params;
+    }
+    location ~* ^/phpmyadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
+        root /usr/share/;
+    }
+}
+location /phpMyAdmin {
+        rewrite ^/* /phpmyadmin last;
+}
+[...]
+}</code></pre>
+
+<p>Create a symlink in sites-enabled.</p>
+<pre><code data-language="shell">sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com</code></pre>
+
 <h2>Fail2ban</h2>
 <figure class="tright" style="width: 200px;">
     <a href="#" class="thumb" data-featherlight="/img/software/web/webserver/fail2ban.png"><img alt="Fail2ban" class="thumb" height="115" src="/img/software/web/webserver/fail2ban.png" width="250"></a>

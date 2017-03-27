@@ -579,11 +579,11 @@ sc delete Diagtrack&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;p&gt;Typing ffmpeg in CMD will now launch without needing to specify a direct path.&lt;/p&gt;
 
 &lt;h2&gt;Linux Compile&lt;/h2&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install git
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install git yasm
 &amp;nbsp;
 sudo apt-get install -y autoconf dh-autoreconf automake build-essential libgnutls28-dev
 &amp;nbsp;
-sudo apt-get install -y libass-dev libfreetype6-dev libsdl1.2-dev libtheora-dev libtool libva-dev libvdpau-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev pkg-config texinfo zlib1g-dev libx264-dev libvorbis-dev libvpx-dev libfdk-aac-dev zlib1g-dev libavcodec-extra openssl libssl-dev
+sudo apt-get install -y libass-dev libfreetype6-dev libsdl1.2-dev libtheora-dev libtool libva-dev libvdpau-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev pkg-config texinfo zlib1g-dev libx264-dev libvorbis-dev libvpx-dev libfdk-aac-dev libopenjpeg-dev zlib1g-dev libavcodec-extra openssl libssl-dev
 &amp;nbsp;
 autoreconf -i
 &amp;nbsp;
@@ -3229,36 +3229,6 @@ sudo apt-get remove apache2&lt;/code&gt;&lt;/pre&gt;
     }
 }&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4&gt;Enable access to phpMyAdmin&lt;/h4&gt;
-&lt;pre data-language=&#34;generic&#34;&gt;&lt;code data-language=&#34;generic&#34;&gt;server {
-[...]
-location /phpmyadmin {
-        root /usr/share/;
-        index index.php index.html index.htm;
-        location ~ ^/phpmyadmin/(.+\.php)$ {
-            try_files $uri =404;
-            root /usr/share/;
-            # With php5-fpm:
-            fastcgi_pass unix:/var/run/php5-fpm.sock;
-            # With php5-cgi alone:
-            # fastcgi_pass  127.0.0.1:9000;
-            fastcgi_index index.php;
-            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-            include /etc/nginx/fastcgi_params;
-    }
-    location ~* ^/phpmyadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
-        root /usr/share/;
-    }
-}
-location /phpMyAdmin {
-        rewrite ^/* /phpmyadmin last;
-}
-[...]
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Create a symlink in sites-enabled.&lt;/p&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com&lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Remove the default in sites-enabled.&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo rm /etc/nginx/sites-enabled/default&lt;/code&gt;&lt;/pre&gt;
 
@@ -3418,6 +3388,38 @@ Reload privilige tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;Include /etc/phpmyadmin/apache.conf&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Change KeepAlive On to Off&lt;/p&gt;
+
+&lt;h3&gt;NGINX&lt;/h3&gt;
+&lt;h4&gt;Enable access to phpMyAdmin&lt;/h4&gt;
+&lt;pre data-language=&#34;generic&#34;&gt;&lt;code data-language=&#34;generic&#34;&gt;server {
+[...]
+location /phpmyadmin {
+        root /usr/share/;
+        index index.php index.html index.htm;
+        location ~ ^/phpmyadmin/(.+\.php)$ {
+            try_files $uri =404;
+            root /usr/share/;
+            # With php5-fpm:
+            fastcgi_pass unix:/var/run/php5-fpm.sock;
+            # With php5-cgi alone:
+            # fastcgi_pass  127.0.0.1:9000;
+            fastcgi_index index.php;
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            include /etc/nginx/fastcgi_params;
+    }
+    location ~* ^/phpmyadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
+        root /usr/share/;
+    }
+}
+location /phpMyAdmin {
+        rewrite ^/* /phpmyadmin last;
+}
+[...]
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create a symlink in sites-enabled.&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2&gt;Fail2ban&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
     &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/fail2ban.png&#34;&gt;&lt;img alt=&#34;Fail2ban&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/fail2ban.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
