@@ -513,12 +513,12 @@
 cd /etc/nginx/ssl&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Genereate CSR and Key&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo openssl req -new -newkey rsa:2048 -nodes -keyout example_com.key -out example_com.csr&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Purchase your SSL Certificate from Namecheap. Submit your generated &lt;span class=&#34;system&#34;&gt;example_com.csr&lt;/span&gt; file by following their instructions. Do not lose or delete your &lt;span class=&#34;system&#34;&gt;example_com.key&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Purchase your SSL Certificate from Namecheap. Submit your generated &lt;span class=&#34;system&#34;&gt;example_com.csr&lt;/span&gt; file by following their instructions. Do not lose or delete your &lt;span class=&#34;system&#34;&gt;example_com.key&lt;/span&gt;. Do not reveal your key to anyone or it will be compromised.&lt;/p&gt;
 &lt;p&gt;Namecheap will send back a &lt;span class=&#34;system&#34;&gt;crt&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;ca-bundle&lt;/span&gt; file to be used by your Server.&lt;/p&gt;
 
 &lt;h4&gt;NGINX&lt;/h4&gt;
 &lt;p&gt;You will need to combine both &lt;span class=&#34;system&#34;&gt;crt&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;ca-bundle&lt;/span&gt; files together and place in your created directory, such as &lt;span class=&#34;system&#34;&gt;/etc/nginx/ssl/&lt;/span&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;cat example_com.crt example_com.ca-bundle &gt;&gt; cert_chain.crt&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo cat example_com.crt example_com.ca-bundle &gt;&gt; cert_chain.crt&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;server {
 listen 443 ssl default_server;
 
@@ -890,7 +890,7 @@ sudo mysql_secure_installation&lt;/code&gt;&lt;/pre&gt;
 Remove anonymous users? [Y/n] y
 Disallow root login remotely? [Y/n] y
 Remove test database and access to it? [Y/n] y
-Reload privilige tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
+Reload privilege tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Enter mysql root password&lt;/p&gt;
 
 &lt;h2&gt;phpMyAdmin&lt;/h2&gt;

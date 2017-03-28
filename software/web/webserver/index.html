@@ -369,12 +369,12 @@
 cd /etc/nginx/ssl</code></pre>
 <p>Genereate CSR and Key</p>
 <pre><code data-language="shell">sudo openssl req -new -newkey rsa:2048 -nodes -keyout example_com.key -out example_com.csr</code></pre>
-<p>Purchase your SSL Certificate from Namecheap. Submit your generated <span class="system">example_com.csr</span> file by following their instructions. Do not lose or delete your <span class="system">example_com.key</span>.</p>
+<p>Purchase your SSL Certificate from Namecheap. Submit your generated <span class="system">example_com.csr</span> file by following their instructions. Do not lose or delete your <span class="system">example_com.key</span>. Do not reveal your key to anyone or it will be compromised.</p>
 <p>Namecheap will send back a <span class="system">crt</span> and <span class="system">ca-bundle</span> file to be used by your Server.</p>
 
 <h4>NGINX</h4>
 <p>You will need to combine both <span class="system">crt</span> and <span class="system">ca-bundle</span> files together and place in your created directory, such as <span class="system">/etc/nginx/ssl/</span>.</p>
-<pre><code data-language="shell">cat example_com.crt example_com.ca-bundle >> cert_chain.crt</code></pre>
+<pre><code data-language="shell">sudo cat example_com.crt example_com.ca-bundle >> cert_chain.crt</code></pre>
 <pre><code data-language="shell">server {
 listen 443 ssl default_server;
 
@@ -746,7 +746,7 @@ sudo mysql_secure_installation</code></pre>
 Remove anonymous users? [Y/n] y
 Disallow root login remotely? [Y/n] y
 Remove test database and access to it? [Y/n] y
-Reload privilige tables now? [Y/n] y</code></pre>
+Reload privilege tables now? [Y/n] y</code></pre>
 <p>Enter mysql root password</p>
 
 <h2>phpMyAdmin</h2>
