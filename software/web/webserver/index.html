@@ -375,6 +375,7 @@ cd /etc/nginx/ssl</code></pre>
 <h4>NGINX</h4>
 <p>You will need to combine both <span class="system">crt</span> and <span class="system">ca-bundle</span> files together and place in your created directory, such as <span class="system">/etc/nginx/ssl/</span>.</p>
 <pre><code data-language="shell">sudo cat example_com.crt example_com.ca-bundle >> cert_chain.crt</code></pre>
+<p>Remove any extra linebreaks or whitespace in your <span class="system">cert_chain.crt</span> file.</p>
 <pre><code data-language="shell">server {
 listen 443 ssl default_server;
 

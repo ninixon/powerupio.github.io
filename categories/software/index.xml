@@ -3026,6 +3026,7 @@ cd /etc/nginx/ssl&lt;/code&gt;&lt;/pre&gt;
 &lt;h4&gt;NGINX&lt;/h4&gt;
 &lt;p&gt;You will need to combine both &lt;span class=&#34;system&#34;&gt;crt&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;ca-bundle&lt;/span&gt; files together and place in your created directory, such as &lt;span class=&#34;system&#34;&gt;/etc/nginx/ssl/&lt;/span&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo cat example_com.crt example_com.ca-bundle &gt;&gt; cert_chain.crt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Remove any extra linebreaks or whitespace in your &lt;span class=&#34;system&#34;&gt;cert_chain.crt&lt;/span&gt; file.&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;server {
 listen 443 ssl default_server;
 
