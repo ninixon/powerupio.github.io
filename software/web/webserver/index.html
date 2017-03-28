@@ -353,24 +353,63 @@
 <div id="toc" class="right">
 </div>
 
-<p>This guide is for <a href="https://m.do.co/c/701345b9d248" target="_blank">Digital Ocean</a> and <a href="https://wiki.debian.org/DebianReleases" target="_blank">Debian Linux</a> and covers both <a href="https://httpd.apache.org/" target="_blank">Apache</a> and <a href="https://www.nginx.com/" target="_blank">Nginx</a> Servers.</p>
+<p>This guide is for <a href="https://www.namecheap.com/" target="_blank">Namecheap</a>, <a href="https://www.vultr.com" target="_blank">Vultr</a> and <a href="https://wiki.debian.org/DebianReleases" target="_blank">Debian Linux</a> and covers both <a href="https://httpd.apache.org/" target="_blank">Apache</a> and <a href="https://www.nginx.com/" target="_blank">Nginx</a> Servers.</p>
 <p>Use the following commands as a template for your site.</p>
 
-<h2>Digital Ocean</h2>
+<h2>Namecheap</h2>
+<h3>DNS</h3>
+<p>In Advanced DNS, choose Custom DNS.</p>
+<p>Add <span class="system">ns1.vultr.com</span> and <span class="system">ns1.vultr.com</span></p>
+<p>See <a href="#dns-1">Vultr DNS.</a></p>
 
-<h3>Create Droplet</h3>
+<h3>SSL</h3>
+<p>After setting up Server, use Linux to create SSL.</p>
+<p>Create Directory you want to store certificate and key in.</p>
+<pre><code data-language="shell">sudo mkdir /etc/nginx/ssl
+cd /etc/nginx/ssl</code></pre>
+<p>Genereate CSR and Key</p>
+<pre><code data-language="shell">sudo openssl req -new -newkey rsa:2048 -nodes -keyout example_com.key -out example_com.csr</code></pre>
+<p>Purchase your SSL Certificate from Namecheap. Submit your generated <span class="system">example_com.csr</span> file by following their instructions. Do not lose or delete your <span class="system">example_com.key</span>.</p>
+<p>Namecheap will send back a <span class="system">crt</span> and <span class="system">ca-bundle</span> file to be used by your Server.</p>
+
+<h4>NGINX</h4>
+<p>You will need to combine both <span class="system">crt</span> and <span class="system">ca-bundle</span> files together and place in your created directory, such as <span class="system">/etc/nginx/ssl/</span>.</p>
+<pre><code data-language="shell">cat example_com.crt example_com.ca-bundle >> cert_chain.crt</code></pre>
+<pre><code data-language="shell">server {
+listen 443 ssl default_server;
+
+ssl on;
+ssl_certificate /etc/nginx/ssl/cert_chain.crt;
+ssl_certificate_key /etc/nginx/ssl/example_com.key;
+ssl_protocols  TLSv1.1 TLSv1.2;
+...
+</code></pre>
+
+<h4>Set Permissions</h4>
+<pre><code data-language="shell">sudo chown -R root:root /etc/nginx/ssl
+sudo chmod -R 600 /etc/nginx/ssl</code></pre>
+
+
+
+<h2>Vultr</h2>
+<h3>Deploy New Server</h3>
 <p>After completion, you'll get an email with login credentials.<br>
 Login SSH as root. Use <a href="http://www.putty.org/" target="_blank">Putty</a> if on Windows.<br>
 Change root password as required.</p>
 
-<h3>Domain Name Servers</h3>
-<p>In Digital Ocean Networking set your Records:</p>
+<h3>DNS</h3>
+<p>In Vultr DNS set your Records:</p>
 <table style="width: 500px;">
     <tbody>
         <tr>
             <td>A</td>
-            <td>@</td>
+            <td></td>
             <td>Server IPv4 Address</td>
+        </tr>
+        <tr>
+            <td>AAAA</td>
+            <td></td>
+            <td>Server IPv6 Address</td>
         </tr>
         <tr>
             <td>A</td>
@@ -378,21 +417,17 @@ Change root password as required.</p>
             <td>Server IPv4 Address</td>
         </tr>
         <tr>
-            <td>AAAA</td>
-            <td>@</td>
-            <td>Server IPv6 Address</td>
+            <td>CNAME</td>
+            <td>.</td>
+            <td>Domain Name</td>
         </tr>
         <tr>
             <td>NS</td>
-            <td colspan="2">ns1.digitalocean.com.</td>
+            <td colspan="2">ns1.vultr.com</td>
         </tr>
         <tr>
             <td>NS</td>
-            <td colspan="2">ns2.digitalocean.com.</td>
-        </tr>
-        <tr>
-            <td>NS</td>
-            <td colspan="2">ns3.digitalocean.com.</td>
+            <td colspan="2">ns2.vultr.com</td>
         </tr>
     </tbody>
 </table>
@@ -477,7 +512,7 @@ CustomLog /var/www/example.com/logs/access.log combined
 <p>In your website .htaccess, uncomment RewriteBase / if available.</p>
 <p>Reload &amp; Restart Apache</p>
 <pre><code data-language="shell">sudo service apache2 reload
-sudo systemctl restart apache2</code></pre>
+sudo service apache2 restart</code></pre>
 
 <h2>Nginx</h2>
 <figure class="tright" style="width: 200px;">
@@ -574,7 +609,7 @@ sudo apt-get remove apache2</code></pre>
 [...]</code></pre>
 
 <p>Restart Nginx to load changes</p>
-<pre><code data-language="shell">sudo systemctl restart nginx</code></pre>
+<pre><code data-language="shell">sudo service nginx restart</code></pre>
 
 <h2>PHP</h2>
 <figure class="tright" style="width: 200px;">
@@ -608,25 +643,38 @@ sudo apt-get update</code></pre>
 <span class="system">/etc/php/7.0/fpm/php.ini</span></p>
 <h3>Upload Temp Directory</h3>
 <p>Uncomment and set your path:<br>
-upload_tmp_dir = /var/www/example.com/public/tmp</p>
+<span class="system">upload_tmp_dir = /var/www/example.com/public/tmp</span></p>
 <h3>Change Upload Limits</h3>
 <p>Default upload size is 2MB</p>
 
-<pre><code data-language="shell">sudo nano /etc/php5/apache2/php.ini</code></pre>
+<p>Edit php.ini</p>
 
-<pre><code data-language="generic">post_max_size =
-upload_max_filesize =
-max_file_uploads =</code></pre>
+<pre><code data-language="generic">max_execution_time
+max_input_time
+default_socket_timeout
+memory_limit
+post_max_size
+upload_max_filesize
+max_file_uploads</code></pre>
+
+<p>Edit /etc/nginx/nginx.conf</p>
+<pre><code data-language="generic">client_max_body_size 20M;</code></pre>
 
 <h4>Restart php5-fpm (Nginx)</h4>
 <pre><code data-language="shell">sudo service php5-fpm reload
 sudo service php5-fpm restart </code></pre>
 
 <h4>Restart Apache / Nginx</h4>
-<pre><code data-language="shell">sudo systemctl restart apache2
-sudo systemctl restart nginx</code></pre>
+<pre><code data-language="shell">sudo service apache2 restart
+sudo service nginx restart</code></pre>
+
+<h3>Zend OpCache</h3>
+<h4>PHP7</h4>
+<p>Add to end of php.ini:</p>
+<pre><code data-language="shell">zend_extension=opcache.so</code></pre>
 
 <h3>APC</h3>
+<h4>PHP5</h4>
 <p>Alternative PHP Cache</p>
 <pre><code data-language="shell">sudo apt-get install php-apc</code></pre>
 
@@ -641,6 +689,20 @@ apc.shm_size=64
 ; The number of seconds a cache entry is allowed to idle in a slot in case this
 ; cache entry slot is needed by another entry.
 apc.ttl=7200</code></pre>
+
+<h3>APCu</h3>
+<h4>PHP7</h4>
+<p>Alternative PHP Cache</p>
+<p><a href="https://wiki.archlinux.org/index.php/PHP#APCu" target="_blank">https://wiki.archlinux.org/index.php/PHP#APCu</a></p>
+<pre data-language="shell"><code data-language="shell">sudo apt-get install php7.0-dev
+pecl channel-update pecl.php.net
+pecl install -Z apcu</code></pre>
+<pre data-language="shell"><code data-language="shell">echo "extension=apcu.so" | sudo tee -a /etc/php/7.0/mods-available/apcu.ini
+sudo ln -s /etc/php/7.0/mods-available/apcu.ini /etc/php/7.0/fpm/conf.d/30-apcu.ini
+sudo ln -s /etc/php/7.0/mods-available/apcu.ini /etc/php/7.0/cli/conf.d/30-apcu.ini</code></pre>
+<pre data-language="shell"><code data-language="shell">apc.ttl=7200
+apc.enable_cli=1</code></pre>
+
 
 <h3>PHP-FPM</h3>
 <p>FastCGI Process Manager</p>
@@ -660,11 +722,14 @@ deb-src http://security.debian.org/ jessie/updates main contrib non-free</code><
 
 <pre><code data-language="shell">sudo apt-get update</code></pre>
 
-<pre><code data-language="shell">sudo apt-get install php5-fpm</code></pre>
+<pre><code data-language="shell">sudo apt-get install php5-fpm
+sudo apt-get install php7.0-fpm</code></pre>
 
-<p>To restart use:</p>
+<p>Restart</p>
 
-<pre><code data-language="shell">sudo service php5-fpm restart</code></pre>
+<pre><code data-language="shell">sudo service php5-fpm restart
+sudo service php7.0-fpm restart
+</code></pre>
 
 <h2>MySQL</h2>
 <figure class="tright" style="width: 200px;">
@@ -682,8 +747,8 @@ Remove anonymous users? [Y/n] y
 Disallow root login remotely? [Y/n] y
 Remove test database and access to it? [Y/n] y
 Reload privilige tables now? [Y/n] y</code></pre>
-
 <p>Enter mysql root password</p>
+
 <h2>phpMyAdmin</h2>
 <figure class="tright" style="width: 200px;">
     <a href="#" class="thumb" data-featherlight="/img/software/web/webserver/phpmyadmin.png"><img alt="phpMyAdmin" class="thumb" height="115" src="/img/software/web/webserver/phpmyadmin.png" width="250"></a>
@@ -694,12 +759,11 @@ Reload privilige tables now? [Y/n] y</code></pre>
 
 <pre><code data-language="shell">sudo apt-get install phpmyadmin</code></pre>
 
+<h3>Apache</h3>
 <pre><code data-language="shell">sudo nano /etc/apache2/apache2.conf</code></pre>
-
 <p>Add to bottom of file:</p>
 <pre><code data-language="generic">Include /etc/phpmyadmin/apache.conf</code></pre>
-
-<p>Change KeepAlive On to Off</p>
+<p>Change <span class="system">KeepAlive On</span> to <span class="system">Off</span></p>
 
 <h3>NGINX</h3>
 <h4>Enable access to phpMyAdmin</h4>
@@ -758,8 +822,8 @@ groups username</code></pre>
 <pre><code data-language="shell">umask 007</code></pre>
 
 <p>Restart</p>
-<pre><code data-language="shell">sudo systemctl restart apache2
-sudo systemctl restart nginx</code></pre>
+<pre><code data-language="shell">sudo service apache2 restart
+sudo service nginx restart</code></pre>
 
 <h2>FTP</h2>
 <p>Host: <span class="system">Server IP Address</span><br>

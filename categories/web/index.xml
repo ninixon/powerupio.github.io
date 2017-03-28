@@ -497,24 +497,63 @@
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
 
-&lt;p&gt;This guide is for &lt;a href=&#34;https://m.do.co/c/701345b9d248&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt; and &lt;a href=&#34;https://wiki.debian.org/DebianReleases&#34; target=&#34;_blank&#34;&gt;Debian Linux&lt;/a&gt; and covers both &lt;a href=&#34;https://httpd.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache&lt;/a&gt; and &lt;a href=&#34;https://www.nginx.com/&#34; target=&#34;_blank&#34;&gt;Nginx&lt;/a&gt; Servers.&lt;/p&gt;
+&lt;p&gt;This guide is for &lt;a href=&#34;https://www.namecheap.com/&#34; target=&#34;_blank&#34;&gt;Namecheap&lt;/a&gt;, &lt;a href=&#34;https://www.vultr.com&#34; target=&#34;_blank&#34;&gt;Vultr&lt;/a&gt; and &lt;a href=&#34;https://wiki.debian.org/DebianReleases&#34; target=&#34;_blank&#34;&gt;Debian Linux&lt;/a&gt; and covers both &lt;a href=&#34;https://httpd.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache&lt;/a&gt; and &lt;a href=&#34;https://www.nginx.com/&#34; target=&#34;_blank&#34;&gt;Nginx&lt;/a&gt; Servers.&lt;/p&gt;
 &lt;p&gt;Use the following commands as a template for your site.&lt;/p&gt;
 
-&lt;h2&gt;Digital Ocean&lt;/h2&gt;
+&lt;h2&gt;Namecheap&lt;/h2&gt;
+&lt;h3&gt;DNS&lt;/h3&gt;
+&lt;p&gt;In Advanced DNS, choose Custom DNS.&lt;/p&gt;
+&lt;p&gt;Add &lt;span class=&#34;system&#34;&gt;ns1.vultr.com&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;ns1.vultr.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&#34;#dns-1&#34;&gt;Vultr DNS.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3&gt;Create Droplet&lt;/h3&gt;
+&lt;h3&gt;SSL&lt;/h3&gt;
+&lt;p&gt;After setting up Server, use Linux to create SSL.&lt;/p&gt;
+&lt;p&gt;Create Directory you want to store certificate and key in.&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo mkdir /etc/nginx/ssl
+cd /etc/nginx/ssl&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Genereate CSR and Key&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo openssl req -new -newkey rsa:2048 -nodes -keyout example_com.key -out example_com.csr&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Purchase your SSL Certificate from Namecheap. Submit your generated &lt;span class=&#34;system&#34;&gt;example_com.csr&lt;/span&gt; file by following their instructions. Do not lose or delete your &lt;span class=&#34;system&#34;&gt;example_com.key&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Namecheap will send back a &lt;span class=&#34;system&#34;&gt;crt&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;ca-bundle&lt;/span&gt; file to be used by your Server.&lt;/p&gt;
+
+&lt;h4&gt;NGINX&lt;/h4&gt;
+&lt;p&gt;You will need to combine both &lt;span class=&#34;system&#34;&gt;crt&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;ca-bundle&lt;/span&gt; files together and place in your created directory, such as &lt;span class=&#34;system&#34;&gt;/etc/nginx/ssl/&lt;/span&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;cat example_com.crt example_com.ca-bundle &gt;&gt; cert_chain.crt&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;server {
+listen 443 ssl default_server;
+
+ssl on;
+ssl_certificate /etc/nginx/ssl/cert_chain.crt;
+ssl_certificate_key /etc/nginx/ssl/example_com.key;
+ssl_protocols  TLSv1.1 TLSv1.2;
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;Set Permissions&lt;/h4&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo chown -R root:root /etc/nginx/ssl
+sudo chmod -R 600 /etc/nginx/ssl&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;h2&gt;Vultr&lt;/h2&gt;
+&lt;h3&gt;Deploy New Server&lt;/h3&gt;
 &lt;p&gt;After completion, you&#39;ll get an email with login credentials.&lt;br&gt;
 Login SSH as root. Use &lt;a href=&#34;http://www.putty.org/&#34; target=&#34;_blank&#34;&gt;Putty&lt;/a&gt; if on Windows.&lt;br&gt;
 Change root password as required.&lt;/p&gt;
 
-&lt;h3&gt;Domain Name Servers&lt;/h3&gt;
-&lt;p&gt;In Digital Ocean Networking set your Records:&lt;/p&gt;
+&lt;h3&gt;DNS&lt;/h3&gt;
+&lt;p&gt;In Vultr DNS set your Records:&lt;/p&gt;
 &lt;table style=&#34;width: 500px;&#34;&gt;
     &lt;tbody&gt;
         &lt;tr&gt;
             &lt;td&gt;A&lt;/td&gt;
-            &lt;td&gt;@&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
             &lt;td&gt;Server IPv4 Address&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;AAAA&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Server IPv6 Address&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;A&lt;/td&gt;
@@ -522,21 +561,17 @@ Change root password as required.&lt;/p&gt;
             &lt;td&gt;Server IPv4 Address&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td&gt;AAAA&lt;/td&gt;
-            &lt;td&gt;@&lt;/td&gt;
-            &lt;td&gt;Server IPv6 Address&lt;/td&gt;
+            &lt;td&gt;CNAME&lt;/td&gt;
+            &lt;td&gt;.&lt;/td&gt;
+            &lt;td&gt;Domain Name&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;NS&lt;/td&gt;
-            &lt;td colspan=&#34;2&#34;&gt;ns1.digitalocean.com.&lt;/td&gt;
+            &lt;td colspan=&#34;2&#34;&gt;ns1.vultr.com&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;NS&lt;/td&gt;
-            &lt;td colspan=&#34;2&#34;&gt;ns2.digitalocean.com.&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;NS&lt;/td&gt;
-            &lt;td colspan=&#34;2&#34;&gt;ns3.digitalocean.com.&lt;/td&gt;
+            &lt;td colspan=&#34;2&#34;&gt;ns2.vultr.com&lt;/td&gt;
         &lt;/tr&gt;
     &lt;/tbody&gt;
 &lt;/table&gt;
@@ -621,7 +656,7 @@ CustomLog /var/www/example.com/logs/access.log combined
 &lt;p&gt;In your website .htaccess, uncomment RewriteBase / if available.&lt;/p&gt;
 &lt;p&gt;Reload &amp;amp; Restart Apache&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service apache2 reload
-sudo systemctl restart apache2&lt;/code&gt;&lt;/pre&gt;
+sudo service apache2 restart&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;Nginx&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
@@ -718,7 +753,7 @@ sudo apt-get remove apache2&lt;/code&gt;&lt;/pre&gt;
 [...]&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Restart Nginx to load changes&lt;/p&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo systemctl restart nginx&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service nginx restart&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;PHP&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
@@ -752,25 +787,38 @@ sudo apt-get update&lt;/code&gt;&lt;/pre&gt;
 &lt;span class=&#34;system&#34;&gt;/etc/php/7.0/fpm/php.ini&lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Upload Temp Directory&lt;/h3&gt;
 &lt;p&gt;Uncomment and set your path:&lt;br&gt;
-upload_tmp_dir = /var/www/example.com/public/tmp&lt;/p&gt;
+&lt;span class=&#34;system&#34;&gt;upload_tmp_dir = /var/www/example.com/public/tmp&lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Change Upload Limits&lt;/h3&gt;
 &lt;p&gt;Default upload size is 2MB&lt;/p&gt;
 
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo nano /etc/php5/apache2/php.ini&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit php.ini&lt;/p&gt;
 
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;post_max_size =
-upload_max_filesize =
-max_file_uploads =&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;max_execution_time
+max_input_time
+default_socket_timeout
+memory_limit
+post_max_size
+upload_max_filesize
+max_file_uploads&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Edit /etc/nginx/nginx.conf&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;client_max_body_size 20M;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Restart php5-fpm (Nginx)&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service php5-fpm reload
 sudo service php5-fpm restart &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Restart Apache / Nginx&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo systemctl restart apache2
-sudo systemctl restart nginx&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service apache2 restart
+sudo service nginx restart&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Zend OpCache&lt;/h3&gt;
+&lt;h4&gt;PHP7&lt;/h4&gt;
+&lt;p&gt;Add to end of php.ini:&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;zend_extension=opcache.so&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;APC&lt;/h3&gt;
+&lt;h4&gt;PHP5&lt;/h4&gt;
 &lt;p&gt;Alternative PHP Cache&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php-apc&lt;/code&gt;&lt;/pre&gt;
 
@@ -785,6 +833,20 @@ apc.shm_size=64
 ; The number of seconds a cache entry is allowed to idle in a slot in case this
 ; cache entry slot is needed by another entry.
 apc.ttl=7200&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;APCu&lt;/h3&gt;
+&lt;h4&gt;PHP7&lt;/h4&gt;
+&lt;p&gt;Alternative PHP Cache&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/PHP#APCu&#34; target=&#34;_blank&#34;&gt;https://wiki.archlinux.org/index.php/PHP#APCu&lt;/a&gt;&lt;/p&gt;
+&lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php7.0-dev
+pecl channel-update pecl.php.net
+pecl install -Z apcu&lt;/code&gt;&lt;/pre&gt;
+&lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;echo &#34;extension=apcu.so&#34; | sudo tee -a /etc/php/7.0/mods-available/apcu.ini
+sudo ln -s /etc/php/7.0/mods-available/apcu.ini /etc/php/7.0/fpm/conf.d/30-apcu.ini
+sudo ln -s /etc/php/7.0/mods-available/apcu.ini /etc/php/7.0/cli/conf.d/30-apcu.ini&lt;/code&gt;&lt;/pre&gt;
+&lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;apc.ttl=7200
+apc.enable_cli=1&lt;/code&gt;&lt;/pre&gt;
+
 
 &lt;h3&gt;PHP-FPM&lt;/h3&gt;
 &lt;p&gt;FastCGI Process Manager&lt;/p&gt;
@@ -804,11 +866,14 @@ deb-src http://security.debian.org/ jessie/updates main contrib non-free&lt;/cod
 
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get update&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php5-fpm&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php5-fpm
+sudo apt-get install php7.0-fpm&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;To restart use:&lt;/p&gt;
+&lt;p&gt;Restart&lt;/p&gt;
 
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service php5-fpm restart&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service php5-fpm restart
+sudo service php7.0-fpm restart
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;MySQL&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
@@ -826,8 +891,8 @@ Remove anonymous users? [Y/n] y
 Disallow root login remotely? [Y/n] y
 Remove test database and access to it? [Y/n] y
 Reload privilige tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Enter mysql root password&lt;/p&gt;
+
 &lt;h2&gt;phpMyAdmin&lt;/h2&gt;
 &lt;figure class=&#34;tright&#34; style=&#34;width: 200px;&#34;&gt;
     &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/web/webserver/phpmyadmin.png&#34;&gt;&lt;img alt=&#34;phpMyAdmin&#34; class=&#34;thumb&#34; height=&#34;115&#34; src=&#34;http://www.powerup.io/img/software/web/webserver/phpmyadmin.png&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
@@ -838,12 +903,11 @@ Reload privilige tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install phpmyadmin&lt;/code&gt;&lt;/pre&gt;
 
+&lt;h3&gt;Apache&lt;/h3&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo nano /etc/apache2/apache2.conf&lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Add to bottom of file:&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;Include /etc/phpmyadmin/apache.conf&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Change KeepAlive On to Off&lt;/p&gt;
+&lt;p&gt;Change &lt;span class=&#34;system&#34;&gt;KeepAlive On&lt;/span&gt; to &lt;span class=&#34;system&#34;&gt;Off&lt;/span&gt;&lt;/p&gt;
 
 &lt;h3&gt;NGINX&lt;/h3&gt;
 &lt;h4&gt;Enable access to phpMyAdmin&lt;/h4&gt;
@@ -902,8 +966,8 @@ groups username&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;umask 007&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Restart&lt;/p&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo systemctl restart apache2
-sudo systemctl restart nginx&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service apache2 restart
+sudo service nginx restart&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2&gt;FTP&lt;/h2&gt;
 &lt;p&gt;Host: &lt;span class=&#34;system&#34;&gt;Server IP Address&lt;/span&gt;&lt;br&gt;
