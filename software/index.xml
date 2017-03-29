@@ -3046,9 +3046,11 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
 
 &lt;h2&gt;Namecheap Domain&lt;/h2&gt;
 &lt;h3&gt;DNS&lt;/h3&gt;
-&lt;p&gt;Manage Namecheap BasicDNS&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Namecheap&lt;/h4&gt;
+&lt;p&gt;Manage Namecheap BasicDNS&lt;/p&gt;
 &lt;p&gt;In Advanced DNS, manage Host Records&lt;/p&gt;
 
+&lt;h4&gt;Vultr&lt;/h4&gt;
 &lt;p&gt;Manage Host Records through &lt;a href=&#34;#dns-1&#34;&gt;Vultr DNS.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In Advanced DNS, choose Custom DNS.&lt;/p&gt;
 &lt;p&gt;Add &lt;span class=&#34;system&#34;&gt;ns1.vultr.com&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;ns2.vultr.com&lt;/span&gt;&lt;/p&gt;
