@@ -3041,13 +3041,13 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
 &lt;div id=&#34;toc&#34; class=&#34;right&#34;&gt;
 &lt;/div&gt;
 
-&lt;p&gt;This guide is for &lt;a href=&#34;https://www.namecheap.com/&#34; target=&#34;_blank&#34;&gt;Namecheap&lt;/a&gt;, &lt;a href=&#34;https://www.vultr.com&#34; target=&#34;_blank&#34;&gt;Vultr&lt;/a&gt; and &lt;a href=&#34;https://wiki.debian.org/DebianReleases&#34; target=&#34;_blank&#34;&gt;Debian Linux&lt;/a&gt; and covers both &lt;a href=&#34;https://httpd.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache&lt;/a&gt; and &lt;a href=&#34;https://www.nginx.com/&#34; target=&#34;_blank&#34;&gt;Nginx&lt;/a&gt; Servers.&lt;/p&gt;
+&lt;p&gt;This guide is for &lt;a href=&#34;https://www.namecheap.com/&#34; target=&#34;_blank&#34;&gt;Namecheap&lt;/a&gt; Domain, &lt;a href=&#34;http://www.vultr.com/?ref=7137314&#34; target=&#34;_blank&#34;&gt;Vultr&lt;/a&gt; Hosting, &lt;a href=&#34;https://wiki.debian.org/DebianReleases&#34; target=&#34;_blank&#34;&gt;Debian Linux&lt;/a&gt; OS, &lt;a href=&#34;https://httpd.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache&lt;/a&gt; and &lt;a href=&#34;https://www.nginx.com/&#34; target=&#34;_blank&#34;&gt;Nginx&lt;/a&gt; Servers, and PHP.&lt;/p&gt;
 &lt;p&gt;Use the following commands as a template for your site.&lt;/p&gt;
 
 &lt;h2&gt;Namecheap Domain&lt;/h2&gt;
 &lt;h3&gt;DNS&lt;/h3&gt;
 &lt;h4&gt;Namecheap&lt;/h4&gt;
-&lt;p&gt;Manage Namecheap BasicDNS&lt;/p&gt;
+&lt;p&gt;Manage through Namecheap BasicDNS&lt;/p&gt;
 &lt;p&gt;In Advanced DNS, manage Host Records&lt;/p&gt;
 
 &lt;h4&gt;Vultr&lt;/h4&gt;
@@ -3069,15 +3069,25 @@ cd /etc/nginx/ssl&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You will need to combine both &lt;span class=&#34;system&#34;&gt;crt&lt;/span&gt; and &lt;span class=&#34;system&#34;&gt;ca-bundle&lt;/span&gt; files together and place in your created directory, such as &lt;span class=&#34;system&#34;&gt;/etc/nginx/ssl/&lt;/span&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo cat example_com.crt example_com.ca-bundle &gt;&gt; cert_chain.crt&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Remove any extra linebreaks or whitespace in your &lt;span class=&#34;system&#34;&gt;cert_chain.crt&lt;/span&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;server {
-listen 443 ssl default_server;
-
-ssl on;
-ssl_certificate /etc/nginx/ssl/cert_chain.crt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;ssl_certificate /etc/nginx/ssl/cert_chain.crt;
 ssl_certificate_key /etc/nginx/ssl/example_com.key;
-ssl_protocols  TLSv1.1 TLSv1.2;
-...
+
+server {
+    # Redirect http www to https www
+    listen 80 default_server;
+    listen 443 ssl default_server;
+    return 301 https://www.example.com$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    ssl on;
+    ssl_protocols TLSv1.1 TLSv1.2;
+    ...
 &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo service nginx restart&lt;/code&gt;&lt;/pre&gt;
+
+
 
 &lt;h4&gt;Set Permissions&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo chown -R root:root /etc/nginx/ssl
@@ -3101,19 +3111,14 @@ Change root password as required.&lt;/p&gt;
             &lt;td&gt;Server IPv4 Address&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td&gt;AAAA&lt;/td&gt;
-            &lt;td&gt;&lt;/td&gt;
-            &lt;td&gt;Server IPv6 Address&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
             &lt;td&gt;A&lt;/td&gt;
             &lt;td&gt;www&lt;/td&gt;
             &lt;td&gt;Server IPv4 Address&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td&gt;CNAME&lt;/td&gt;
-            &lt;td&gt;.&lt;/td&gt;
-            &lt;td&gt;Domain Name&lt;/td&gt;
+            &lt;td&gt;AAAA&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;Server IPv6 Address&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;NS&lt;/td&gt;
@@ -3453,14 +3458,14 @@ Reload privilege tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install phpmyadmin&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Apache&lt;/h3&gt;
+&lt;h4&gt;Apache&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo nano /etc/apache2/apache2.conf&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Add to bottom of file:&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;Include /etc/phpmyadmin/apache.conf&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Change &lt;span class=&#34;system&#34;&gt;KeepAlive On&lt;/span&gt; to &lt;span class=&#34;system&#34;&gt;Off&lt;/span&gt;&lt;/p&gt;
 
-&lt;h3&gt;NGINX&lt;/h3&gt;
-&lt;h4&gt;Enable access to phpMyAdmin&lt;/h4&gt;
+&lt;h4&gt;NGINX&lt;/h4&gt;
+&lt;p&gt;Enable access to phpMyAdmin&lt;/p&gt;
 &lt;pre data-language=&#34;generic&#34;&gt;&lt;code data-language=&#34;generic&#34;&gt;server {
 [...]
 location /phpmyadmin {

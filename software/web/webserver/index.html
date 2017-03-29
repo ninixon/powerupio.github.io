@@ -353,13 +353,13 @@
 <div id="toc" class="right">
 </div>
 
-<p>This guide is for <a href="https://www.namecheap.com/" target="_blank">Namecheap</a>, <a href="https://www.vultr.com" target="_blank">Vultr</a> and <a href="https://wiki.debian.org/DebianReleases" target="_blank">Debian Linux</a> and covers both <a href="https://httpd.apache.org/" target="_blank">Apache</a> and <a href="https://www.nginx.com/" target="_blank">Nginx</a> Servers.</p>
+<p>This guide is for <a href="https://www.namecheap.com/" target="_blank">Namecheap</a> Domain, <a href="http://www.vultr.com/?ref=7137314" target="_blank">Vultr</a> Hosting, <a href="https://wiki.debian.org/DebianReleases" target="_blank">Debian Linux</a> OS, <a href="https://httpd.apache.org/" target="_blank">Apache</a> and <a href="https://www.nginx.com/" target="_blank">Nginx</a> Servers, and PHP.</p>
 <p>Use the following commands as a template for your site.</p>
 
 <h2>Namecheap Domain</h2>
 <h3>DNS</h3>
 <h4>Namecheap</h4>
-<p>Manage Namecheap BasicDNS</p>
+<p>Manage through Namecheap BasicDNS</p>
 <p>In Advanced DNS, manage Host Records</p>
 
 <h4>Vultr</h4>
@@ -381,15 +381,25 @@ cd /etc/nginx/ssl</code></pre>
 <p>You will need to combine both <span class="system">crt</span> and <span class="system">ca-bundle</span> files together and place in your created directory, such as <span class="system">/etc/nginx/ssl/</span>.</p>
 <pre><code data-language="shell">sudo cat example_com.crt example_com.ca-bundle >> cert_chain.crt</code></pre>
 <p>Remove any extra linebreaks or whitespace in your <span class="system">cert_chain.crt</span> file.</p>
-<pre><code data-language="shell">server {
-listen 443 ssl default_server;
-
-ssl on;
-ssl_certificate /etc/nginx/ssl/cert_chain.crt;
+<pre><code data-language="shell">ssl_certificate /etc/nginx/ssl/cert_chain.crt;
 ssl_certificate_key /etc/nginx/ssl/example_com.key;
-ssl_protocols  TLSv1.1 TLSv1.2;
-...
+
+server {
+    # Redirect http www to https www
+    listen 80 default_server;
+    listen 443 ssl default_server;
+    return 301 https://www.example.com$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    ssl on;
+    ssl_protocols TLSv1.1 TLSv1.2;
+    ...
 </code></pre>
+<pre><code data-language="shell">sudo service nginx restart</code></pre>
+
+
 
 <h4>Set Permissions</h4>
 <pre><code data-language="shell">sudo chown -R root:root /etc/nginx/ssl
@@ -413,19 +423,14 @@ Change root password as required.</p>
             <td>Server IPv4 Address</td>
         </tr>
         <tr>
-            <td>AAAA</td>
-            <td></td>
-            <td>Server IPv6 Address</td>
-        </tr>
-        <tr>
             <td>A</td>
             <td>www</td>
             <td>Server IPv4 Address</td>
         </tr>
         <tr>
-            <td>CNAME</td>
-            <td>.</td>
-            <td>Domain Name</td>
+            <td>AAAA</td>
+            <td></td>
+            <td>Server IPv6 Address</td>
         </tr>
         <tr>
             <td>NS</td>
@@ -765,14 +770,14 @@ Reload privilege tables now? [Y/n] y</code></pre>
 
 <pre><code data-language="shell">sudo apt-get install phpmyadmin</code></pre>
 
-<h3>Apache</h3>
+<h4>Apache</h4>
 <pre><code data-language="shell">sudo nano /etc/apache2/apache2.conf</code></pre>
 <p>Add to bottom of file:</p>
 <pre><code data-language="generic">Include /etc/phpmyadmin/apache.conf</code></pre>
 <p>Change <span class="system">KeepAlive On</span> to <span class="system">Off</span></p>
 
-<h3>NGINX</h3>
-<h4>Enable access to phpMyAdmin</h4>
+<h4>NGINX</h4>
+<p>Enable access to phpMyAdmin</p>
 <pre data-language="generic"><code data-language="generic">server {
 [...]
 location /phpmyadmin {
