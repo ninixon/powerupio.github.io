@@ -356,11 +356,14 @@
 <p>This guide is for <a href="https://www.namecheap.com/" target="_blank">Namecheap</a>, <a href="https://www.vultr.com" target="_blank">Vultr</a> and <a href="https://wiki.debian.org/DebianReleases" target="_blank">Debian Linux</a> and covers both <a href="https://httpd.apache.org/" target="_blank">Apache</a> and <a href="https://www.nginx.com/" target="_blank">Nginx</a> Servers.</p>
 <p>Use the following commands as a template for your site.</p>
 
-<h2>Namecheap</h2>
+<h2>Namecheap Domain</h2>
 <h3>DNS</h3>
+<p>Manage Namecheap BasicDNS</a></p>
+<p>In Advanced DNS, manage Host Records</p>
+
+<p>Manage Host Records through <a href="#dns-1">Vultr DNS.</a></p>
 <p>In Advanced DNS, choose Custom DNS.</p>
 <p>Add <span class="system">ns1.vultr.com</span> and <span class="system">ns2.vultr.com</span></p>
-<p>See <a href="#dns-1">Vultr DNS.</a></p>
 
 <h3>SSL</h3>
 <p>After setting up Server, use Linux to create SSL.</p>
@@ -392,7 +395,7 @@ sudo chmod -R 600 /etc/nginx/ssl</code></pre>
 
 
 
-<h2>Vultr</h2>
+<h2>Vultr Hosting</h2>
 <h3>Deploy New Server</h3>
 <p>After completion, you'll get an email with login credentials.<br>
 Login SSH as root. Use <a href="http://www.putty.org/" target="_blank">Putty</a> if on Windows.<br>
@@ -451,12 +454,12 @@ Press enter to skip steps if needed.</p>
 <pre><code data-language="shell">apt-get install sudo
 adduser username sudo</code></pre>
 
-<p>Logout of root with exit.<br>
+<p>Logout of <span class="system">root</span> with <span class="system">exit</span>.<br>
 Login with new username.</p>
 <h4>Disable Root SSH</h4>
 <pre><code data-language="shell">sudo nano /etc/ssh/sshd_config</code></pre>
 
-<p>Change PermitRootLogin yes to no</p>
+<p>Change <span class="system">PermitRootLogin yes</span> to <span class="system">no</span></p>
 <pre><code data-language="shell">sudo service sshd restart</code></pre>
 
 <h4>Update Package List</h4>
@@ -510,7 +513,7 @@ CustomLog /var/www/example.com/logs/access.log combined
 <p>Enable mod_rewrite and mod_write</p>
 <pre><code data-language="shell">sudo a2enmod rewrite</code></pre>
 
-<p>In your website .htaccess, uncomment RewriteBase / if available.</p>
+<p>In your website .htaccess, uncomment <span class="system">RewriteBase /</span> if available.</p>
 <p>Reload &amp; Restart Apache</p>
 <pre><code data-language="shell">sudo service apache2 reload
 sudo service apache2 restart</code></pre>
@@ -648,7 +651,7 @@ sudo apt-get update</code></pre>
 <h3>Change Upload Limits</h3>
 <p>Default upload size is 2MB</p>
 
-<p>Edit php.ini</p>
+<p>Edit <span class="system">php.ini</span></p>
 
 <pre><code data-language="generic">max_execution_time
 max_input_time
@@ -658,7 +661,7 @@ post_max_size
 upload_max_filesize
 max_file_uploads</code></pre>
 
-<p>Edit /etc/nginx/nginx.conf</p>
+<p>Edit <span class="system">/etc/nginx/nginx.conf</span></p>
 <pre><code data-language="generic">client_max_body_size 20M;</code></pre>
 
 <h4>Restart php5-fpm (Nginx)</h4>
@@ -671,7 +674,7 @@ sudo service nginx restart</code></pre>
 
 <h3>Zend OPcache</h3>
 <h4>PHP7</h4>
-<p>Add to end of php.ini:</p>
+<p>Add to end of <span class="system">php.ini</span>:</p>
 <pre><code data-language="shell">zend_extension=opcache.so</code></pre>
 
 <h3>APC</h3>
@@ -834,7 +837,7 @@ Default remote directory: <span class="system">/var/www/example.com/public</span
 
 <h3>www-data</h3>
 <p>
-Enable ftp upload writing to files owned by www-data.
+Enable SFTP upload writing to files owned by www-data.
 </p>
 <p>
 Create Group and add User
