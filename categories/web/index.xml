@@ -834,7 +834,7 @@ sudo service nginx restart&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php-apc&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;create /etc/php5/conf.d/apc.ini&lt;/p&gt;
-&lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;extension=apc.so
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;extension=apc.so
 ; enable APC
 apc.enabled=1
 ; The number of shared memory segments
@@ -849,15 +849,19 @@ apc.ttl=7200&lt;/code&gt;&lt;/pre&gt;
 &lt;h4&gt;PHP7&lt;/h4&gt;
 &lt;p&gt;Alternative PHP Cache&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/index.php/PHP#APCu&#34; target=&#34;_blank&#34;&gt;https://wiki.archlinux.org/index.php/PHP#APCu&lt;/a&gt;&lt;/p&gt;
-&lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php7.0-dev
-pecl channel-update pecl.php.net
-pecl install -Z apcu&lt;/code&gt;&lt;/pre&gt;
-&lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;echo &#34;extension=apcu.so&#34; | sudo tee -a /etc/php/7.0/mods-available/apcu.ini
+&lt;p&gt;Install&lt;/p&gt;
+&lt;pre &gt;&lt;code data-language=&#34;shell&#34;&gt;apt-get install php7.0-apcu&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install php7.0-dev
+sudo pecl channel-update pecl.php.net
+sudo pecl install -Z apcu&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;echo &#34;extension=apcu.so&#34; | sudo tee -a /etc/php/7.0/mods-available/apcu.ini
 sudo ln -s /etc/php/7.0/mods-available/apcu.ini /etc/php/7.0/fpm/conf.d/30-apcu.ini
 sudo ln -s /etc/php/7.0/mods-available/apcu.ini /etc/php/7.0/cli/conf.d/30-apcu.ini&lt;/code&gt;&lt;/pre&gt;
-&lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;apc.ttl=7200
+&lt;p&gt;&lt;span class=&#34;system&#34;&gt;/etc/php/7.0/mods-available/apcu.ini&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;extension=apcu.so
+apc.ttl=7200
 apc.enable_cli=1&lt;/code&gt;&lt;/pre&gt;
-
 
 &lt;h3&gt;PHP-FPM&lt;/h3&gt;
 &lt;p&gt;FastCGI Process Manager&lt;/p&gt;
@@ -897,7 +901,7 @@ sudo service php7.0-fpm restart
 &lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;sudo apt-get install mysql-server php5-mysql
 sudo mysql_secure_installation&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre data-language=&#34;shell&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;Change the root password? [Y/n] n
+&lt;pre&gt;&lt;code data-language=&#34;shell&#34;&gt;Change the root password? [Y/n] n
 Remove anonymous users? [Y/n] y
 Disallow root login remotely? [Y/n] y
 Remove test database and access to it? [Y/n] y
@@ -922,7 +926,7 @@ Reload privilege tables now? [Y/n] y&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;NGINX&lt;/h4&gt;
 &lt;p&gt;Enable access to phpMyAdmin&lt;/p&gt;
-&lt;pre data-language=&#34;generic&#34;&gt;&lt;code data-language=&#34;generic&#34;&gt;server {
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;server {
 [...]
 location /phpmyadmin {
         root /usr/share/;

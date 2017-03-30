@@ -690,7 +690,7 @@ sudo service nginx restart</code></pre>
 <pre><code data-language="shell">sudo apt-get install php-apc</code></pre>
 
 <p>create /etc/php5/conf.d/apc.ini</p>
-<pre data-language="shell"><code data-language="shell">extension=apc.so
+<pre><code data-language="shell">extension=apc.so
 ; enable APC
 apc.enabled=1
 ; The number of shared memory segments
@@ -705,15 +705,19 @@ apc.ttl=7200</code></pre>
 <h4>PHP7</h4>
 <p>Alternative PHP Cache</p>
 <p><a href="https://wiki.archlinux.org/index.php/PHP#APCu" target="_blank">https://wiki.archlinux.org/index.php/PHP#APCu</a></p>
-<pre data-language="shell"><code data-language="shell">sudo apt-get install php7.0-dev
-pecl channel-update pecl.php.net
-pecl install -Z apcu</code></pre>
-<pre data-language="shell"><code data-language="shell">echo "extension=apcu.so" | sudo tee -a /etc/php/7.0/mods-available/apcu.ini
+<p>Install</p>
+<pre ><code data-language="shell">apt-get install php7.0-apcu</code></pre>
+<p>or</p>
+<pre><code data-language="shell">sudo apt-get install php7.0-dev
+sudo pecl channel-update pecl.php.net
+sudo pecl install -Z apcu</code></pre>
+<pre><code data-language="shell">echo "extension=apcu.so" | sudo tee -a /etc/php/7.0/mods-available/apcu.ini
 sudo ln -s /etc/php/7.0/mods-available/apcu.ini /etc/php/7.0/fpm/conf.d/30-apcu.ini
 sudo ln -s /etc/php/7.0/mods-available/apcu.ini /etc/php/7.0/cli/conf.d/30-apcu.ini</code></pre>
-<pre data-language="shell"><code data-language="shell">apc.ttl=7200
+<p><span class="system">/etc/php/7.0/mods-available/apcu.ini</span></p>
+<pre><code data-language="shell">extension=apcu.so
+apc.ttl=7200
 apc.enable_cli=1</code></pre>
-
 
 <h3>PHP-FPM</h3>
 <p>FastCGI Process Manager</p>
@@ -753,7 +757,7 @@ sudo service php7.0-fpm restart
 <pre><code data-language="shell">sudo apt-get install mysql-server php5-mysql
 sudo mysql_secure_installation</code></pre>
 
-<pre data-language="shell"><code data-language="shell">Change the root password? [Y/n] n
+<pre><code data-language="shell">Change the root password? [Y/n] n
 Remove anonymous users? [Y/n] y
 Disallow root login remotely? [Y/n] y
 Remove test database and access to it? [Y/n] y
@@ -778,7 +782,7 @@ Reload privilege tables now? [Y/n] y</code></pre>
 
 <h4>NGINX</h4>
 <p>Enable access to phpMyAdmin</p>
-<pre data-language="generic"><code data-language="generic">server {
+<pre><code data-language="generic">server {
 [...]
 location /phpmyadmin {
         root /usr/share/;
