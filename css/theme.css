@@ -78,12 +78,6 @@
 }
 
 /* ----- Fonts ----- */
-/* Navigation */
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600');
-/* Titles */
-@import url('https://fonts.googleapis.com/css?family=Hind:400,300,600');
-/* Body */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,700italic,900italic,900,100,300italic,100italic');
 /* Wiki */
 @font-face {
   font-family: 'linux_biolinumbold';

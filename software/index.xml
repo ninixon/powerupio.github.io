@@ -322,13 +322,10 @@ Install O&amp;amp;O &lt;a href=&#34;https://www.oo-software.com/en/shutup10&#34;
         &lt;li&gt;Open Command Prompt as Administrator&lt;/li&gt;
         &lt;li&gt;Enter:&lt;br&gt;
         &lt;pre style=&#34;max-width: 400px;&#34;&gt;&lt;code data-language=&#34;shell&#34;&gt;sc stop Diagtrack
-sc delete Diagtrack&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+sc delete Diagtrack
+sc delete dmwappushservice&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;sc delete dmwappushservice&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h4&gt;Registry&lt;/h4&gt;
 &lt;figure class=&#34;tright&#34;&gt;
     &lt;a href=&#34;#&#34; class=&#34;thumb&#34; data-featherlight=&#34;/img/software/os/windows/Winows_Registry_Telemetry.jpg&#34;&gt;&lt;img alt=&#34;Windows 10 Telemetry Registry&#34; class=&#34;thumb&#34; src=&#34;http://www.powerup.io/img/software/os/windows/Winows_Registry_Telemetry.jpg&#34; width=&#34;250&#34;&gt;&lt;/a&gt;
