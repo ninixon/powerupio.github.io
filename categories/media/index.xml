@@ -176,7 +176,7 @@ Set your video default programs to use mpv and they will automatically use the p
 &lt;h2&gt;Configuration&lt;/h2&gt;
 &lt;p&gt;There is no graphical interface, you will need to configure the settings using a file.&lt;/p&gt;
 &lt;p&gt;Using a text editor, create a file named &lt;strong&gt;config&lt;/strong&gt; (with no file extension, All types (*.*)) in the directory &lt;span class=&#34;system&#34;&gt;C:\Users\[USER]\AppData\Roaming\mpv&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;A basic high-quality playback configuration:&lt;/p&gt;
+&lt;h4&gt;A basic high-quality playback configuration:&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;#35; VIDEO &amp;#35;
 opengl-pbo=yes
 vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
@@ -227,8 +227,8 @@ keep-open=yes
 bar-height-inactive=0
 screenshot-format=png
 screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
-&amp;nbsp;
 screenshot-tag-colorspace=yes
+&amp;nbsp;
 &amp;#35; EXTENSIONS&amp;#35; 
 [extension.webm]
 loop-file=inf
