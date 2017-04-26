@@ -172,17 +172,18 @@ Set your video default programs to use mpv and they will automatically use the p
 &lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://mpv.io/installation&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;http://mpv.io/installation&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Windows&lt;/h4&gt;
-&lt;p&gt;Unzip and move the mpv folder to your C:\Program Files.&lt;/p&gt;
+&lt;p&gt;Unzip and move the mpv folder to your &lt;span class=&#34;system&#34;&gt;C:\Program Files&lt;/span&gt;.&lt;/p&gt;
 &lt;h2&gt;Configuration&lt;/h2&gt;
 &lt;p&gt;There is no graphical interface, you will need to configure the settings using a file.&lt;/p&gt;
-&lt;p&gt;Using a text editor, create a file named &lt;strong&gt;config&lt;/strong&gt; (with no file extension, All types (*.*)) in the directory C:\Users\[USER]\AppData\Roaming\mpv&lt;/p&gt;
+&lt;p&gt;Using a text editor, create a file named &lt;strong&gt;config&lt;/strong&gt; (with no file extension, All types (*.*)) in the directory &lt;span class=&#34;system&#34;&gt;C:\Users\[USER]\AppData\Roaming\mpv&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;A basic high-quality playback configuration:&lt;/p&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;#35; VIDEO &amp;#35;
+opengl-pbo=yes
 vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
+framedrop=vo
 hwdec=auto-copy
 geometry=50%:50%
 priority=high
-osd-fractions
 demuxer-readahead-secs=5.0
 cache-default=1048576
 cache-file=TMP&lt;
@@ -194,21 +195,53 @@ ad-lavc-downmix=yes
 audio-channels=2
 af-defaults=volume=replaygain-track:replaygain-clip=yes:detach
 af-add=rubberband,volume
-af=bs2b
 alang=en,eng,English
 &amp;nbsp;
 &amp;#35; SUBTITLE &amp;#35;
-no-sub
 slang=en,eng,English
-ass-force-style=Kerning=yes
 demuxer-mkv-subtitle-preroll
+ass-style-override=force
+ass-shaper=simple
+sub-auto=fuzzy
+sub-text-font-size=46
+sub-text-color=&#34;#FFFFFF&#34;
+sub-text-font=&#34;Noto Sans&#34;
+sub-text-border-size=2
+sub-text-border-color=&#34;#262626&#34;
+ass-force-style=Kerning=yes
+&amp;nbsp;
+&amp;#35; OSC &amp;amp; OSD &amp;#35;
+osc=yes
+video-osd=yes
+osd-scale=0.5
+osd-duration=30000
+osd-fractions=yes
+osd-border-size=0
+osd-scale-by-window=yes
+osd-level=1
 &amp;nbsp;
 &amp;#35; MISC &amp;#35;
+priority=high
+stop-screensaver
+keep-open=yes
 bar-height-inactive=0
 screenshot-format=png
 screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
+&amp;nbsp;
 screenshot-tag-colorspace=yes
-loop=inf&lt;/code&gt;&lt;/pre&gt;
+&amp;#35; EXTENSIONS&amp;#35; 
+[extension.webm]
+loop-file=inf
+&amp;nbsp;
+[extension.jpg]
+pause
+&amp;nbsp;
+[extension.png]
+pause
+&amp;nbsp;
+[extension.gif]
+loop-file=inf
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Low Quality&lt;/h4&gt;
 &lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl:deband
@@ -223,10 +256,12 @@ hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Very High Quality&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr
+hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Ultra Quality&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3
+hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;</description>
     </item>
     
