@@ -6573,6 +6573,7 @@ hwdec=auto-copy
 geometry=50%:50%
 priority=high
 demuxer-readahead-secs=5.0
+cache=auto
 cache-default=1048576
 cache-file=TMP&lt;
 cache-seek-min=1024
