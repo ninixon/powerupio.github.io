@@ -359,41 +359,69 @@
 
 <p>Mpv is a free, open-source, media player. It needs a video in order to run and will not start by simply launching the program.<br>
 Set your video default programs to use mpv and they will automatically use the player when opened.</p>
-<h2>Installation</h2>
+<h2>Download</h2>
 <p><a href="http://mpv.io/installation" target="_blank" title="">http://mpv.io/installation</a></p>
+<p><a href="https://sourceforge.net/projects/mpv-player-windows/files/" target="_blank" title="">https://sourceforge.net/projects/mpv-player-windows/files/</a></p>
+
+<h3>Install</h3>
 <h4>Windows</h4>
-<p>Unzip and move the mpv folder to your <span class="system">C:\Program Files</span>.</p>
+<p>Unzip and move the mpv folder to your <span class="system">C:\Program Files\</span>.</p>
+
+<h2>Front Ends</h2>
+<p>
+Extended User Interfaces
+<ul>
+	<li>
+		<a href="http://bakamplayer.u8sand.net" target="_blank" title="">Baka MPlayer</a>
+	</li>
+	<li>
+		<a href="https://bomi-player.github.io" target="_blank" title="">Bomi</a>
+	</li>
+	<li>
+		<a href="https://gnome-mpv.github.io" target="_blank" title="">GNOME MPV</a>
+	</li>
+	<li>
+		<a href="https://github.com/cmdrkotori/mpc-qt" target="_blank" title="">MPC-Qt</a>
+	</li>
+</ul>
+</p>
+
 <h2>Configuration</h2>
 <p>There is no graphical interface, you will need to configure the settings using a file.</p>
 <p>Using a text editor, create a file named <strong>config</strong> (with no file extension, All types (*.*)) in the directory <span class="system">C:\Users\[USER]\AppData\Roaming\mpv</span></p>
+
 <h4>A basic high-quality playback configuration:</h4>
-<pre><code data-language="generic">&#35; VIDEO &#35;
+<pre><code data-language="generic">&#35; GENERAL &#35;
+keep-open=yes
+priority=high
+autofit-larger=100%x95%
+geometry=50%:50%
+&nbsp;
+&#35; VIDEO &#35;
 opengl-pbo=yes
 vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
 framedrop=vo
 hwdec=auto-copy
-geometry=50%:50%
-priority=high
 demuxer-readahead-secs=5.0
-cache=auto
-cache-default=1048576
-cache-file=TMP<
-cache-seek-min=1024
 &nbsp;
 &#35; AUDIO &#35;
+audio-file-auto=fuzzy
 ao=wasapi
 ad-lavc-downmix=yes
 audio-channels=2
 af-defaults=volume=replaygain-track:replaygain-clip=yes:detach
 af-add=rubberband,volume
-alang=en,eng,English
+alang=eng,en,enUS,en-US,jpn,jp
 &nbsp;
 &#35; SUBTITLE &#35;
-slang=en,eng,English
+sub-auto=fuzzy
 demuxer-mkv-subtitle-preroll
+slang=eng,en,enUS,en-US
+sub-use-margins
+sub-ass-force-margins
 ass-style-override=force
 ass-shaper=simple
-sub-auto=fuzzy
+sub-fix-timing=no
 sub-text-font-size=46
 sub-text-color="#FFFFFF"
 sub-text-font="Noto Sans"
@@ -401,36 +429,46 @@ sub-text-border-size=2
 sub-text-border-color="#262626"
 ass-force-style=Kerning=yes
 &nbsp;
+&#35; CACHE &#35;
+cache=auto
+cache-default=2000000
+cache-backbuffer=25000
+cache-initial=0
+cache-secs=10 
+cache-file=TMP
+cache-seek-min=1024
+&nbsp;
 &#35; OSC &amp; OSD &#35;
 osc=yes
 video-osd=yes
 osd-scale=0.5
-osd-duration=30000
 osd-fractions=yes
 osd-border-size=0
 osd-scale-by-window=yes
 osd-level=1
+bar-height-inactive=0
 &nbsp;
 &#35; MISC &#35;
-priority=high
 stop-screensaver
-keep-open=yes
-bar-height-inactive=0
 screenshot-format=png
 screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
 screenshot-tag-colorspace=yes
 &nbsp;
-&#35; EXTENSIONS&#35; 
+&#35; EXTENSIONS &#35; 
 [extension.webm]
+cache=no
 loop-file=inf
 &nbsp;
 [extension.jpg]
+cache=no
 pause
 &nbsp;
 [extension.png]
+cache=no
 pause
 &nbsp;
 [extension.gif]
+cache=no
 loop-file=inf
 </code></pre>
 

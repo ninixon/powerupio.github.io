@@ -169,41 +169,69 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
 
 &lt;p&gt;Mpv is a free, open-source, media player. It needs a video in order to run and will not start by simply launching the program.&lt;br&gt;
 Set your video default programs to use mpv and they will automatically use the player when opened.&lt;/p&gt;
-&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;h2&gt;Download&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://mpv.io/installation&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;http://mpv.io/installation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/mpv-player-windows/files/&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;https://sourceforge.net/projects/mpv-player-windows/files/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Install&lt;/h3&gt;
 &lt;h4&gt;Windows&lt;/h4&gt;
-&lt;p&gt;Unzip and move the mpv folder to your &lt;span class=&#34;system&#34;&gt;C:\Program Files&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Unzip and move the mpv folder to your &lt;span class=&#34;system&#34;&gt;C:\Program Files\&lt;/span&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Front Ends&lt;/h2&gt;
+&lt;p&gt;
+Extended User Interfaces
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;a href=&#34;http://bakamplayer.u8sand.net&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Baka MPlayer&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&#34;https://bomi-player.github.io&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;Bomi&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&#34;https://gnome-mpv.github.io&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;GNOME MPV&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href=&#34;https://github.com/cmdrkotori/mpc-qt&#34; target=&#34;_blank&#34; title=&#34;&#34;&gt;MPC-Qt&lt;/a&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
 &lt;h2&gt;Configuration&lt;/h2&gt;
 &lt;p&gt;There is no graphical interface, you will need to configure the settings using a file.&lt;/p&gt;
 &lt;p&gt;Using a text editor, create a file named &lt;strong&gt;config&lt;/strong&gt; (with no file extension, All types (*.*)) in the directory &lt;span class=&#34;system&#34;&gt;C:\Users\[USER]\AppData\Roaming\mpv&lt;/span&gt;&lt;/p&gt;
+
 &lt;h4&gt;A basic high-quality playback configuration:&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;#35; VIDEO &amp;#35;
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;&amp;#35; GENERAL &amp;#35;
+keep-open=yes
+priority=high
+autofit-larger=100%x95%
+geometry=50%:50%
+&amp;nbsp;
+&amp;#35; VIDEO &amp;#35;
 opengl-pbo=yes
 vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
 framedrop=vo
 hwdec=auto-copy
-geometry=50%:50%
-priority=high
 demuxer-readahead-secs=5.0
-cache=auto
-cache-default=1048576
-cache-file=TMP&lt;
-cache-seek-min=1024
 &amp;nbsp;
 &amp;#35; AUDIO &amp;#35;
+audio-file-auto=fuzzy
 ao=wasapi
 ad-lavc-downmix=yes
 audio-channels=2
 af-defaults=volume=replaygain-track:replaygain-clip=yes:detach
 af-add=rubberband,volume
-alang=en,eng,English
+alang=eng,en,enUS,en-US,jpn,jp
 &amp;nbsp;
 &amp;#35; SUBTITLE &amp;#35;
-slang=en,eng,English
+sub-auto=fuzzy
 demuxer-mkv-subtitle-preroll
+slang=eng,en,enUS,en-US
+sub-use-margins
+sub-ass-force-margins
 ass-style-override=force
 ass-shaper=simple
-sub-auto=fuzzy
+sub-fix-timing=no
 sub-text-font-size=46
 sub-text-color=&#34;#FFFFFF&#34;
 sub-text-font=&#34;Noto Sans&#34;
@@ -211,36 +239,46 @@ sub-text-border-size=2
 sub-text-border-color=&#34;#262626&#34;
 ass-force-style=Kerning=yes
 &amp;nbsp;
+&amp;#35; CACHE &amp;#35;
+cache=auto
+cache-default=2000000
+cache-backbuffer=25000
+cache-initial=0
+cache-secs=10 
+cache-file=TMP
+cache-seek-min=1024
+&amp;nbsp;
 &amp;#35; OSC &amp;amp; OSD &amp;#35;
 osc=yes
 video-osd=yes
 osd-scale=0.5
-osd-duration=30000
 osd-fractions=yes
 osd-border-size=0
 osd-scale-by-window=yes
 osd-level=1
+bar-height-inactive=0
 &amp;nbsp;
 &amp;#35; MISC &amp;#35;
-priority=high
 stop-screensaver
-keep-open=yes
-bar-height-inactive=0
 screenshot-format=png
 screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
 screenshot-tag-colorspace=yes
 &amp;nbsp;
-&amp;#35; EXTENSIONS&amp;#35; 
+&amp;#35; EXTENSIONS &amp;#35; 
 [extension.webm]
+cache=no
 loop-file=inf
 &amp;nbsp;
 [extension.jpg]
+cache=no
 pause
 &amp;nbsp;
 [extension.png]
+cache=no
 pause
 &amp;nbsp;
 [extension.gif]
+cache=no
 loop-file=inf
 &lt;/code&gt;&lt;/pre&gt;
 
