@@ -269,7 +269,6 @@ ytdl-format=(bestvideo[ext=webm]/bestvideo[fps=60])+(bestaudio[acodec=opus]/best
 &amp;#35; OSC &amp;amp; OSD &amp;#35;
 osc=yes
 video-osd=yes
-#osd-duration=30000
 osd-level=1
 osd-scale=0.5
 osd-scale-by-window=yes
@@ -295,7 +294,7 @@ loop-file=inf
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Low Quality&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl:deband
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;profile=opengl:deband
 hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Medium Quality&lt;/h4&gt;
