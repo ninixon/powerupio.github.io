@@ -122,10 +122,10 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
         &lt;a href=&#34;http://www.madvr.com/download/&#34; target=&#34;_blank&#34;&gt;madVR&lt;/a&gt; - High quality gpu assisted video renderer.
     &lt;/li&gt;
     &lt;li&gt;
-        &lt;a href=&#34;https://code.google.com/p/xy-vsfilter/&#34; target=&#34;_blank&#34;&gt;xy-vsfilter / XySubFilter&lt;/a&gt; - Superior subtitle renderer.
+        &lt;a href=&#34;https://github.com/Cyberbeing/xy-VSFilter/releases&#34; target=&#34;_blank&#34;&gt;xy-vsfilter / XySubFilter&lt;/a&gt; - Superior subtitle renderer.
     &lt;/li&gt;
     &lt;li&gt;
-        &lt;a href=&#34;https://code.google.com/p/lavfilters/&#34; target=&#34;_blank&#34;&gt;LAV-Filters&lt;/a&gt; - A package with the fastest and most actively developed DirectShow Media Splitter and Decoders.
+        &lt;a href=&#34;https://github.com/Nevcairiel/LAVFilters/releases&#34; target=&#34;_blank&#34;&gt;LAV-Filters&lt;/a&gt; - A package with the fastest and most actively developed DirectShow Media Splitter and Decoders.
     &lt;/li&gt;
     &lt;li&gt;
         &lt;a href=&#34;http://www.videohelp.com/tools/ReClock-Directshow-Filter&#34; target=&#34;_blank&#34;&gt;ReClock&lt;/a&gt; - Addresses the problem of audio judder by adapting media for smooth playback OR utilized for bit perfect audio.
@@ -206,13 +206,24 @@ keep-open=yes
 priority=high
 autofit-larger=100%x95%
 geometry=50%:50%
+stop-screensaver
+screenshot-format=png
+screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
+screenshot-tag-colorspace=yes
 &amp;nbsp;
 &amp;#35; VIDEO &amp;#35;
-opengl-pbo=yes
-vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
-framedrop=vo
+gamma-auto
+icc-profile-auto
 hwdec=auto-copy
+profile=opengl-hq
+scale=ewa_lanczossharp
+cscale=ewa_lanczossoft
+dscale=mitchell
+dither-depth=8
+temporal-dither
+deband-grain=0
 demuxer-readahead-secs=5.0
+framedrop=vo
 &amp;nbsp;
 &amp;#35; AUDIO &amp;#35;
 audio-file-auto=fuzzy
@@ -222,47 +233,48 @@ audio-channels=2
 af-defaults=volume=replaygain-track:replaygain-clip=yes:detach
 af-add=rubberband,volume
 alang=eng,en,enUS,en-US,jpn,jp
+softvol=yes
+softvol-max=150
 &amp;nbsp;
 &amp;#35; SUBTITLE &amp;#35;
 sub-auto=fuzzy
 demuxer-mkv-subtitle-preroll
 slang=eng,en,enUS,en-US
+blend-subtitles
+embeddedfonts=no
+sub-pos=97
 sub-use-margins
 sub-ass-force-margins
-ass-style-override=force
-ass-shaper=simple
 sub-fix-timing=no
-sub-text-font-size=46
+sub-text-font-size=44
 sub-text-color=&#34;#FFFFFF&#34;
 sub-text-font=&#34;Noto Sans&#34;
 sub-text-border-size=2
 sub-text-border-color=&#34;#262626&#34;
+ass-style-override=force
 ass-force-style=Kerning=yes
+ass-shaper=simple
 &amp;nbsp;
-&amp;#35; CACHE &amp;#35;
+&amp;#35; STREAMS &amp;#35;
 cache=auto
-cache-default=2000000
-cache-backbuffer=25000
-cache-initial=0
-cache-secs=10 
+cache-initial=1024
+cache-default=250000 #kb
+cache-backbuffer=25000 #kb
+cache-secs=30
 cache-file=TMP
 cache-seek-min=1024
+ytdl=yes
+ytdl-format=(bestvideo[ext=webm]/bestvideo[fps=60])+(bestaudio[acodec=opus]/bestaudio)/best
 &amp;nbsp;
 &amp;#35; OSC &amp;amp; OSD &amp;#35;
 osc=yes
 video-osd=yes
-osd-scale=0.5
-osd-fractions=yes
-osd-border-size=0
-osd-scale-by-window=yes
+#osd-duration=30000
 osd-level=1
+osd-scale=0.5
+osd-scale-by-window=yes
+osd-fractions=yes
 bar-height-inactive=0
-&amp;nbsp;
-&amp;#35; MISC &amp;#35;
-stop-screensaver
-screenshot-format=png
-screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
-screenshot-tag-colorspace=yes
 &amp;nbsp;
 &amp;#35; EXTENSIONS &amp;#35; 
 [extension.webm]
@@ -287,19 +299,19 @@ loop-file=inf
 hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Medium Quality&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;profile=opengl-hq
 hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;High Quality&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;profile=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft
 hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Very High Quality&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;profile=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr
 hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Ultra Quality&lt;/h4&gt;
-&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3
+&lt;pre&gt;&lt;code data-language=&#34;generic&#34;&gt;profile=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3
 hwdec=auto&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;</description>
     </item>

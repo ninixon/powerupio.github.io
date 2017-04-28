@@ -396,13 +396,24 @@ keep-open=yes
 priority=high
 autofit-larger=100%x95%
 geometry=50%:50%
+stop-screensaver
+screenshot-format=png
+screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
+screenshot-tag-colorspace=yes
 &nbsp;
 &#35; VIDEO &#35;
-opengl-pbo=yes
-vo=opengl-hq:pbo:lscale=spline36:cscale=spline36:scaler-resizes-only:dither-depth=8:temporal-dither
-framedrop=vo
+gamma-auto
+icc-profile-auto
 hwdec=auto-copy
+profile=opengl-hq
+scale=ewa_lanczossharp
+cscale=ewa_lanczossoft
+dscale=mitchell
+dither-depth=8
+temporal-dither
+deband-grain=0
 demuxer-readahead-secs=5.0
+framedrop=vo
 &nbsp;
 &#35; AUDIO &#35;
 audio-file-auto=fuzzy
@@ -412,47 +423,48 @@ audio-channels=2
 af-defaults=volume=replaygain-track:replaygain-clip=yes:detach
 af-add=rubberband,volume
 alang=eng,en,enUS,en-US,jpn,jp
+softvol=yes
+softvol-max=150
 &nbsp;
 &#35; SUBTITLE &#35;
 sub-auto=fuzzy
 demuxer-mkv-subtitle-preroll
 slang=eng,en,enUS,en-US
+blend-subtitles
+embeddedfonts=no
+sub-pos=97
 sub-use-margins
 sub-ass-force-margins
-ass-style-override=force
-ass-shaper=simple
 sub-fix-timing=no
-sub-text-font-size=46
+sub-text-font-size=44
 sub-text-color="#FFFFFF"
 sub-text-font="Noto Sans"
 sub-text-border-size=2
 sub-text-border-color="#262626"
+ass-style-override=force
 ass-force-style=Kerning=yes
+ass-shaper=simple
 &nbsp;
-&#35; CACHE &#35;
+&#35; STREAMS &#35;
 cache=auto
-cache-default=2000000
-cache-backbuffer=25000
-cache-initial=0
-cache-secs=10 
+cache-initial=1024
+cache-default=250000 #kb
+cache-backbuffer=25000 #kb
+cache-secs=30
 cache-file=TMP
 cache-seek-min=1024
+ytdl=yes
+ytdl-format=(bestvideo[ext=webm]/bestvideo[fps=60])+(bestaudio[acodec=opus]/bestaudio)/best
 &nbsp;
 &#35; OSC &amp; OSD &#35;
 osc=yes
 video-osd=yes
-osd-scale=0.5
-osd-fractions=yes
-osd-border-size=0
-osd-scale-by-window=yes
+#osd-duration=30000
 osd-level=1
+osd-scale=0.5
+osd-scale-by-window=yes
+osd-fractions=yes
 bar-height-inactive=0
-&nbsp;
-&#35; MISC &#35;
-stop-screensaver
-screenshot-format=png
-screenshot-template=mpvsnap-%tY.%tm.%td-%tHh%tMm%tSs%00n
-screenshot-tag-colorspace=yes
 &nbsp;
 &#35; EXTENSIONS &#35; 
 [extension.webm]
@@ -477,19 +489,19 @@ loop-file=inf
 hwdec=auto</code></pre>
 
 <h4>Medium Quality</h4>
-<pre><code data-language="generic">vo=opengl-hq
+<pre><code data-language="generic">profile=opengl-hq
 hwdec=auto</code></pre>
 
 <h4>High Quality</h4>
-<pre><code data-language="generic">vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft
+<pre><code data-language="generic">profile=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft
 hwdec=auto</code></pre>
 
 <h4>Very High Quality</h4>
-<pre><code data-language="generic">vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr
+<pre><code data-language="generic">profile=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma:superxbr
 hwdec=auto</code></pre>
 
 <h4>Ultra Quality</h4>
-<pre><code data-language="generic">vo=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3
+<pre><code data-language="generic">profile=opengl-hq:scale=ewa_lanczossharp:cscale=ewa_lanczossoft:prescale-luma=nnedi3
 hwdec=auto</code></pre>
 </div>
 

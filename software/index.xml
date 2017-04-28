@@ -2854,10 +2854,10 @@ MPC-HC with a codec pack that contains the latest DirectShow components.&lt;/p&g
         &lt;a href=&#34;http://www.madvr.com/download/&#34; target=&#34;_blank&#34;&gt;madVR&lt;/a&gt; - High quality gpu assisted video renderer.
     &lt;/li&gt;
     &lt;li&gt;
-        &lt;a href=&#34;https://code.google.com/p/xy-vsfilter/&#34; target=&#34;_blank&#34;&gt;xy-vsfilter / XySubFilter&lt;/a&gt; - Superior subtitle renderer.
+        &lt;a href=&#34;https://github.com/Cyberbeing/xy-VSFilter/releases&#34; target=&#34;_blank&#34;&gt;xy-vsfilter / XySubFilter&lt;/a&gt; - Superior subtitle renderer.
     &lt;/li&gt;
     &lt;li&gt;
-        &lt;a href=&#34;https://code.google.com/p/lavfilters/&#34; target=&#34;_blank&#34;&gt;LAV-Filters&lt;/a&gt; - A package with the fastest and most actively developed DirectShow Media Splitter and Decoders.
+        &lt;a href=&#34;https://github.com/Nevcairiel/LAVFilters/releases&#34; target=&#34;_blank&#34;&gt;LAV-Filters&lt;/a&gt; - A package with the fastest and most actively developed DirectShow Media Splitter and Decoders.
     &lt;/li&gt;
     &lt;li&gt;
         &lt;a href=&#34;http://www.videohelp.com/tools/ReClock-Directshow-Filter&#34; target=&#34;_blank&#34;&gt;ReClock&lt;/a&gt; - Addresses the problem of audio judder by adapting media for smooth playback OR utilized for bit perfect audio.
